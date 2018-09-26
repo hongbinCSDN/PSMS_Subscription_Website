@@ -1,0 +1,56 @@
+
+ 
+ Recording Time£∫2018-08-22 14:01:30,783 
+ Tread ID:[12] 
+ Log Level£∫  INFO  
+ Log Description£∫
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/8/22 14:01:29
+            EndTime:2018/8/22 14:01:30
+            TotalTime:1.4720842√Î
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=aqymxbvrlscr1trvqchctgx1
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time£∫2018-08-22 14:01:43,985 
+ Tread ID:[6] 
+ Log Level£∫  INFO  
+ Log Description£∫
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/8/22 14:01:43
+            EndTime:2018/8/22 14:01:43
+            TotalTime:0.052003√Î
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=aqymxbvrlscr1trvqchctgx1
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/ActiveAccount.html?username=ASLInterface&activecode=e1093d1b-553a-466d-9
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 

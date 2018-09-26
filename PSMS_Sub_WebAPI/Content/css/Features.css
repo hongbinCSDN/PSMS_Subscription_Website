@@ -1,0 +1,369 @@
+﻿
+    body{
+    
+}
+.transition-width {
+    background: rgba(0, 0, 0, 0.75);
+    transition: width 0.6s;
+    -moz-transition: width 0.6s; /* Firefox 4 */
+    -webkit-transition: width 0.6s; /* Safari 和 Chrome */
+    -o-transition: width 0.6s; /* Opera */
+}
+
+.transition-hight {
+    background: rgba(0, 0, 0, 0.75);
+    transition: height 0.2s;
+    -moz-transition: height 0.2s; /* Firefox 4 */
+    -webkit-transition: height 0.6s; /* Safari 和 Chrome */
+    -o-transition: height 0.2s; /* Opera */
+}
+
+.topboder {
+    position: absolute;
+    z-index: 1;
+    height: 2px;
+    width: 0%;
+    top: 0px;
+}
+
+.bottomboder {
+    position: absolute;
+    z-index: 1;
+    height: 2px;
+    width: 0%;
+    bottom: 0px;
+    right: 0px;
+}
+
+.leftboder {
+    top: 0;
+    height: 0%;
+    position: absolute;
+    left: 0px;
+    width: 2px;
+}
+
+.rightboder {
+    height: 0%;
+    position: absolute;
+    right: 0px;
+    width: 2px;
+    bottom: 0px;
+}
+
+
+
+.liactive{
+    background:#b2b2b2;
+}
+.under {
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-top:50px;
+    background: #ffffff;
+    padding-left: 0px;padding-right: 0px; 
+    border-radius: 3px;
+}
+.pading-0 {
+    padding-right: 0px; margin-bottom: 0px;
+}
+.under .item1 {
+    vertical-align: middle;
+    padding-bottom: 48px;
+    transition: width 2s, height 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
+    -o-transition: width 2s, height 2s, -o-transform 2s; /* Opera */
+}
+ .under .item1 img {
+        visibility: hidden;
+       
+    }
+    .under .item1 img:hover {  
+        cursor: url("../images/features/zoomout-1.ico"),auto;
+    }
+
+.bigimg:hover {
+    cursor: url("../images/features/zoomout-1.ico"),auto;
+}
+.bigimg2 {
+    cursor: url("../images/features/zoomout-2.ico"),auto;
+}
+.rotate {
+    transition: transform 2s;
+    -moz-transition: -moz-transform 2s; /* Firefox 4 */
+    -webkit-transition: -webkit-transform 2s; /* Safari and Chrome */
+    -o-transition: -o-transform 2s; /* Opera */
+}
+.rotate:hover {
+        color: #ea6352;
+        transform: rotate(360deg);
+        -ms-transform: rotate(360deg); /* Internet Explorer */
+        -moz-transform: rotate(360deg); /* Firefox */
+        -webkit-transform: rotate(360deg); /* Safari 和 Chrome */
+        -o-transform: rotate(360deg); /* Opera */
+       
+    }
+.under .item2 {
+    vertical-align: middle;
+    padding-top: 28px;
+    padding-bottom: 48px;
+}
+    .under .item2 .tittle h2 {
+        font-size: x-large; 
+    }
+    .under .item2 .tittle h2:hover{
+       
+    }
+
+ .under .item2 .tittle h3 {
+     font-size:large;
+    }
+ .padding-left{
+     padding-left:5%
+
+ }
+ .under .item2 .centext p {
+     font-size:15px;
+     padding-left:5%; 
+        
+    }
+
+.imgdetailpage { 
+  
+
+    margin-top:0px;
+    margin-left:30%;
+    transition: transform 2s,top 2s,left 2s,width 2s, height 2s;
+    -moz-transition: -moz-transform 2s,top 2s,left 2s,width 2s, height 2s; /* Firefox 4 */
+    -webkit-transition: -webkit-transform 2s,top 2s,left 2s,width 2s,margin-left  2s, height 2s; /* Safari and Chrome */
+    -o-transition: -o-transform 2s,top 2s,left 2s,width 2s, height 2s; /* Opera */
+}
+.imgdetailpageclick {
+    height: 500px;
+    width: 500px;
+    margin-left:300px;
+        top:100px;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg); /* Internet Explorer */
+    -moz-transform: rotate(360deg); /* Firefox */
+    -webkit-transform: rotate(360deg); /* Safari 和 Chrome */
+    -o-transform: rotate(360deg); /* Opera */
+}
+.style-two {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.ulclass li{
+    margin-bottom:15px;
+}
+.ulclass li a {
+    color: black;
+}
+
+.siteinfo {
+    height: 100px;
+    padding: 100px 0 32px;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative
+}
+.righthever {
+    float: right;
+    transition: width 1s linear,background 1s linear;
+    -webkit-transition: width 1s linear,background 1s linear;
+    height: 8px;
+    width: 1px;
+    background: #ffffff;
+}
+.lefthever {
+    float: left;
+    transition: width 1s linear ,background 1s linear;
+    -webkit-transition: width 1s linear,background 1s linear;
+    height: 8px;
+    width: 1px;
+    background: #ffffff;
+}
+.company_nameleft {
+    animation: lefteaseinAnimate 1s ease 1; /*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/
+    -webkit-animation: lefteaseinAnimate 1s ease 1;
+    -o-animation: lefteaseinAnimate 1s, ease 1;
+    -moz-animation: lefteaseinAnimate 1s ease 1;
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.company_nameright {
+    animation: righteaseinAnimate 1s ease 1; /*调用已定义好的动画lefteaseinAnimate，全程运行时间1S，进入的速度曲线为ease，只播放一次*/   
+    -webkit-animation: righteaseinAnimate 1s ease 1;
+    -o-animation: righteaseinAnimate 1s ease 1;
+    -moz-animation: righteaseinAnimate 1s ease 1;
+    /*规定动画的最后状态为结束状态*/
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+/*定义一个名字为lefteaseinAnimate动画，实现从页面的左边淡入页面效果*/
+@keyframes lefteaseinAnimate {
+    0% {
+        transform: translateX(-2000px);
+        
+        opacity: 0;
+    }
+    /*在0%时设置文字在想X轴-2000px位移处（左边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: translateX(0px);
+       
+        opacity: 1;
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+@-ms-keyframes lefteaseinAnimate {
+    0% {
+       transform: translateX(-2000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes lefteaseinAnimate {
+    0% {
+        -webkit-transform: translateX(-2000px); 
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);  
+        opacity: 1;
+    }
+}
+@-o-keyframes lefteaseinAnimate {
+    0% {
+        -o-transform: translateX(-2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -o-transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@-moz-keyframes lefteaseinAnimate {
+    0% {
+        -moz-transform: translateX(-2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes righteaseinAnimate {
+    0% {
+        transform: translateX(2000px);
+        opacity: 0;
+    }
+    /*在0%时设置文字在想X轴2000px位移处（右边），透明度为0，也就是看不见文字*/
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    /*在100%时设置文字在想X轴0px位移处，也就是原始布局的位置，透明度为1，也就是文字可以看见了*/
+}
+@-ms-keyframes righteaseinAnimate {
+    0% {
+        -ms-transform: translateX(2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -ms-transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes righteaseinAnimate {
+    0% {
+        -webkit-transform: translateX(2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@-o-keyframes righteaseinAnimate {
+    0% {
+        -o-transform: translateX(2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -o-transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@-moz-keyframes righteaseinAnimate {
+    0% {
+        -moz-transform: translateX(2000px);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transforms: translateX(0px);
+        opacity: 1;
+    }
+}
+
+
+
+/*footer 小球跳动动画*/
+
+@keyframes tantiao {
+    from {
+        box-shadow: 0 -5px 20px rgba(0,0,0,0.5);
+        margin-top: 50px;
+    }
+
+    to {
+        box-shadow: 0 30px 30px rgba(0,0,0,0.3);
+        margin-top: 30px;
+    }
+}
+
+#btn {
+    animation: tantiao 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+}
+@media (max-width: 767px) {
+    .ff1{
+        font-size:20px;
+    }
+    .ff2 {
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px) {
+    .ff1 {
+        font-size: 30px;
+    }
+    .ff2 {
+        font-size: 24px;
+    }
+}
+@media (min-width: 992px) {
+    .ff1 {
+        font-size: 36px;
+    }
+    .ff2 {
+        font-size: 25px;
+    }
+ 
+}

@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <title></title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../Content/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../../Content/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+</head>
+
+<body class="login-page access-page has-full-screen-bg">
+    <div id="app">
+        <div class="upper-wrapper">
+            <!-- ******HEADER****** -->
+            <header class="header">
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="index.html"><span class="logo-icon"></span><span class="text" v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span></a>
+                    </h1><!--//logo-->
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown">
+                            <select v-model="Language_Value" style="background-color:black;margin-left:1280px;" class="dropdown-toggle" v-on:change="ChangeLan()" id="MultilSelect">
+                                <option v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                            </select>
+
+                        </li>
+                    </ul>
+                </div><!--//container-->
+            </header><!--//header-->
+            <!-- ******Login Section****** -->
+            <div id="WarningMessage"></div>
+            <header id="header" class="header navbar-fixed-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="form-box col-md-offset-2 col-sm-offset-0 xs-offset-0 col-xs-12 col-md-8">
+                     <!--<div class="form-box-inner">
+                        <h2 class="title text-center" v-if="Multilingual[0]">{{Multilingual[0].Describe}}</h2>
+                        <div class="row">
+                            <div class="form-container  col-xs-12 col-md-5" style="margin-left:208px;">
+                                <form class="login-form">
+                                </form>
+                            </div>
+                        </div>
+                    </div>-->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="bg-slider-wrapper">
+                <div class="flexslider bg-slider">
+                    <ul class="slides">
+                        <li class="slide slide-1"></li>
+                        <li class="slide slide-2"></li>
+                        <li class="slide slide-3"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
+
+    <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/WarningMessage.js"></script>
+    <!--Cookie-->
+    <script type="text/javascript" src="../../Content/js/Share/jquery.cookie.js"></script>
+
+    <!--Vue.js-->
+    <script type="text/javascript" src="../../Content/js/Share/vue.min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/vue-resource.min.js"></script>
+
+    <script type="text/javascript" src="../../Content/js/Share/GetCommonAPI.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/Multilingual.js"></script>
+    <script type="text/javascript" src="../../Content/js/Register/ActiveAccount.js"></script>
+
+
+
+</body>
+</html>
+
+

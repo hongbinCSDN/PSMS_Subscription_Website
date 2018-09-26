@@ -1,0 +1,113 @@
+﻿.footerlogo {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+    .footerlogo img{
+        width:100%;
+    }
+    .footerlogo p.Follow_Us {
+        font-size: 18px;
+        margin-top: 15%;
+        /*padding-left: 30%;*/
+        font-family: Britannic;
+        color: #aeaeae
+    }
+  
+p.Contact_icon span {
+    /*padding-left: 30%*/
+    color: #282828;
+    font-family: Britannic;
+    font-size: large;
+}
+p.Contact_icon span.white {
+    /*padding-left: 30%*/
+    color: #ffffff;
+    font-family: Britannic;
+    font-size: large;
+}
+    .footerlogo p.p2 {
+        padding-left: 10%;
+        margin-top: 20px;
+    }
+        .footerlogo i {
+        color: #d7d7d7
+    }
+.footertittle {
+    text-align:center;
+    margin-top:-40px;
+    font-size: 22px;
+    color: #282828;
+    font-family: 'Bodoni MT';
+    
+}
+.footertittle-white {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Bodoni MT';
+}
+
+.footcontent {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+    .footcontent h2 {
+        color: #282828;
+        font-family: Britannic;
+        font-size: large
+    }
+    .footcontent h2.white {
+        color: #ffffff;
+        font-family: Britannic;
+        font-size: large
+    }
+    .footcontent p {
+        line-height: 36px;
+        color: #272727;
+        font-size: 14px
+    }
+    .footcontent p.white {
+        line-height: 36px;
+        color: #ffffff;
+        font-size: 14px
+    }
+        .footcontent p.p3 {
+            line-height: 30px;
+            color: #282828;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        .footcontent p.p3-white {
+            line-height: 30px;
+            color: #ffffff;
+            font-size: 16px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+            .footcontent p.p3 span{
+                float: right;
+            }
+        .footcontent p.p3-white span {
+            float: right;
+        }
+           
+
+.footerLink p {
+    color: #282828;
+}
+.footerLink a {
+    color: #282828;
+}
+.footerLink a:hover {
+    color: #282828;
+}
+.footerLink p.white, a.white {
+    color: #ffffff;
+}
+
+.footerLink a.white:hover {
+    color: #282828;
+}
+footer i {
+    color: #59b8bc;
+}

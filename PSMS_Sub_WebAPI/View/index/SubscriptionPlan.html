@@ -1,0 +1,618 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <title></title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/bootstrap/css/bootstrap.min.css">
+    <link href="../../Content/css/base.css" rel="stylesheet" />
+    <link href="../../Content/css/SubscriptionPlan.css" rel="stylesheet" />
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../Content/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../../Content/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--Footer CSS-->
+    <link href="../../Content/css/Footer.css" rel="stylesheet" />
+</head>
+
+<body class="home-page">
+    <div id="app">
+        <header id="header" class="header navbar-fixed-top background">
+            <div class="container-fluid padding1 ">
+                <h1 class="logo display">
+                    <a href="../index/index.html"><span class="text span1" v-if="Navigation[9]">{{Navigation[9].Describe}}</span></a>
+                </h1><!--logo-->
+                <nav class="main-nav navbar-right" role="navigation">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse" style="position:absolute;left:10px">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button><!--//nav-toggle-->
+
+                    </div><!--//navbar-header-->
+                    <div id="navbar-collapse" class="navbar-collapse collapse" style="padding-right:50px;">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" v-if="Navigation[0]"><a class="padding" href="index.html">{{Navigation[0].Describe}} </a></li>
+                            <li class="nav-item" v-if="Navigation[1]"><a class="padding" href="features.html">{{Navigation[1].Describe}}</a></li> <!--Features-->
+                            <li class="active nav-item" v-if="Navigation[2]"><a class="padding" href="../index/SubscriptionPlan.html">{{Navigation[2].Describe}}</a></li><!--Pricing-->
+                            <li class="nav-item dropdown" ref="personal" style="display:none;">
+                                <a class="dropdown-toggle padding" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#" v-if="Navigation[3]"> {{Navigation[3].Describe}}<i class="fa fa-angle-down"></i></a> <!---->
+                                <ul class="dropdown-menu">
+                                    <li><a href="../index/ModifyPersonalInfo.html" v-if="Navigation[7]">{{Navigation[7].Describe}}</a></li>
+                                    <li><a href="../index/ModifyAccountPassword.html" v-if="Navigation[8]">{{Navigation[8].Describe}}</a></li>
+                                    <li><a href="../index/SubscriptedPlan.html" v-if="Navigation[10]">{{Navigation[10].Describe}}</a></li>
+                                    <li><a href="../index/SubscriptionPlanList.html" v-if="Navigation[11]">{{Navigation[11].Describe}}</a></li>
+                                </ul>
+                            </li><!--//dropdown-->
+                            <li class="nav-item" ref="logining"><a class="padding" href="../Login/Login.html" v-if="Navigation[4]">{{Navigation[4].Describe}}</a></li>  <!--Log in-->
+                            <li class="nav-item" style="display:none;" ref="logouting"><a class="padding" href="#" @click="Logout()" v-if="Navigation[6]">{{Navigation[6].Describe}}</a></li> <!--Log out-->
+                            <li class="nav-item nav-item-cta" ref="signuping"><a style="padding-left:5px;padding-right:5px" class="btn btn-cta btn-cta-secondary" href="../Register/Register.html" v-if="Navigation[5]">{{Navigation[5].Describe}}</a></li>  <!--Sign Up Free-->
+                        </ul>
+                    </div><!--//navabr-collapse-->
+                    <div class="top UserIcon">
+                        <div id="Portrait" ref="Portrait" class="content" @mouseover="HeadPortraithover()" @mouseout="HeadPortraithoverout()" style="display:none;">
+                            <img src="../../Content/images/HeadPortrait/img2.jpg" class="img-circle" alt="Cinque Terre">
+                            <div id="userinfo" style="height:240px;width:400px; background:#ffffff;position:absolute;top:50px;right:0px;display:none">
+                                <div class="col-lg-12 content1">
+                                    <div class="div1">
+                                        <div class="img">
+                                            <img src="../../Content/images/HeadPortrait/img2.jpg" class="img-circle" alt="Cinque Terre">
+                                        </div>
+                                        <div class="username">
+                                            <p><strong>{{this.UserInfo.CUSTOMERID}}</strong>  </p>
+                                            <p style="margin-top:-10px;"><i class="fa fa-envelope-o" aria-hidden="true"></i><i style="padding-left:15px;" class="fa fa-phone-square" aria-hidden="true"></i> </p>
+                                        </div>
+                                    </div>
+                                    <div class="div2">
+                                        <p v-if="Navigation[12]"><strong>{{Navigation[12].Describe}}</strong>  <span>{{this.UserInfo.LOGINTIME}}</span> </p>
+                                        <p v-if="Navigation[13]"> <strong>{{Navigation[13].Describe}}</strong> <span>{{this.UserInfo.EMAIL}}</span> </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav" style="margin-top:0px;">
+                            <li class="nav-item">
+                                <div class="language_item">
+                                    <select v-model="Language_Value" class="form-control" v-on:change="ChangeLan()" id="MultilSelect">
+                                        <option style="background-color:#000000;color:#ffffff;" v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                                    </select>
+                                    <i class="fa fa-angle-down" style="position:absolute;top:3px;right:12px;font-size:16px;z-index:-1;"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- //Select-Language -->
+                </nav><!--//main-nav-->
+
+            </div>
+
+        </header>
+        <!--<div class="bg-slider-wrapper">
+        <div class="flexslider bg-slider">
+            <ul class="slides">
+                <li class="slide slide-1"></li>
+                <li class="slide slide-2"></li>
+                <li class="slide slide-3"></li>
+            </ul>
+        </div>
+    </div>-->
+        
+        <!--<div style="position:absolute;top:0;z-index:0; background:  url('../../Content/images/background/asl_home_bg.jpg');background-size:cover;height:600px;width:100%;overflow:hidden;background-position:center center"></div>
+        <div style="position:fixed;top:0;height:100%;width:100%; z-index:-5; background:#59b8bc"></div>-->
+
+        <section class="login-section access-section section" style="padding-bottom:100px;background:  url('../../Content/images/background/asl_home_bg.jpg');background-size:cover;height:100%;width:100%;overflow: hidden;">
+            <!--"-->
+            <div style="  position: absolute;left: 0; top: 0;  background-image: url('../../Content/images/background/asl_home_bg.jpg');"></div>
+            <div class="container">
+                <div id="plan" class="row">
+                    <div class="col-lg-12 table-show" style="border-radius:5px;z-index:2">
+                        <h3 class="text-center" style="color:#59b8bc"><i class="fa fa-circle-o " aria-hidden="true"></i><span style="padding-left:10px" v-if="Multilingual[40]">{{Multilingual[40].Describe}}</span> <i class="fa fa-circle " aria-hidden="true"></i><span style="padding-left:10px" v-if="Multilingual[41]">{{Multilingual[41].Describe}}</span> </h3>
+                        <table class="table " style="width:100%; background:#ffffff; border-radius:6px;">
+                            <thead style="border-radius:5px;">
+                                <tr style="width:100%;border:none;">
+                                    <th style="width:40%;border-left:none;  background:white;border-top-left-radius:5px"><h3 style="line-height:77px;color:black;" v-if="Multilingual[53]"> {{Multilingual[53].Describe}}</h3> </th>
+                                    <th style="width:20%;" v-if="Multilingual[8]"><h3 style="line-height:77px">{{Multilingual[8].Describe}}</h3></th>
+                                    <th style="width:20%;" v-if="Multilingual[20]"><h3 style="line-height:77px">{{Multilingual[20].Describe}}</h3></th>
+                                    <th style="width:20%;border-top-right-radius:5px" v-if="Multilingual[22]"><h3 style="line-height:77px">{{Multilingual[22].Describe}}</h3></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="tr" style="border-top:none">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[1]">{{Multilingual[1].Describe}}</span></small></h3></td>
+                                    <td v-if="Multilingual[2]">{{Multilingual[2].Describe}}</td>
+                                    <td v-if="Multilingual[23]">{{Multilingual[23].Describe}}</td>
+                                    <td style="border-right:1px solid #ddd;" v-if="Multilingual[24]">{{Multilingual[24].Describe}}</td>
+                                </tr>
+                                <tr style="cursor:pointer;border-top:none;" @click="ShowFeatures()" class="tr">
+                                    <td> <h3><span id="puls"><i id="circle" class="fa fa-plus-circle" aria-hidden="true"></i></span> <small> <span class="color1" style="padding-right:10%;" v-if="Multilingual[17]">{{Multilingual[17].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle-o " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle-o " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><spanspan class="color1" v-if="Multilingual[3]">{{Multilingual[3].Describe}}</spanspan></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+
+
+
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[5]">{{Multilingual[5].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[36]">{{Multilingual[36].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[6]">{{Multilingual[6].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[12]">{{Multilingual[12].Describe}}</span></small></h3></td>
+                                    <td> </td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[13]">{{Multilingual[13].Describe}}</span></small></h3></td>
+                                    <td> </td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[14]">{{Multilingual[14].Describe}}</span></small></h3></td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[16]">{{Multilingual[16].Describe}}</span></small></h3></td>
+                                    <td> </td>
+                                    <td> </td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr featuers" style="border-top:none;display:none;background:#f1f1f1">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[15]">{{Multilingual[15].Describe}}</span></small></h3></td>
+                                    <td> </td>
+                                    <td></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+
+
+
+
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[37]">{{Multilingual[37].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle" aria-hidden="true"></i></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[10]">{{Multilingual[10].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[11]">{{Multilingual[11].Describe}}</span></small></h3></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-right:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[38]">{{Multilingual[38].Describe}}</span></small></h3></td>
+                                    <td style="border-bottom:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-bottom:1px solid #ddd;"> <i class="fa fa-circle " aria-hidden="true"></i></td>
+                                    <td style="border-bottom:1px solid #ddd;border-right:1px solid #ddd;"> <i s class="fa fa-circle " aria-hidden="true"></i></td>
+                                </tr>
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[42]">{{Multilingual[42].Describe}}</span> </small></h3></td>
+                                    <td style="border-bottom:1px solid #ddd;"><h3 v-if="Multilingual[25]">{{Multilingual[25].Describe}} </h3> </td>
+                                    <td style="border-bottom:1px solid #ddd;"> <h3 v-if="Multilingual[26]">{{Multilingual[26].Describe}}</h3></td>
+                                    <td style="border-bottom:1px solid #ddd;border-right:1px solid #ddd;"> <h3 v-if="Multilingual[27]">{{Multilingual[27].Describe}}</h3></td>
+                                </tr>
+                                <tr class="tr" style="border-top:none;">
+                                    <td><h3> <small><span class="color1" v-if="Multilingual[48]">{{Multilingual[48].Describe}}</span></small></h3></td>
+                                    <td colspan="3" style="border-right:1px solid #ddd;">
+                                        <div class="input-group col-lg-9">
+                                            <input style=" height:48px;margin:auto" class="form-control" id="number" ref="domain" type="text" v-if="Multilingual[32]" :placeholder="Multilingual[32].Describe" />
+                                            <span style="" class="input-group-addon" v-if="Multilingual[33]">{{Multilingual[33].Describe}}</span>
+                                        </div>
+
+                                    </td>
+
+                                </tr>
+                                <tr class="tr" style="border-top:none;border-bottom-left-radius:5px">
+                                    <td style="border-bottom:1px solid #ddd;"></td>
+                                    <td style="border-bottom:1px solid #ddd;"> <button class="btn btn-cta-primary" @click="CheckDomainName(1,this)" v-if="Multilingual[18]">{{Multilingual[18].Describe}}</button></td>
+                                    <td style="border-bottom:1px solid #ddd;"> <button class="btn btn-cta-primary" @click="CheckDomainName(2)" v-if="Multilingual[18]">{{Multilingual[18].Describe}}</button></td>
+                                    <td style="border-bottom:1px solid #ddd;border-right:1px solid #ddd;border-bottom-right-radius:5px"><button class="btn btn-cta-primary" @click="CheckDomainName(3)" v-if="Multilingual[18]">{{Multilingual[18].Describe}}</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+
+                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="margin-top: 200px;">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel1" style="padding-left:30px" v-if="Multilingual[32]">
+                                        {{Multilingual[32].Describe}}
+                                    </h4>
+                                </div>
+                                <div class="group" style="margin-top:30px;margin-bottom:30px">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-sm-7  col-sm-7 col-xs-7">
+                                            <input style="margin-left: 13%;font-size:16px" type="text" ref="domain1" class="form-control">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-4">
+                                            <span style="font-size:16px;font-weight:600; " class="form-control" v-if="Multilingual[33]">{{Multilingual[33].Describe}}</span>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" v-if="Multilingual[35]">
+                                        {{Multilingual[35].Describe}}
+                                    </button>
+                                    <button type="button" style="background-color:#ec6952 ;border:none" class="btn btn-primary" @click="CheckDomainName(1)" v-if="Multilingual[34]">
+                                        {{Multilingual[34].Describe}}
+                                    </button>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                    </div>
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="margin-top: 200px;">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel2" style="padding-left:30px" v-if="Multilingual[32]">
+                                        {{Multilingual[32].Describe}}
+                                    </h4>
+                                </div>
+                                <div class="group" style="margin-top:30px;margin-bottom:30px">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-sm-7  col-sm-7 col-xs-7">
+                                            <input style="margin-left:13%;font-size:16px " type="text" ref="domain2" class="form-control">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-4">
+                                            <span style="font-size:16px;font-weight:600;" class="form-control" v-if="Multilingual[33]">  {{Multilingual[33].Describe}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" v-if="Multilingual[35]">
+                                        {{Multilingual[35].Describe}}
+                                    </button>
+                                    <button type="button" style="background-color:#ec6952 ;border:none" class="btn btn-primary" @click="CheckDomainName(2)" v-if="Multilingual[34]">
+                                        {{Multilingual[34].Describe}}
+                                    </button>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                    </div>
+
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content" style="margin-top: 200px;">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                        &times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel3" style="padding-left:30px" v-if="Multilingual[32]">
+                                        {{Multilingual[32].Describe}}
+                                    </h4>
+                                </div>
+                                <div class="group" style="margin-top:30px;margin-bottom:30px">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-sm-7  col-sm-7 col-xs-7">
+                                            <input style="margin-left: 13%;font-size:16px" type="text" ref="domain3" class="form-control">
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-sm-4 col-sm-4 col-xs-4">
+                                            <span style="font-size:16px;font-weight:600" class="form-control" v-if="Multilingual[33]">{{Multilingual[33].Describe}}</span>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal" v-if="Multilingual[35]">
+                                        {{Multilingual[35].Describe}}
+                                    </button>
+                                    <button type="button" style="background-color:#ec6952 ;border:none" class="btn btn-primary" @click="CheckDomainName(3)" v-if="Multilingual[34]">
+                                        {{Multilingual[34].Describe}}
+                                    </button>
+                                </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal -->
+                    </div>
+                    <div id="WarningMessage"></div>
+                    <div id="WarningMessage2"></div>
+
+                    <form name="payFormCcard" method="post" id="payFormCcard" action="https://test.paydollar.com/b2cDemo/eng/payment/payForm.jsp">
+                        <input ref="merchantId" type="hidden" name="merchantId">
+                        <input ref="amount" type="hidden" name="amount">
+                        <input ref="orderRef" type="hidden" name="orderRef">
+                        <input ref="currCode" type="hidden" name="currCode">
+                        <input ref="mpsMode" type="hidden" name="mpsMode">
+                        <input ref="successUrl" type="hidden" name="successUrl">
+                        <input ref="failUrl" type="hidden" name="failUrl">
+                        <input ref="cancelUrl" type="hidden" name="cancelUrl">
+                        <input ref="payType" type="hidden" name="payType">
+                        <input ref="lang" type="hidden" name="lang">
+                        <input ref="payMethod" type="hidden" name="payMethod">
+                        <input ref="secureHash" type="hidden" name="secureHash">
+                        <!--<input type="submit" class="btn btn-cta btn-cta-primary" name="submit" v-if="Multilingual[13]" v-bind:value="Multilingual[13].Describe">-->
+                    </form>
+                </div>
+
+
+            </div>
+            <div id="userdefined" class="container" style="margin-top:100px;display:none">
+
+                <div class="row" style="background:#ffffff;border-radius:5px;">
+                    <div style="height:auto; background:white;border-radius:6px;z-index:3" class="col-md-offset-1  col-md-10">
+                        <div>
+                            <h4 style="font-size:24px"><a @click="ShowPlan()" v-if="Multilingual[51]"><i class="fa fa-reply" aria-hidden="true"></i>{{Multilingual[51].Describe}}</a></h4>
+                        </div>
+                        <div style="margin-top:5px; width:100%;line-height:60px;  height:60px;background:#ea6352;border-top-left-radius:10px;border-top-right-radius:10px;"><h3 style="text-align:center;color:azure;line-height:66px" v-if="Multilingual[39]">{{Multilingual[39].Describe}}</h3></div>
+                        <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 " style="background:#f3f3f3;margin-top:5px;border:1px solid #b0b0b0">
+                            <div style="padding-left:5%" class="col-lg-4 col-md-4 col-sm-4"><h3 style=" font-size:18px;"><strong v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</strong> </h3></div>
+                            <div class="col-lg-7 col-md-7 col-sm-7">
+                                <div class="dropdown" style="width:100%;">
+                                    <button type="button" style="width:30%;margin-top:15px;height:36px;margin-bottom:15px;" class="btn  btn-default dropdown-toggle" id="dropdownMenu1"
+                                            data-toggle="dropdown">
+                                        {{selectitem}}
+                                        <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="width:100%;">
+
+                                        <li role="presentation" style="width:90%;margin-left:4%;">
+                                            <div class="input-group">
+                                                <input id="num" class="form-control" type="text" />
+                                                <span class="input-group-addon" @click="dropdownShow(document.getElementById('num').value)" v-if="Multilingual[34]">
+                                                    {{Multilingual[34].Describe}}
+                                                </span>
+                                            </div>
+                                        </li>
+
+                                        <li role="presentation" style="width:100%;">
+                                            <a id="a1" @click="dropdownShow(document.getElementById('a1').textContent)" role="menuitem" tabindex="-1" href="#">5</a>
+                                        </li>
+
+                                        <li role="presentation">
+                                            <a id="a2" @click="dropdownShow(document.getElementById('a2').textContent)" role="menuitem" tabindex="-1" href="#">10</a>
+                                        </li>
+
+                                        <li role="presentation">
+                                            <a id="a3" @click="dropdownShow(document.getElementById('a3').textContent)" role="menuitem" tabindex="-1" href="#">50</a>
+                                        </li>
+
+
+                                        <li role="presentation">
+                                            <a id="a4" @click="dropdownShow(document.getElementById('a4').textContent)" role="menuitem" tabindex="-1" href="#">100</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 " style="background:#f3f3f3;padding-bottom:20px;border:1px solid #b0b0b0">
+                            <h3 style="padding-left:5%;font-size:20px;background:none"><strong v-if="Multilingual[17]">{{Multilingual[17].Describe}}:</strong></h3>
+                            <div class="col-md-12 col-lg-4 col-xs-12 col-sm-12 left " style="border-top:1px solid #b5b5b5">
+                                <h3 style="background:#686868;font-size:16px" v-if="Multilingual[43]">{{Multilingual[43].Describe}} </h3>
+                                <h3 id="left6" @click="Select(6)"> <small><span v-if="Multilingual[12]">{{Multilingual[12].Describe}}</span></small></h3>
+                                <h3 id="left7" @click="Select(7)"> <small><span v-if="Multilingual[13]">{{Multilingual[13].Describe}}</span></small></h3>
+                                <h3 id="left8" @click="Select(8)"> <small><span v-if="Multilingual[14]">{{Multilingual[14].Describe}}</span></small></h3>
+                                <h3 id="left9" @click="Select(9)"> <small><span v-if="Multilingual[16]">{{Multilingual[16].Describe}}</span></small></h3>
+                                <h3 id="left10" @click="Select(10)"> <small><span v-if="Multilingual[15]">{{Multilingual[15].Describe}}</span></small></h3>
+
+
+                            </div>
+                            <div class="col-md-12 col-lg-4 col-xs-12 col-sm-12" style="border-top:1px solid #b5b5b5">
+                                <div id="middleDiv" class="ff ff1" style="margin:auto;border-left:1px solid #b5b5b5 ;border-right: 1px solid #b5b5b5;">
+                                    <h2 style="text-align:center;">
+                                        <button id="allselect" class="btn" @click="Allselect()" v-if="Multilingual[45]">{{Multilingual[45].Describe}} </button>
+                                    </h2>
+                                    <h2 style="text-align:center">
+                                        <button id="deselect" class="btn" @click="CancelAllselect()" v-if="Multilingual[46]">{{Multilingual[46].Describe}} </button>
+                                    </h2>
+                                </div>
+
+
+
+                            </div>
+                            <div id="SelectedFeatures" class="col-md-12 col-lg-4 col-xs-12 col-sm-12  right " style="border-top:1px solid  #b5b5b5">
+
+                                <h3 style="background:#686868;font-size:16px" v-if="Multilingual[44]">{{Multilingual[44].Describe}} </h3>
+                                <h3 id="right1"> <small><span v-if="Multilingual[3]" style="color:black">{{Multilingual[3].Describe}}</span><span v-if="Multilingual[49]">{{Multilingual[49].Describe}}</span></small></h3>
+                                <h3 id="right2"> <small><span v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span> <span v-if="Multilingual[49]">{{Multilingual[49].Describe}}</span></small></h3>
+                                <h3 id="right3"> <small><span v-if="Multilingual[5]">{{Multilingual[5].Describe}}</span> <span v-if="Multilingual[49]">{{Multilingual[49].Describe}}</span></small></h3>
+                                <h3 id="right4"> <small><span v-if="Multilingual[36]">{{Multilingual[36].Describe}}</span> <span v-if="Multilingual[49]">{{Multilingual[49].Describe}}</span></small></h3>
+                                <h3 id="right5"> <small><span v-if="Multilingual[6]">{{Multilingual[6].Describe}}</span> <span v-if="Multilingual[49]">{{Multilingual[49].Describe}}</span></small></h3>
+                                <h3 style="display:none" id="right6" @click="Cancel(6)"> <small><span v-if="Multilingual[12]">{{Multilingual[12].Describe}}</span></small></h3>
+                                <h3 style="display:none" id="right7" @click="Cancel(7)"> <small><span v-if="Multilingual[13]">{{Multilingual[13].Describe}}</span></small></h3>
+                                <h3 style="display:none" id="right8" @click="Cancel(8)"> <small><span v-if="Multilingual[14]">{{Multilingual[14].Describe}}</span></small></h3>
+                                <h3 style="display:none" id="right9" @click="Cancel(9)"> <small><span v-if="Multilingual[16]">{{Multilingual[16].Describe}}</span></small></h3>
+                                <h3 style="display:none;" id="right10" @click="Cancel(10)"> <small><span v-if="Multilingual[15]">{{Multilingual[15].Describe}}</span></small></h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12  col-lg-12 col-xs-12 col-sm-12" style="background:#efecec;margin-bottom:36px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;border:1px solid #b0b0b0">
+                            <h3 class="text-danger" style="padding-left:5%;color:#ea6352;" v-if="Multilingual[47]">{{Multilingual[47].Describe}}</h3>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><h3 style="padding-left:5%"> <span v-if="Multilingual[37]"><small class="color1">{{Multilingual[37].Describe}}</small></span> </h3></td>
+                                        <td><h3 class="text-center"> <span style="padding-left:10%"><i style="color:#ec6952" class="fa fa-check" aria-hidden="true"></i></span></h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h3 style="padding-left:5%"> <span v-if="Multilingual[10]"><small class="color1">{{Multilingual[10].Describe}}</small></span></h3></td>
+                                        <td><h3 class="text-center"> <span style="padding-left:10%"><i style="color:#ec6952" class="fa fa-check" aria-hidden="true"></i></span></h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h3 style="padding-left:5%"> <span v-if="Multilingual[11]"><small class="color1">{{Multilingual[11].Describe}}</small> </span></h3></td>
+                                        <td><h3 class="text-center"> <span style="padding-left:10%"><i style="color:#ec6952" class="fa fa-check" aria-hidden="true"></i></span></h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td><h3 style="padding-left:5%"> <span v-if="Multilingual[11]"><small class="color1">{{Multilingual[11].Describe}}</small> </span></h3></td>
+                                        <td><h3 class="text-center"> <span style="padding-left:10%"><i style="color:#ec6952" class="fa fa-check" aria-hidden="true"></i></span></h3></td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>
+                                <div class="input-group col-lg-8 " style="margin-left:4.5%">
+                                    <input style="height:48px;  margin:auto" class="form-control" id="number" type="text" v-if="Multilingual[32]" :placeholder="Multilingual[32].Describe" />
+                                    <span style="" class="input-group-addon" v-if="Multilingual[33]">{{Multilingual[33].Describe}} </span>
+                                </div>
+                            </p>
+                            <h3 class="text-right" v-if="Multilingual[42]">{{Multilingual[42].Describe}}：HK$ 1,20000</h3>
+                            <h3 class="text-right"> <button class="btn btn-cta-primary" @click="Getheight()" v-if="Multilingual[18]">{{Multilingual[18].Describe}}</button></h3>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section><!--//contact-section-->
+        <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="row" style="background:#ffffff">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 footerlogo">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12 ">
+                                <img src="../../Content/images/Footer/logo.png" />
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                <p class="footertittle" v-if="Navigation[30]">{{Navigation[30].Describe}} </p>
+                            </div>
+
+                        </div>
+                        <!--<img src="../../Content/images/Footer/logo.png" />-->
+
+
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footcontent">
+                        <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
+                            <h2 v-if="Navigation[26]">{{Navigation[26].Describe}} </h2>
+                            <p v-if="Navigation[29]">
+                                {{Navigation[29].Describe}}
+                            </p>
+
+                            <p class="Contact_icon" v-if="Navigation[28]">
+                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+
+                            </p>
+                            <p class="Contact_icon">
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-5 col-md-5  col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12" style="margin-top:20px">
+                            <p class="p3"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><span v-if="Navigation[24]">{{Navigation[24].Describe}} </span> </p>
+                            <p class="p3"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span v-if="Navigation[25]">{{Navigation[25].Describe}} </span></p>
+                            <p class="p3">
+                                <i style="width:30px;height:30px;">
+                                    <img style="width:30px;height:30px;" src="../../Content/images/Footer/CustomerService.png " />
+                                </i><span v-if="Navigation[23]">{{Navigation[23].Describe}} </span>
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </footer>
+    </div><!--//upper-wrapper-->
+        <!-- ******FOOTER****** -->
+        <!-- Javascript -->
+        <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/back-to-top.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/FitVids/jquery.fitvids.js"></script>
+        <script type="text/javascript" src="../../Content/plugins/flexslider/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="../../Content/js/Share/main.js"></script>
+        <!--Cookie-->
+        <!--<script type="text/javascript" src="../assets/js/main.js"></script>-->
+        <!--<script src="../../Content/js/Share/jquery.js"></script>
+    <script src="../../Content/js/Share/jquery.blockUI.js"></script>-->
+        <!--Vue.js-->
+
+
+
+        <script type="text/javascript" src="../../Content/js/Share/vue.min.js"></script>
+        <script type="text/javascript" src="../../Content/js/Share/vue-resource.min.js"></script>
+
+        <script type="text/javascript" src="../../Content/js/Share/Multilingual.js"></script>
+        <script type="text/javascript" src="../../Content/js/Share/GetCommonAPI.js"></script>
+        <script type="text/javascript" src="../../Content/js/Index/SubscriptionPlan.js"></script>
+        <script type="text/javascript" src="../../Content/js/Share/WarningMessage.js"></script>
+
+
+</body>
+</html>
+

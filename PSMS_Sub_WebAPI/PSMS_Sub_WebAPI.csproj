@@ -1,0 +1,413 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9A64B3E7-44E3-4D0C-9488-7B5BE49099AB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PSMS_Sub_WebAPI</RootNamespace>
+    <AssemblyName>PSMS_Sub_WebAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.0.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.0.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.2.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Cors, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Cors.2.1.0\lib\net45\Microsoft.Owin.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.2.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.6\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Cors.5.2.6\lib\net45\System.Web.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.6\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Cors, Version=5.2.6.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.6\lib\net45\System.Web.Http.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.0\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.4\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\base.css" />
+    <Content Include="Content\css\Features.css" />
+    <Content Include="Content\css\Footer.css" />
+    <Content Include="Content\css\Index.css" />
+    <Content Include="Content\css\ModifyPassword.css" />
+    <Content Include="Content\css\ResetPassword.css" />
+    <Content Include="Content\css\showSubscriptionPlan.css" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\css\SubscriptionPlan.css" />
+    <Content Include="Content\images\background\asl_home_bg.jpg" />
+    <Content Include="Content\images\background\asl_home_bg_1.jpg" />
+    <Content Include="Content\images\background\asl_login_bg.jpg" />
+    <Content Include="Content\images\background\asl_login_bg_1.jpg" />
+    <Content Include="Content\images\background\bg-footer-1.jpg" />
+    <Content Include="Content\images\background\bg-footer-2.jpg" />
+    <Content Include="Content\images\background\bg-footer-3.jpg" />
+    <Content Include="Content\images\background\bg-header-1.jpg" />
+    <Content Include="Content\images\background\bg-header-2.jpg" />
+    <Content Include="Content\images\background\bg-header-3.jpg" />
+    <Content Include="Content\images\background\bg-header-small-1.jpg" />
+    <Content Include="Content\images\background\bg-header-small-2.jpg" />
+    <Content Include="Content\images\background\bg-header-small-3.jpg" />
+    <Content Include="Content\images\background\bg-header-small-4.jpg" />
+    <Content Include="Content\images\background\bg-mobile-headline.jpg" />
+    <Content Include="Content\images\background\bg-screen-1.jpg" />
+    <Content Include="Content\images\background\bg-screen-2.jpg" />
+    <Content Include="Content\images\background\CompanyIntroduction2.jpg" />
+    <Content Include="Content\images\blog\post-1-thumb.jpg" />
+    <Content Include="Content\images\blog\post-1.jpg" />
+    <Content Include="Content\images\blog\post-2-thumb.jpg" />
+    <Content Include="Content\images\blog\post-2.jpg" />
+    <Content Include="Content\images\blog\post-3-thumb.jpg" />
+    <Content Include="Content\images\blog\post-3.jpg" />
+    <Content Include="Content\images\blog\post-4-thumb.jpg" />
+    <Content Include="Content\images\blog\post-4.jpg" />
+    <Content Include="Content\images\blog\post-5-thumb.jpg" />
+    <Content Include="Content\images\blog\post-6-thumb.jpg" />
+    <Content Include="Content\images\blog\post-7-thumb.jpg" />
+    <Content Include="Content\images\blog\post-8-thumb.jpg" />
+    <Content Include="Content\images\blog\post-9-thumb.jpg" />
+    <Content Include="Content\images\features\Features-1.png" />
+    <Content Include="Content\images\features\Features-2.png" />
+    <Content Include="Content\images\features\Features-3.png" />
+    <Content Include="Content\images\features\Features-4.png" />
+    <Content Include="Content\images\features\Features-5.png" />
+    <Content Include="Content\images\features\Features-6.png" />
+    <Content Include="Content\images\features\Features-7.png" />
+    <Content Include="Content\images\features\zoomout-1.ico" />
+    <Content Include="Content\images\features\zoomout-2.ico" />
+    <Content Include="Content\images\figures\figure-1.png" />
+    <Content Include="Content\images\figures\figure-2.png" />
+    <Content Include="Content\images\figures\figure-3.png" />
+    <Content Include="Content\images\figures\figure-4.png" />
+    <Content Include="Content\images\flexslider\carousel-arrow-next.png" />
+    <Content Include="Content\images\flexslider\carousel-arrow-prev.png" />
+    <Content Include="Content\images\Footer\CustomerService.png" />
+    <Content Include="Content\images\Footer\CustomerService2.png" />
+    <Content Include="Content\images\Footer\logo.png" />
+    <Content Include="Content\images\HeadPortrait\img2.jpg" />
+    <Content Include="Content\images\mobile\iphone.png" />
+    <Content Include="Content\images\mobile\QR-code.png" />
+    <Content Include="Content\images\mobile\screenshot.png" />
+    <Content Include="Content\images\people\profile-m-1.png" />
+    <Content Include="Content\images\people\profile-m-2.png" />
+    <Content Include="Content\images\people\profile-m-3.png" />
+    <Content Include="Content\images\people\profile-s-1.png" />
+    <Content Include="Content\images\people\profile-s-2.png" />
+    <Content Include="Content\images\people\profile-s-3.png" />
+    <Content Include="Content\images\people\profile-s-4.png" />
+    <Content Include="Content\images\press\press-1.png" />
+    <Content Include="Content\images\press\press-10.png" />
+    <Content Include="Content\images\press\press-11.png" />
+    <Content Include="Content\images\press\press-12.png" />
+    <Content Include="Content\images\press\press-2.png" />
+    <Content Include="Content\images\press\press-3.png" />
+    <Content Include="Content\images\press\press-4.png" />
+    <Content Include="Content\images\press\press-5.png" />
+    <Content Include="Content\images\press\press-6.png" />
+    <Content Include="Content\images\press\press-7.png" />
+    <Content Include="Content\images\press\press-8.png" />
+    <Content Include="Content\images\press\press-9.png" />
+    <Content Include="Content\images\show_subscription_plan\Compute.png" />
+    <Content Include="Content\images\show_subscription_plan\PSMS_ICON.jpg" />
+    <Content Include="Content\js\Index\Features.js" />
+    <Content Include="Content\js\Index\Index.js" />
+    <Content Include="Content\js\Index\ModifyAccountPassword.js" />
+    <Content Include="Content\js\Index\ModifyPersionalInfo.js" />
+    <Content Include="Content\js\Index\ShowSubscriptionPlan.js" />
+    <Content Include="Content\js\Index\SubcriptedPlan.js" />
+    <Content Include="Content\js\Index\SubscriptionPlan.js" />
+    <Content Include="Content\js\Index\SubscriptionPlanList.js" />
+    <Content Include="Content\js\Login\Login.js" />
+    <Content Include="Content\js\Login\NewPassword.js" />
+    <Content Include="Content\js\Login\ResetPassword.js" />
+    <Content Include="Content\js\Register\ActiveAccount.js" />
+    <Content Include="Content\js\Register\gVerify.js" />
+    <Content Include="Content\js\Register\Register.js" />
+    <Content Include="Content\js\Share\blog.js" />
+    <Content Include="Content\js\Share\froogaloop2.min.js" />
+    <Content Include="Content\js\Share\GetCommonAPI.js" />
+    <Content Include="Content\js\Share\jquery.blockUI.js" />
+    <Content Include="Content\js\Share\jquery.cookie.js" />
+    <Content Include="Content\js\Share\jquery.js" />
+    <Content Include="Content\js\Share\main.js" />
+    <Content Include="Content\js\Share\Multilingual.js" />
+    <Content Include="Content\js\Share\vimeo.js" />
+    <Content Include="Content\js\Share\vue-resource.min.js" />
+    <Content Include="Content\js\Share\vue.min.js" />
+    <Content Include="Content\js\Share\WarningMessage.js" />
+    <Content Include="Content\plugins\back-to-top.js" />
+    <Content Include="Content\plugins\bootstrap-hover-dropdown.min.js" />
+    <Content Include="Content\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\plugins\FitVids\jquery.fitvids.js" />
+    <Content Include="Content\plugins\flexslider\flexslider.css" />
+    <Content Include="Content\plugins\flexslider\jquery.flexslider-min.js" />
+    <Content Include="Content\plugins\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\plugins\imagesloaded\imagesloaded.pkgd.min.js" />
+    <Content Include="Content\plugins\jquery-1.12.3.min.js" />
+    <Content Include="Content\plugins\jquery-placeholder\jquery.placeholder.js" />
+    <Content Include="Content\plugins\masonry.pkgd.min.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Resources\EmailTemplate\ExpireProductEmailTem_ch.txt" />
+    <Content Include="Resources\EmailTemplate\ExpireProductEmailTem_en.txt" />
+    <Content Include="Resources\EmailTemplate\FinishSubscribeEmailTemp_ch.txt" />
+    <Content Include="Resources\EmailTemplate\FinishSubscribeEmailTemp_en.txt" />
+    <Content Include="Resources\EmailTemplate\ModifyPasswordEmailTemp.txt" />
+    <Content Include="Resources\EmailTemplate\RegisterEmailTemp_ch.txt" />
+    <Content Include="Resources\EmailTemplate\RegisterEmailTemp_en.txt" />
+    <Content Include="Resources\EmailTemplate\ResetPasswordEmailTemp.txt" />
+    <Content Include="View\index\Features.html" />
+    <Content Include="View\index\index.html" />
+    <Content Include="View\index\ModifyAccountPassword.html" />
+    <Content Include="View\index\ModifyPersonalInfo.html" />
+    <Content Include="View\index\ShowSubscriptionPlan.html" />
+    <Content Include="View\index\SubscriptedPlan.html" />
+    <Content Include="View\index\SubscriptionPlan.html" />
+    <Content Include="View\index\SubscriptionPlanList.html" />
+    <Content Include="View\Login\Login.html" />
+    <Content Include="View\Login\NewPassword.html" />
+    <Content Include="View\Login\ResetPassword.html" />
+    <Content Include="View\Payment\DataFeed.aspx" />
+    <Content Include="View\Register\ActiveAccount.html" />
+    <Content Include="View\Register\Register.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Common\Authenticate.cs" />
+    <Compile Include="Common\CacheWrapper.cs" />
+    <Compile Include="Common\GetAccessClientIP.cs" />
+    <Compile Include="Common\GetSystmPromptMessage.cs" />
+    <Compile Include="Common\SessionWrapper.cs" />
+    <Compile Include="Common\SimpleAuthorizationServerProvider.cs" />
+    <Compile Include="Common\Startup.cs" />
+    <Compile Include="Common\WebApiTrackerAttribute.cs" />
+    <Compile Include="Controllers\Notification\ProductExpireController.cs" />
+    <Compile Include="Controllers\Payment\ExternalInterfaceController.cs" />
+    <Compile Include="Controllers\Payment\PaymentController.cs" />
+    <Compile Include="Controllers\Subcription\SubscriptionController.cs" />
+    <Compile Include="Controllers\System\AccessController.cs" />
+    <Compile Include="Controllers\System\CustomerController.cs" />
+    <Compile Include="Controllers\System\LoginController.cs" />
+    <Compile Include="Controllers\System\ModifyPasswordController.cs" />
+    <Compile Include="Controllers\System\MultilingualController.cs" />
+    <Compile Include="Controllers\System\ProductInfoController.cs" />
+    <Compile Include="Controllers\System\RegisterController.cs" />
+    <Compile Include="Controllers\System\ResetPasswordController.cs" />
+    <Compile Include="Controllers\System\SaveSessionController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ForgetPasswordSessionVM.cs" />
+    <Compile Include="Models\ModifyPasswordSessionVM.cs" />
+    <Compile Include="Models\MultilingualSessionVM.cs" />
+    <Compile Include="Models\SessionVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Payment\DataFeed.aspx.cs">
+      <DependentUpon>DataFeed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Payment\DataFeed.aspx.designer.cs">
+      <DependentUpon>DataFeed.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\plugins\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\plugins\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="log4net.config" />
+    <None Include="packages.config" />
+    <Content Include="Resources\index.csv" />
+    <Content Include="Resources\login.csv" />
+    <Content Include="Resources\register.csv" />
+    <Content Include="Resources\System_Message.csv" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <Content Include="Resources\ActiveAccount.csv" />
+    <Content Include="Resources\modifyPersionalInfo.csv" />
+    <Content Include="Resources\navigation.csv" />
+    <Content Include="Resources\SubscriptionPlan.csv" />
+    <Content Include="Resources\EmailMessage.csv" />
+    <Content Include="Resources\SubscriptedPlan.csv" />
+    <Content Include="Resources\Features.csv" />
+    <Content Include="Resources\ShowSubscriptionPlan.csv" />
+    <Content Include="Resources\SubscriptionList.csv" />
+    <Content Include="Resources\FinishSubscribeEmail.csv" />
+    <Content Include="Resources\ExpireProductEmail.csv" />
+    <Content Include="Resources\NewPassword.csv" />
+    <Content Include="Resources\resetPassword.csv" />
+    <Content Include="Resources\ResetPasswordEmail.csv" />
+    <Content Include="Resources\modifyPassword.csv" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PSMS_Sub_BL\PSMS_Sub_BL.csproj">
+      <Project>{E2CB244D-FF74-4569-AC56-1D27FCE62BEA}</Project>
+      <Name>PSMS_Sub_BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSMS_Sub_DA\PSMS_Sub_DA.csproj">
+      <Project>{E9F2544F-2944-4EAE-9CBF-5FE81F785207}</Project>
+      <Name>PSMS_Sub_DA</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSMS_Sub_DM\PSMS_Sub_DM.csproj">
+      <Project>{07B113BA-A60B-4681-A3FD-D06C8DAEC123}</Project>
+      <Name>PSMS_Sub_DM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSMS_Utility\PSMS_Utility.csproj">
+      <Project>{7874D242-7FC8-4F76-8185-F3D499518E8F}</Project>
+      <Name>PSMS_Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PSMS_VM\PSMS_VM.csproj">
+      <Project>{9D62E6F8-E59D-41F6-AD47-C97012CDE7BD}</Project>
+      <Name>PSMS_VM</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27018</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:27018/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

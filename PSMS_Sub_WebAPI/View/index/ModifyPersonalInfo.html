@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../Content/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../../Content/css/styles.css">
+    <link href="../../Content/css/Footer.css" rel="stylesheet" />
+</head>
+
+<body class="home-page">
+    <div id="app">
+
+        <header id="header" class="header navbar-fixed-top background">
+            <div class="container-fluid padding1 ">
+                <h1 class="logo display">
+                    <a href="../index/index.html"><span class="text span1" v-if="Navigation[9]">{{Navigation[9].Describe}}</span></a>
+                </h1><!--logo-->
+                <nav class="main-nav navbar-right" role="navigation">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse" style="position:absolute;left:10px">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button><!--//nav-toggle-->
+
+                    </div><!--//navbar-header-->
+                    <div id="navbar-collapse" class="navbar-collapse collapse" style="padding-right:50px;">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" v-if="Navigation[0]"><a class="padding" href="index.html">{{Navigation[0].Describe}} </a></li>
+                            <li class="nav-item" v-if="Navigation[1]"><a class="padding" href="features.html">{{Navigation[1].Describe}}</a></li> <!--Features-->
+                            <li class="nav-item" v-if="Navigation[2]"><a class="padding" href="../index/SubscriptionPlan.html">{{Navigation[2].Describe}}</a></li><!--Pricing-->
+                            <li class="nav-item dropdown" ref="personal" style="display:none;">
+                                <a class="dropdown-toggle padding" style="color:#59b8bc" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#" v-if="Navigation[3]"> {{Navigation[3].Describe}}<i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li class="active nav-item"><a href="../index/ModifyPersonalInfo.html" v-if="Navigation[7]">{{Navigation[7].Describe}}</a></li>
+                                    <li><a href="../index/ModifyAccountPassword.html" v-if="Navigation[8]">{{Navigation[8].Describe}}</a></li>
+                                    <li><a href="../index/SubscriptedPlan.html" v-if="Navigation[10]">{{Navigation[10].Describe}}</a></li>
+                                    <li><a href="../index/SubscriptionPlanList.html" v-if="Navigation[11]">{{Navigation[11].Describe}}</a></li>
+                                </ul>
+                            </li><!--//dropdown-->
+                            <li class="nav-item" ref="logining"><a class="padding" href="../Login/Login.html" v-if="Navigation[4]">{{Navigation[4].Describe}}</a></li>  <!--Log in-->
+                            <li class="nav-item" style="display:none;" ref="logouting"><a class="padding" href="#" @click="Logout()" v-if="Navigation[6]">{{Navigation[6].Describe}}</a></li> <!--Log out-->
+                            <li class="nav-item nav-item-cta" ref="signuping"><a style="padding-left:5px;padding-right:5px" class="btn btn-cta btn-cta-secondary" href="../Register/Register.html" v-if="Navigation[5]">{{Navigation[5].Describe}}</a></li>  <!--Sign Up Free-->
+                        </ul>
+                    </div><!--//navabr-collapse-->
+                    <div class="top UserIcon">
+                        <div id="Portrait" ref="Portrait" class="content" @mouseover="HeadPortraithover()" @mouseout="HeadPortraithoverout()" style="display:none;">
+                            <img src="../../Content/images/HeadPortrait/img2.jpg" class="img-circle" alt="Cinque Terre">
+                            <div id="userinfo" style="height:240px;width:400px; background:#ffffff;position:absolute;top:50px;right:0px;display:none">
+                                <div class="col-lg-12 content1">
+                                    <div class="div1">
+                                        <div class="img">
+                                            <img src="../../Content/images/HeadPortrait/img2.jpg" class="img-circle" alt="Cinque Terre">
+                                        </div>
+                                        <div class="username">
+                                            <p><strong>{{this.UserInfo.CUSTOMERID}}</strong>  </p>
+                                            <p style="margin-top:-10px;"><i class="fa fa-envelope-o" aria-hidden="true"></i><i style="padding-left:15px;" class="fa fa-phone-square" aria-hidden="true"></i> </p>
+                                        </div>
+                                    </div>
+                                    <div class="div2">
+                                        <p v-if="Navigation[12]"><strong>{{Navigation[12].Describe}}</strong>  <span>{{this.UserInfo.LOGINTIME}}</span> </p>
+                                        <p v-if="Navigation[13]"> <strong>{{Navigation[13].Describe}}</strong> <span>{{this.UserInfo.EMAIL}}</span> </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav" style="margin-top:0px;">
+                            <li class="nav-item">
+                                <div class="language_item">
+                                    <select v-model="Language_Value" class="form-control" v-on:change="ChangeLan()" id="MultilSelect">
+                                        <option style="background-color:#000000;color:#ffffff;" v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                                    </select>
+                                    <i class="fa fa-angle-down" style="position:absolute;top:3px;right:12px;font-size:16px;z-index:-1;"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- //Select-Language -->
+                </nav><!--//main-nav-->
+
+            </div>
+
+        </header>
+
+        <!--<div class="bg-slider-wrapper">
+            <div class="flexslider bg-slider">
+                <ul class="slides">
+                    <li class="slide slide-1"></li>
+                    <li class="slide slide-2"></li>
+                    <li class="slide slide-3"></li>
+                </ul>
+            </div>
+        </div>-->
+
+
+        <div class="upper-wrapper" style="margin-top:0px;background:  url('../../Content/images/background/asl_home_bg.jpg');background-size:cover;height:100%;width:100%;overflow: hidden;">
+            <!-- ******HEADER****** -->
+            <!-- ******Signup Section****** -->
+            <section class="signup-section access-section section" style="position:relative;z-index:3;margin-top:95px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="form-box col-md-offset-2 col-sm-offset-0 xs-offset-0 col-xs-12 col-md-8">
+                            <div class="form-box-inner">
+                                <h2 class="title text-center"><span v-if="Multilingual[1]">{{Multilingual[1].Describe}}</span></h2>
+                                <p class="intro text-center"><span v-if="Multilingual[2]">{{Multilingual[2].Describe}}</span></p>
+
+                                <!-- Modify / Add by Chester 2018.07.25 -->
+                                <div class="row">
+                                    <div class=" col-lg-offset-1 col-sm-12 col-md-12 col-lg-10">
+                                        <table class="table table-hover table-striped text-center" style="word-break:break-all; word-wrap:break-all;">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="width:260px;"><span v-if="Multilingual[3]">{{Multilingual[3].Describe}}</span></td>
+                                                    <td>{{customer.CUSTOMER_NAME}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span></td>
+                                                    <td>{{customer.CNAME}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[5]">{{Multilingual[5].Describe}}</span></td>
+                                                    <td>{{customer.EMAIL}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[8]">{{Multilingual[8].Describe}}</span></td>
+                                                    <td>{{customer.COMPANY}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[9]">{{Multilingual[9].Describe}}</span></td>
+                                                    <td style="max-width:300px">{{customer.COMPANY_ADDRESS}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[6]">{{Multilingual[6].Describe}}</span></td>
+                                                    <td>{{customer.PHONE}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span v-if="Multilingual[7]">{{Multilingual[7].Describe}}</span></td>
+                                                    <td>{{customer.FIXED_TELEPHONE}}</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <button type="button" class="btn btn-block btn-cta-primary" data-toggle="modal" data-target="#UpdateModal"><span v-if="Multilingual[1]">{{Multilingual[1].Describe}}</span></button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div><!--//row-->
+                                <!-- Modify end -->
+
+                            </div><!--//form-box-inner-->
+                        </div><!--//form-box-->
+                    </div><!--//row-->
+                </div><!--//container-->
+            </section><!--//signup-section-->
+            <!-- Modify / Add by Chester 2018.07.25 -->
+            <div id="UpdateModal" class="modal fade" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title"><span v-if="Multilingual[1]">{{Multilingual[1].Describe}}</span></h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="form-container col-xs-offset-1 col-md-offset-1 col-xs-10 col-md-10">
+
+                                    <form class="signup-form">
+                                        <div class="form-group">
+                                            <label for="English_Name" class="control-label"><span v-if="Multilingual[3]">{{Multilingual[3].Describe}}</span></label>
+                                            <div v-if="Multilingual[12]"><input id="English_Name" type="text" class="form-control" v-bind:placeholder="Multilingual[12].Describe" v-model="showcustomer.CUSTOMER_NAME" /></div>
+                                            <i class="fa" style="color:red;float:right;margin-top:-25px;margin-right:-15px;">*</i>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Chinese_Name"><span v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span></label>
+                                            <div v-if="Multilingual[13]"><input id="Chinese_Name" type="text" class="form-control" v-bind:placeholder="Multilingual[13].Describe" v-model="showcustomer.CNAME" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Email"><span v-if="Multilingual[5]">{{Multilingual[5].Describe}}</span></label>
+                                            <div v-if="Multilingual[14]"><input id="Email" type="text" class="form-control" v-bind:placeholder="Multilingual[14].Describe" v-model="showcustomer.EMAIL" /></div>
+                                            <i class="fa" style="color:red;float:right;margin-top:-25px;margin-right:-15px;">*</i>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Company"><span v-if="Multilingual[8]">{{Multilingual[8].Describe}}</span></label>
+                                            <div v-if="Multilingual[17]"><input id="Company" type="text" class="form-control" v-bind:placeholder="Multilingual[17].Describe" v-model="showcustomer.COMPANY" /></div>
+                                            <i class="fa" style="color:red;float:right;margin-top:-25px;margin-right:-15px;">*</i>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Company_Address"><span v-if="Multilingual[9]">{{Multilingual[9].Describe}}</span></label>
+                                            <div v-if="Multilingual[18]"><input id="Company_Address" type="text" class="form-control" v-bind:placeholder="Multilingual[18].Describe" v-model="showcustomer.COMPANY_ADDRESS" /></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Phone"><span v-if="Multilingual[6]">{{Multilingual[6].Describe}}</span></label>
+                                            <div v-if="Multilingual[15]"><input id="Phone" type="text" class="form-control" v-bind:placeholder="Multilingual[15].Describe" v-model="showcustomer.PHONE" /></div>
+                                            <i class="fa" style="color:red;float:right;margin-top:-25px;margin-right:-15px;">*</i>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Fixed_telephone"><span v-if="Multilingual[7]">{{Multilingual[7].Describe}}</span></label>
+                                            <div v-if="Multilingual[16]"><input id="Fixed_telephone" type="text" class="form-control" maxlength="15" v-bind:placeholder="Multilingual[16].Describe" v-model="showcustomer.FIXED_TELEPHONE" /></div>
+                                        </div>
+
+                                    </form>
+
+                                </div><!--//form-container-->
+                            </div><!--//row-->
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><span v-if="Multilingual[10]">{{Multilingual[10].Describe}}</span></button>
+                            <button type="button" class="btn btn-cta-primary" @click="UpdatePersonInfo"><span v-if="Multilingual[11]">{{Multilingual[11].Describe}}</span></button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            <!-- Modify end -->
+
+        </div><!--//upper-wrapper-->
+
+        <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="row" style="background:#ffffff">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 footerlogo">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12 ">
+                                <img src="../../Content/images/Footer/logo.png" />
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                <p class="footertittle" v-if="Navigation[30]">{{Navigation[30].Describe}} </p>
+                            </div>
+
+                        </div>
+                        <!--<img src="../../Content/images/Footer/logo.png" />-->
+
+
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footcontent">
+                        <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
+                            <h2 v-if="Navigation[26]">{{Navigation[26].Describe}} </h2>
+                            <p v-if="Navigation[29]">
+                                {{Navigation[29].Describe}}
+                            </p>
+
+                            <p class="Contact_icon" v-if="Navigation[28]">
+                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+
+                            </p>
+                            <p class="Contact_icon">
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-5 col-md-5  col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12" style="margin-top:20px">
+                            <p class="p3"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><span v-if="Navigation[24]">{{Navigation[24].Describe}} </span> </p>
+                            <p class="p3"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span v-if="Navigation[25]">{{Navigation[25].Describe}} </span></p>
+                            <p class="p3">
+                                <i style="width:30px;height:30px;">
+                                    <img style="width:30px;height:30px;" src="../../Content/images/Footer/CustomerService.png " />
+                                </i><span v-if="Navigation[23]">{{Navigation[23].Describe}} </span>
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </footer>
+    </div>
+
+    <div id="WarningMessage"></div>
+
+    <!--Vue-->
+    <script src="../../Content/js/Share/vue.min.js"></script>
+    <script src="../../Content/js/Share/vue-resource.min.js"></script>
+    <script src="../../Content/js/Share/GetCommonAPI.js"></script>
+    <script src="../../Content/js/Share/Multilingual.js"></script>
+    <script src="../../Content/js/Index/ModifyPersionalInfo.js"></script>
+
+    <!-- Javascript -->
+    <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/main.js"></script>
+    <script src="../../Content/js/Share/WarningMessage.js"></script>
+
+</body>
+</html>
+
+

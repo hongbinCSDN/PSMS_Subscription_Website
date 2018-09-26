@@ -1,0 +1,1290 @@
+
+ 
+ Recording Time：2018-09-12 13:49:51,856 
+ Tread ID:[65] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/9/12 13:49:51
+            EndTime:2018/9/12 13:49:51
+            TotalTime:0.063959취
+            Action Params:domain_name=teew
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer DDsB0h8HRygXg4JFEu0nGLKvGRnU8B9-KMgs3fSM9HWnnBglPEwOXDS8BdJXeMOyhbTRzgUGjKlurExFw4Rp8DPHoORCCbBRucEhc-MdVM9aurbkYeCe520ctWsKEkWV2gGXYtMAAR8raQXp594vbUyEWUHLs7nf9_9qFwrxVzRcD3Pl1iPDru0inkywL7H4a27u0uruXUVR_HkC8w_wfT0K1OrtylVJqFEwFJKQPJU
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-12 13:52:45,605 
+ Tread ID:[63] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/9/12 13:52:45
+            EndTime:2018/9/12 13:52:45
+            TotalTime:0.0519685취
+            Action Params:domain_name=dss
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer DDsB0h8HRygXg4JFEu0nGLKvGRnU8B9-KMgs3fSM9HWnnBglPEwOXDS8BdJXeMOyhbTRzgUGjKlurExFw4Rp8DPHoORCCbBRucEhc-MdVM9aurbkYeCe520ctWsKEkWV2gGXYtMAAR8raQXp594vbUyEWUHLs7nf9_9qFwrxVzRcD3Pl1iPDru0inkywL7H4a27u0uruXUVR_HkC8w_wfT0K1OrtylVJqFEwFJKQPJU
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-12 16:58:48,263 
+ Tread ID:[67] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 16:58:48
+            EndTime:2018/9/12 16:58:48
+            TotalTime:0.0349812취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:14:56,929 
+ Tread ID:[84] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:14:56
+            EndTime:2018/9/12 17:14:56
+            TotalTime:0.0219866취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:16:18,100 
+ Tread ID:[84] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:16:18
+            EndTime:2018/9/12 17:16:18
+            TotalTime:0.0229858취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:17:09,731 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:17:09
+            EndTime:2018/9/12 17:17:09
+            TotalTime:0.0319797취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=testing23&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:17:41,361 
+ Tread ID:[84] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:17:41
+            EndTime:2018/9/12 17:17:41
+            TotalTime:0.0219859취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:18:02,490 
+ Tread ID:[84] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:18:02
+            EndTime:2018/9/12 17:18:02
+            TotalTime:0.0279839취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:19:40,849 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:19:40
+            EndTime:2018/9/12 17:19:40
+            TotalTime:0.0239849취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:22:58,166 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:22:58
+            EndTime:2018/9/12 17:22:58
+            TotalTime:0.0209871취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:23:33,008 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:23:32
+            EndTime:2018/9/12 17:23:33
+            TotalTime:0.0219855취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:24:27,738 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:24:27
+            EndTime:2018/9/12 17:24:27
+            TotalTime:0.0219823취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:24:33,865 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:24:33
+            EndTime:2018/9/12 17:24:33
+            TotalTime:0.0209871취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:25:50,430 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:25:50
+            EndTime:2018/9/12 17:25:50
+            TotalTime:0.0219866취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:26:04,080 
+ Tread ID:[81] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:26:04
+            EndTime:2018/9/12 17:26:04
+            TotalTime:0.0209874취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:26:44,038 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:26:43
+            EndTime:2018/9/12 17:26:44
+            TotalTime:0.0429737취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:26:53,639 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:26:53
+            EndTime:2018/9/12 17:26:53
+            TotalTime:0.0229858취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:27:44,206 
+ Tread ID:[93] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:27:44
+            EndTime:2018/9/12 17:27:44
+            TotalTime:0.0249831취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:28:03,528 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:28:03
+            EndTime:2018/9/12 17:28:03
+            TotalTime:0.0229861취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:28:32,446 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:28:32
+            EndTime:2018/9/12 17:28:32
+            TotalTime:0.0219853취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:28:39,855 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:28:39
+            EndTime:2018/9/12 17:28:39
+            TotalTime:0.0269828취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:28:52,293 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:28:52
+            EndTime:2018/9/12 17:28:52
+            TotalTime:0.0239853취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:28:56,360 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:28:56
+            EndTime:2018/9/12 17:28:56
+            TotalTime:0.0219859취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:29:06,650 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:29:06
+            EndTime:2018/9/12 17:29:06
+            TotalTime:0.0409753취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:29:16,763 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:29:16
+            EndTime:2018/9/12 17:29:16
+            TotalTime:0.0209864취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:29:27,707 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:29:27
+            EndTime:2018/9/12 17:29:27
+            TotalTime:0.026996취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:32:45,147 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:32:45
+            EndTime:2018/9/12 17:32:45
+            TotalTime:0.0289808취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:32:49,113 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:32:49
+            EndTime:2018/9/12 17:32:49
+            TotalTime:0.0229854취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:32:55,512 
+ Tread ID:[83] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:32:55
+            EndTime:2018/9/12 17:32:55
+            TotalTime:0.0239849취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:33:08,939 
+ Tread ID:[81] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:33:08
+            EndTime:2018/9/12 17:33:08
+            TotalTime:0.0219856취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:33:31,878 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:33:31
+            EndTime:2018/9/12 17:33:31
+            TotalTime:0.0239862취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:33:50,121 
+ Tread ID:[86] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:33:50
+            EndTime:2018/9/12 17:33:50
+            TotalTime:0.023984취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:35:02,333 
+ Tread ID:[86] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:35:02
+            EndTime:2018/9/12 17:35:02
+            TotalTime:0.0219938취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:37:28,203 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:37:28
+            EndTime:2018/9/12 17:37:28
+            TotalTime:0.0229855취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:37:53,320 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:37:53
+            EndTime:2018/9/12 17:37:53
+            TotalTime:0.0269844취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:38:39,001 
+ Tread ID:[87] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:38:38
+            EndTime:2018/9/12 17:38:39
+            TotalTime:0.0219863취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:38:47,932 
+ Tread ID:[86] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:38:47
+            EndTime:2018/9/12 17:38:47
+            TotalTime:0.0229855취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:39:16,778 
+ Tread ID:[86] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:39:16
+            EndTime:2018/9/12 17:39:16
+            TotalTime:0.0229841취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=92383dbe-af5a-40e3-9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:39:22,823 
+ Tread ID:[82] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:39:22
+            EndTime:2018/9/12 17:39:22
+            TotalTime:0.6312904취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=277ece77-941e-4e19-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:39:42,268 
+ Tread ID:[87] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:39:42
+            EndTime:2018/9/12 17:39:42
+            TotalTime:0.0220438취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=277ece77-941e-4e19-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:39:46,052 
+ Tread ID:[84] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:39:45
+            EndTime:2018/9/12 17:39:46
+            TotalTime:0.0599643취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=7ed9f9a9-3881-46d4-a
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:41:52,480 
+ Tread ID:[87] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:41:51
+            EndTime:2018/9/12 17:41:52
+            TotalTime:0.7002775취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=7ed9f9a9-3881-46d4-a
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:42:09,166 
+ Tread ID:[87] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:42:09
+            EndTime:2018/9/12 17:42:09
+            TotalTime:0.0459725취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=005aa72c-23bf-45fe-b
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:42:31,469 
+ Tread ID:[80] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:42:31
+            EndTime:2018/9/12 17:42:31
+            TotalTime:0.0606522취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=005aa72c-23bf-45fe-b
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:42:51,832 
+ Tread ID:[82] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:42:51
+            EndTime:2018/9/12 17:42:51
+            TotalTime:0.042972취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=005aa72c-23bf-45fe-b
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-12 17:42:57,071 
+ Tread ID:[87] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:AccticeAccount
+            StartTime:2018/9/12 17:42:57
+            EndTime:2018/9/12 17:42:57
+            TotalTime:0.0649777취
+            Action Params:account=PSMS_VM.ActiveAccountVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=vxjgvpgnrnxlq55ym35jz5ns; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/register/activeAccount.html?username=11&activecode=005aa72c-23bf-45fe-b
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 

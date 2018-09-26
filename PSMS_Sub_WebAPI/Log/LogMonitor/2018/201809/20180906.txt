@@ -1,0 +1,2466 @@
+
+ 
+ Recording Time：2018-09-06 13:50:44,170 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetProductInfomation
+            StartTime:2018/9/6 13:50:44
+            EndTime:2018/9/6 13:50:44
+            TotalTime:0.0449734취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:50:44,296 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:50:44
+            EndTime:2018/9/6 13:50:44
+            TotalTime:0.0319795취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:50:49,579 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:50:49
+            EndTime:2018/9/6 13:50:49
+            TotalTime:0.0259838취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:50:54,662 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:50:54
+            EndTime:2018/9/6 13:50:54
+            TotalTime:0.0281864취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:50:59,724 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:50:59
+            EndTime:2018/9/6 13:50:59
+            TotalTime:0.0260152취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:04,793 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:04
+            EndTime:2018/9/6 13:51:04
+            TotalTime:0.0269979취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:09,856 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:09
+            EndTime:2018/9/6 13:51:09
+            TotalTime:0.0270068취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:14,950 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:14
+            EndTime:2018/9/6 13:51:14
+            TotalTime:0.0399762취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:20,036 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:20
+            EndTime:2018/9/6 13:51:20
+            TotalTime:0.0280096취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:25,105 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:25
+            EndTime:2018/9/6 13:51:25
+            TotalTime:0.0289816취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:30,168 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:30
+            EndTime:2018/9/6 13:51:30
+            TotalTime:0.0274911취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:35,248 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:35
+            EndTime:2018/9/6 13:51:35
+            TotalTime:0.0271926취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:40,312 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:40
+            EndTime:2018/9/6 13:51:40
+            TotalTime:0.0269022취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:45,389 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:45
+            EndTime:2018/9/6 13:51:45
+            TotalTime:0.0283취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:50,651 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:50
+            EndTime:2018/9/6 13:51:50
+            TotalTime:0.0279937취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:51:55,729 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:51:55
+            EndTime:2018/9/6 13:51:55
+            TotalTime:0.0260231취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:00,801 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:00
+            EndTime:2018/9/6 13:52:00
+            TotalTime:0.0280486취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:05,863 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:05
+            EndTime:2018/9/6 13:52:05
+            TotalTime:0.0272951취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:10,926 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:10
+            EndTime:2018/9/6 13:52:10
+            TotalTime:0.0280149취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:15,988 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:15
+            EndTime:2018/9/6 13:52:15
+            TotalTime:0.0277053취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:21,075 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:21
+            EndTime:2018/9/6 13:52:21
+            TotalTime:0.0327035취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:26,148 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:26
+            EndTime:2018/9/6 13:52:26
+            TotalTime:0.0269837취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:31,215 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:31
+            EndTime:2018/9/6 13:52:31
+            TotalTime:0.0270465취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:36,282 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:36
+            EndTime:2018/9/6 13:52:36
+            TotalTime:0.026982취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:41,362 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:41
+            EndTime:2018/9/6 13:52:41
+            TotalTime:0.0280368취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:46,445 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:46
+            EndTime:2018/9/6 13:52:46
+            TotalTime:0.0269806취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:51,517 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:51
+            EndTime:2018/9/6 13:52:51
+            TotalTime:0.0272792취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:52:56,581 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:52:56
+            EndTime:2018/9/6 13:52:56
+            TotalTime:0.0270412취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:01,666 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:01
+            EndTime:2018/9/6 13:53:01
+            TotalTime:0.0300093취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:06,734 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:06
+            EndTime:2018/9/6 13:53:06
+            TotalTime:0.0259821취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:11,802 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:11
+            EndTime:2018/9/6 13:53:11
+            TotalTime:0.0289823취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:16,896 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:16
+            EndTime:2018/9/6 13:53:16
+            TotalTime:0.0410035취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:21,962 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:21
+            EndTime:2018/9/6 13:53:21
+            TotalTime:0.0274197취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:27,055 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:27
+            EndTime:2018/9/6 13:53:27
+            TotalTime:0.0408959취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:32,118 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:32
+            EndTime:2018/9/6 13:53:32
+            TotalTime:0.026984취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:37,236 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:37
+            EndTime:2018/9/6 13:53:37
+            TotalTime:0.0269833취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:42,321 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:42
+            EndTime:2018/9/6 13:53:42
+            TotalTime:0.0285019취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:47,417 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:47
+            EndTime:2018/9/6 13:53:47
+            TotalTime:0.0419782취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:52,478 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:52
+            EndTime:2018/9/6 13:53:52
+            TotalTime:0.0277249취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:53:57,551 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:53:57
+            EndTime:2018/9/6 13:53:57
+            TotalTime:0.0300129취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:02,621 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:02
+            EndTime:2018/9/6 13:54:02
+            TotalTime:0.0299603취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:07,688 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:07
+            EndTime:2018/9/6 13:54:07
+            TotalTime:0.0282721취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:12,754 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:12
+            EndTime:2018/9/6 13:54:12
+            TotalTime:0.0257507취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:17,994 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:17
+            EndTime:2018/9/6 13:54:17
+            TotalTime:0.0269833취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:23,073 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:23
+            EndTime:2018/9/6 13:54:23
+            TotalTime:0.0285933취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:28,140 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:28
+            EndTime:2018/9/6 13:54:28
+            TotalTime:0.028058취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:33,201 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:33
+            EndTime:2018/9/6 13:54:33
+            TotalTime:0.026158취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:38,292 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:38
+            EndTime:2018/9/6 13:54:38
+            TotalTime:0.0277034취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:43,373 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:43
+            EndTime:2018/9/6 13:54:43
+            TotalTime:0.028003취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:48,443 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:48
+            EndTime:2018/9/6 13:54:48
+            TotalTime:0.0271236취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:53,505 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:53
+            EndTime:2018/9/6 13:54:53
+            TotalTime:0.0255917취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:54:58,585 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:54:58
+            EndTime:2018/9/6 13:54:58
+            TotalTime:0.0259835취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:03,667 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:03
+            EndTime:2018/9/6 13:55:03
+            TotalTime:0.0289869취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:08,729 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:08
+            EndTime:2018/9/6 13:55:08
+            TotalTime:0.0269816취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:13,808 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:13
+            EndTime:2018/9/6 13:55:13
+            TotalTime:0.0269916취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:18,871 
+ Tread ID:[16] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:18
+            EndTime:2018/9/6 13:55:18
+            TotalTime:0.0259848취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:23,954 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:23
+            EndTime:2018/9/6 13:55:23
+            TotalTime:0.026043취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:29,019 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:28
+            EndTime:2018/9/6 13:55:29
+            TotalTime:0.028005취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:34,080 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:34
+            EndTime:2018/9/6 13:55:34
+            TotalTime:0.0271028취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:39,174 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:39
+            EndTime:2018/9/6 13:55:39
+            TotalTime:0.0429724취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:44,253 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:44
+            EndTime:2018/9/6 13:55:44
+            TotalTime:0.0296895취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:49,325 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:49
+            EndTime:2018/9/6 13:55:49
+            TotalTime:0.0289816취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:54,417 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:54
+            EndTime:2018/9/6 13:55:54
+            TotalTime:0.0415584취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:55:59,479 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:55:59
+            EndTime:2018/9/6 13:55:59
+            TotalTime:0.0269833취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:04,544 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:04
+            EndTime:2018/9/6 13:56:04
+            TotalTime:0.0259834취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:09,614 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:09
+            EndTime:2018/9/6 13:56:09
+            TotalTime:0.0299805취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:14,706 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:14
+            EndTime:2018/9/6 13:56:14
+            TotalTime:0.0279818취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:19,782 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:19
+            EndTime:2018/9/6 13:56:19
+            TotalTime:0.0260279취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:24,849 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:24
+            EndTime:2018/9/6 13:56:24
+            TotalTime:0.028982취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:29,929 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:29
+            EndTime:2018/9/6 13:56:29
+            TotalTime:0.0270032취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:35,009 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:34
+            EndTime:2018/9/6 13:56:35
+            TotalTime:0.0280212취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:40,088 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:40
+            EndTime:2018/9/6 13:56:40
+            TotalTime:0.0310001취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:45,161 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:45
+            EndTime:2018/9/6 13:56:45
+            TotalTime:0.0319778취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:50,234 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:56:50
+            EndTime:2018/9/6 13:56:50
+            TotalTime:0.0300295취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:53,883 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/9/6 13:56:53
+            EndTime:2018/9/6 13:56:53
+            TotalTime:0.8432885취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:56,103 
+ Tread ID:[21] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/9/6 13:56:56
+            EndTime:2018/9/6 13:56:56
+            TotalTime:0.0329952취
+            Action Params:orderref=1000000035
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000035
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:56:56,287 
+ Tread ID:[24] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/9/6 13:56:56
+            EndTime:2018/9/6 13:56:56
+            TotalTime:0.1404496취
+            Action Params:orderref=1000000035
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000035
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:48,319 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetProductInfomation
+            StartTime:2018/9/6 13:57:48
+            EndTime:2018/9/6 13:57:48
+            TotalTime:0.0299811취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:48,397 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:57:48
+            EndTime:2018/9/6 13:57:48
+            TotalTime:0.0279824취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:55,270 
+ Tread ID:[24] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetProductInfomation
+            StartTime:2018/9/6 13:57:55
+            EndTime:2018/9/6 13:57:55
+            TotalTime:0.0269869취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:55,334 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ProductInfoController
+            ActionName:pGetStatusPercentByUsername
+            StartTime:2018/9/6 13:57:55
+            EndTime:2018/9/6 13:57:55
+            TotalTime:0.026981취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptedPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:58,164 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/9/6 13:57:57
+            EndTime:2018/9/6 13:57:58
+            TotalTime:0.7971567취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:59,421 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/9/6 13:57:59
+            EndTime:2018/9/6 13:57:59
+            TotalTime:0.026981취
+            Action Params:orderref=1000000035
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000035
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 13:57:59,587 
+ Tread ID:[25] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/9/6 13:57:59
+            EndTime:2018/9/6 13:57:59
+            TotalTime:0.1289333취
+            Action Params:orderref=1000000035
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer UpDJMXhEbNa-aWIkHm0C0qI-VMgxisKqf_6vHS6uwt6hdKZ2kPhULw5sOikifBnONJc0ajAxyxONEr2EHMvt4TEdlgHsSEulLXXzaavTxcZXxeW1WypERjuQpl6nNfvFXovaVUB_NrR6MdgbduOE9BDFY8gDQuTkCDHB2l2VGADQ2pm5iamAEhf7FMWs1z6Mdxr7AKBqSaEpoxpKr42VKRCI4hBO1y5LEkES_F6plCk
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000035
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 15:12:53,754 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ExternalInterfaceController
+            ActionName:pUpdateOrderExpireDate
+            StartTime:2018/9/6 15:12:22
+            EndTime:2018/9/6 15:12:53
+            TotalTime:30.8866419취
+            Action Params:data=PSMS_VM.OrderExpireDateVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer b1mkllvPLIqXciPSIzUzIV5KmZO6nZ_p2QhrvzpXKGZtM3ehimL_Mk7K9OxM1AWLzltsL2_CLoUahzarLeYP10HWTbF4Ypx4uJWom4-D8STuC7m0qNN-_u8uqVwJ48t-Kpiwsr2wltgUWaoK-soirrZ0g4_NBT_PvbdtDQ9CuxFo_wGpQnkBgMY8qFEENhyyA3csCy5vzKB1ns-dBvOwtUL_hrT4vym0J8lnODD8hzRbtEltqeVaHuv0QMwVIAJm
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/index.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-06 15:58:05,875 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/9/6 15:58:05
+            EndTime:2018/9/6 15:58:05
+            TotalTime:0.0709548취
+            Action Params:domain_name=test4441
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer ZB-KTSOpDUZKsF4gV0zTPMf-45hSMc_LvO3IVxfViO5zDGijkpS-8a__X8K-iTVKzXNoN3EQmvv-uK7mMbeiicAylRoMS9wL9uKLXGhREWtvStDVtej0UMtAt7OIlYbTJ-LHlxYkjoNQLkGR9NclyB0td6ddjR4LTCV3ICdLQtzpG9397Z9tLHkIrVGZOyQw_SD-6zjRN0Fyo9Xnuk4uhY5cPSixLNLrLAa8B3pfd60
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 15:58:07,185 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/9/6 15:58:07
+            EndTime:2018/9/6 15:58:07
+            TotalTime:0.0299821취
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer ZB-KTSOpDUZKsF4gV0zTPMf-45hSMc_LvO3IVxfViO5zDGijkpS-8a__X8K-iTVKzXNoN3EQmvv-uK7mMbeiicAylRoMS9wL9uKLXGhREWtvStDVtej0UMtAt7OIlYbTJ-LHlxYkjoNQLkGR9NclyB0td6ddjR4LTCV3ICdLQtzpG9397Z9tLHkIrVGZOyQw_SD-6zjRN0Fyo9Xnuk4uhY5cPSixLNLrLAa8B3pfd60
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-06 15:58:07,313 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/9/6 15:58:07
+            EndTime:2018/9/6 15:58:07
+            TotalTime:0.0667387취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer ZB-KTSOpDUZKsF4gV0zTPMf-45hSMc_LvO3IVxfViO5zDGijkpS-8a__X8K-iTVKzXNoN3EQmvv-uK7mMbeiicAylRoMS9wL9uKLXGhREWtvStDVtej0UMtAt7OIlYbTJ-LHlxYkjoNQLkGR9NclyB0td6ddjR4LTCV3ICdLQtzpG9397Z9tLHkIrVGZOyQw_SD-6zjRN0Fyo9Xnuk4uhY5cPSixLNLrLAa8B3pfd60
+Cookie: ASP.NET_SessionId=5fqnw33krhnxp2a2umhcfo43
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 

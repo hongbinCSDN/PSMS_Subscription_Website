@@ -1,0 +1,228 @@
+
+ 
+ Recording Time：2018-08-23 14:42:34,850 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/23 14:42:34
+            EndTime:2018/8/23 14:42:34
+            TotalTime:0.0670039취
+            Action Params:domain_name=test112
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer yg156jCyJqqNnSUa5FHok6J8W5NQkyvmX3eLo61So8xlpNRzVzGtmq9NdDpjJWRyXSI5gCE2OsDtpr5IwhIMvWMdqa7GF6xD8GoKoa7uPfW1SKXds6H30vzzbgo3ZIQyOuUnS6xMS9kOlwHb8aSjnO4KGY6mKPs61J7zFWIfo9HJHF4m8FJZa5zS_4Ypx9MsUYWVjRjy4tT8LWqRNvqeWvYgBR733iOhYifbFjHGPjk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=0r3wb20lyinaitp3csznp5to
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-23 14:42:36,059 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/23 14:42:36
+            EndTime:2018/8/23 14:42:36
+            TotalTime:0.0290016취
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer yg156jCyJqqNnSUa5FHok6J8W5NQkyvmX3eLo61So8xlpNRzVzGtmq9NdDpjJWRyXSI5gCE2OsDtpr5IwhIMvWMdqa7GF6xD8GoKoa7uPfW1SKXds6H30vzzbgo3ZIQyOuUnS6xMS9kOlwHb8aSjnO4KGY6mKPs61J7zFWIfo9HJHF4m8FJZa5zS_4Ypx9MsUYWVjRjy4tT8LWqRNvqeWvYgBR733iOhYifbFjHGPjk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=0r3wb20lyinaitp3csznp5to
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-23 14:42:36,203 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/23 14:42:36
+            EndTime:2018/8/23 14:42:36
+            TotalTime:0.0570033취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer yg156jCyJqqNnSUa5FHok6J8W5NQkyvmX3eLo61So8xlpNRzVzGtmq9NdDpjJWRyXSI5gCE2OsDtpr5IwhIMvWMdqa7GF6xD8GoKoa7uPfW1SKXds6H30vzzbgo3ZIQyOuUnS6xMS9kOlwHb8aSjnO4KGY6mKPs61J7zFWIfo9HJHF4m8FJZa5zS_4Ypx9MsUYWVjRjy4tT8LWqRNvqeWvYgBR733iOhYifbFjHGPjk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=0r3wb20lyinaitp3csznp5to
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-23 14:43:08,921 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/23 14:43:08
+            EndTime:2018/8/23 14:43:08
+            TotalTime:0.0580033취
+            Action Params:domain_name=test232
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer yg156jCyJqqNnSUa5FHok6J8W5NQkyvmX3eLo61So8xlpNRzVzGtmq9NdDpjJWRyXSI5gCE2OsDtpr5IwhIMvWMdqa7GF6xD8GoKoa7uPfW1SKXds6H30vzzbgo3ZIQyOuUnS6xMS9kOlwHb8aSjnO4KGY6mKPs61J7zFWIfo9HJHF4m8FJZa5zS_4Ypx9MsUYWVjRjy4tT8LWqRNvqeWvYgBR733iOhYifbFjHGPjk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=0r3wb20lyinaitp3csznp5to
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-23 14:43:28,786 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/23 14:43:27
+            EndTime:2018/8/23 14:43:28
+            TotalTime:1.6100921취
+            Action Params:domain_name=ddf
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer yg156jCyJqqNnSUa5FHok6J8W5NQkyvmX3eLo61So8xlpNRzVzGtmq9NdDpjJWRyXSI5gCE2OsDtpr5IwhIMvWMdqa7GF6xD8GoKoa7uPfW1SKXds6H30vzzbgo3ZIQyOuUnS6xMS9kOlwHb8aSjnO4KGY6mKPs61J7zFWIfo9HJHF4m8FJZa5zS_4Ypx9MsUYWVjRjy4tT8LWqRNvqeWvYgBR733iOhYifbFjHGPjk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=0r3wb20lyinaitp3csznp5to
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-23 15:36:07,573 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ExternalInterfaceController
+            ActionName:pUpdateStatusCode
+            StartTime:2018/8/23 15:35:57
+            EndTime:2018/8/23 15:36:07
+            TotalTime:9.9975718취
+            Action Params:data=PSMS_VM.PaymentStatusCode
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer e4MtxVjrzG9kNIDk-wV1wcvUx_fLII6H8gsKtM0n0Wq88wmhCtN3Cr0EDcx7GaS4E_MRzCtty4Xf7f4CAC5iQXh6zMTTBkpZ_rDLDOdT26skeIdKRpu3Q_djzG007HjvKavM7rfTGmisLzRPAevrYqHBRpsU6Rs5r6nqNwzg4IwuuiNlwLJhSnFbPzATq0hs9Twv4vm2KIcnTCn7gjUhQCadAqamtsClUX1H6M-mPJ6DEROPNszBK4Q-1mI8mumo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=ac0p3t33evrjhpt3bekewdck
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/index.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-23 15:46:58,097 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ExternalInterfaceController
+            ActionName:pUpdateStatusCode
+            StartTime:2018/8/23 15:46:52
+            EndTime:2018/8/23 15:46:57
+            TotalTime:4.7762732취
+            Action Params:data=PSMS_VM.PaymentStatusCode
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer nFSOeFJC-T7D2uFtfzxI6eAg2JDmW_PyPaujUVmEgZXOn5VXdBbAfFvpPUmnZV9mC1Q-UUmI3TptANEJbEK1tffoDVo2zZfr3Y7MrFJL1qOy7AInhEJ3tD9ljVFWnK-tB0Vbis_vgEIqhK4wsyYI_167fEmxRpKO8LMXWL8aWLEbdWNtNTUeLR1eT3gUxYZ-sQPk36VDA3bik5FKWemM5Vu77xAXajfT-9JTRGmkvpnqudcfh3G4iPXgePsrBAg_
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=ju5rs5e5hrsvei0bpdr1hyvx
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/index.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-23 15:47:31,993 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ExternalInterfaceController
+            ActionName:pUpdateStatusCode
+            StartTime:2018/8/23 15:47:27
+            EndTime:2018/8/23 15:47:31
+            TotalTime:4.4792562취
+            Action Params:data=PSMS_VM.PaymentStatusCode
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer DH-XVpNRX-g1JEENC2DId7RAu_n2g1Bdg0kuJYxpBDEISYs48j0zx1H36iT8zJbKR-KwbtlYiFdd3i2lqXBFf7wWXbMiMm_ijmp5VpBYh84SQ2pGirtk41dsPq0U9wxVVuyMmd2YixxSyKck_FqBsJuZjTRJbRfw1-vCp0jgJeG_fxHpo5yl9MlnJjJc6yaJ-35DYKlsSVKZCihIUAalK5N0i8zBkW2T5NMFX8-Hyw0AoZvfSQ7jQ_UjCMgz9s3j
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=ju5rs5e5hrsvei0bpdr1hyvx
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/index.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 

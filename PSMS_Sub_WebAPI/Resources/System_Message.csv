@@ -1,0 +1,133 @@
+﻿Number,Identifying,Describe
+1028,1,您的賬號已激活成功！
+1028,2,你輸入的用戶名有誤！
+1028,3,用戶名和密碼不能為空！
+1028,4,註冊成功，您的郵箱將會收到一條激活鏈接，請點擊激活鏈接之後即可登錄網站！
+1028,5,用戶名已經存在！
+1028,6,驗證碼錯誤，請重新输入！
+1028,7,你確定要退出登錄嗎？
+1028,8,您的賬號未激活，請到您的郵箱里點擊激活鏈接！
+1028,9,用戶名不能為空！
+1028,10,密碼不能為空！
+1028,11,英文名不能為空！
+1028,12,郵箱不能為空！
+1028,13,公司名不能為空！
+1028,14,聯繫方式不能為空！
+1028,15,手機號碼應為8位數字！
+1028,16,郵箱的格式不正確！
+1028,17,兩次輸入的密碼不一致！
+1028,18,您的賬號激活鏈接已過期，我們已重新發送激活鏈接到您郵箱，請重新激活！
+1028,19,確認密碼不能為空！
+1028,20,用戶名中含有非法字符
+1028,21,您還未登錄，請重新登錄！
+1028,22,郵箱已被註冊，請更新其他郵箱！
+1028,23,固定電話不能超過15位！
+1028,24,修改個人信息成功！
+1028,25,修改個人信息失敗！
+1028,26,網站名稱已經存在！
+1028,27,網站名稱不能為
+1028,28,網站名稱不能為空！
+1028,29,您還未訂閱產品！
+1028,30,確定
+1028,31,取消
+1028,32,網站名稱不能含有非法字符
+1028,33,您的賬號已在另一個瀏覽器登錄！
+1028,34,您的網站還不能續費！
+1028,35,你輸入的密碼有誤！
+1028,36,舊密碼不能為空！
+1028,37,新密碼不能為空！
+1028,38,驗證碼不能為空！
+1028,39,舊密碼不能和新密碼相同！
+1028,40,舊密碼不正確！
+1028,41,修改密碼失敗！
+1028,42,您未獲取驗證碼或者驗證碼已過期，請重新獲取！
+1028,43,修改密碼成功！
+1028,44,驗證碼郵件已發送到您的郵箱！
+1030,1,你的账号已激活成功！
+1030,2,你输入的用户名有误！
+1030,3,用户名和密码不能为空！
+1030,4,注册成功，您的邮箱将会收到一条激活链接，请点击激活链接之后即可登录网站！
+1030,5,用户名已经存在！
+1030,6,验证码错误，请重新输入！
+1030,7,您确定要退出登录吗？
+1030,8,您的账号未激活，请到您的邮箱里点击激活链接！
+1030,9,用户名不能为空！
+1030,10,密码不能为空！
+1030,11,英文名不能为空！
+1030,12,邮箱不能为空！
+1030,13,公司名不能为空！
+1030,14,联系方式不能为空！
+1030,15,手机号码应为8位数字！
+1030,16,邮箱的格式不正确！
+1030,17,两次输入的密码不一致！
+1030,18,您的账号激活链接已过期，我们已重新发送激活链接到您的邮箱，请重新激活！
+1030,19,确认密码不能为空！
+1030,20,用户名中含有非法字符
+1030,21,您还未登录，请重新登录！
+1030,22,邮箱已被注册，请更换其他邮箱！
+1030,23,固定电话不能超过15位！
+1030,24,修改个人信息成功！
+1030,25,修改个人信息失败！
+1030,26,网站名称已经存在！
+1030,27,网站名称不能为
+1030,28,网站名称不能为空！
+1030,29,您还未订阅产品！
+1030,30,确定
+1030,31,取消
+1030,32,网站名称不能含有非法字符
+1030,33,您的账号已在另一个浏览器登录！
+1030,34,您的网站还不能续费！
+1030,35,你输入的密码有误！
+1030,36,旧密码不能为空！
+1030,37,新密码不能为空！
+1030,38,验证码不能为空！
+1030,39,旧密码不能和新密码相同！
+1030,40,旧密码不正确！
+1030,41,修改密码失败！
+1030,42,您未获取邮件验证码或验证码已过期，请重新获取！
+1030,43,修改密码成功！
+1030,44,验证码邮件已发送到您的邮箱！
+1033,1,Account is activated successfully!
+1033,2,The user name is incorrect!
+1033,3,Username or Password should not be empty!
+1033,4,Registered successfully. You will receive an activation link in your mailbox. Please click to restart the website after activation!
+1033,5,The username already exists!
+1033,6,Verification code error. please re-enter!
+1033,7,Are you sure you want to log out!
+1033,8,Your account is not activated. Please click the activation link in your mailbox!
+1033,9,Your username should not be empty!
+1033,10,Password should not be empty!
+1033,11,Your english name should not be empty!
+1033,12,Your email should not be empty!
+1033,13,Your company should not be empty!
+1033,14,Your phone should not be empty!
+1033,15,The Mobile No. should be 8 digits!
+1033,16,The format of the mailbox is not correct!
+1033,17,Please make sure the two passwords are the same!
+1033,18,The account activation link has expired. We have resent the activation link to your mailbox. Please reactivate!
+1033,19,Confirm password should not be empty!
+1033,20,The username contains illegal characters!
+1033,21,You have not logged in. Please login again!
+1033,22,The mailbox has been registered. Please change other mailboxes!
+1033,23,Fixed telephone no more than 15 landlines!
+1033,24,Modify personal information successful!
+1033,25,Modify personal information failed!
+1033,26,The website name already exists !
+1033,27,The website name can not be!
+1033,28,The website name can not be empty!
+1033,29,You have not subscribed to the product!
+1033,30,CONFIRM
+1033,31,CANCEL
+1033,32,The site name can not contain illegal characters
+1033,33,Your accout has been logged in at another browser
+1033,34,Your website is not renewable!
+1033,35,The password is incorrect!
+1033,36,Old password should not be empty!
+1033,37,New password should not be empty!
+1033,38,Verification code should not be empty!
+1033,39,The old password and the new password cannot be the same!
+1033,40,The old password is incorrect!
+1033,41,Modify password failed! 
+1033,42,You have not yet obtained the mail verification code or the verification code has expired\ please send it again！
+1033,43,Modify password successful!
+1033,44,The verification code has been sent to your mailbox!

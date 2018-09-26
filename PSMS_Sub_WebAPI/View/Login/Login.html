@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../../Content/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="../../Content/plugins/flexslider/flexslider.css">
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../../Content/css/styles.css">
+    <link href="../../Content/css/Footer.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+</head>
+
+<body class="login-page access-page has-full-screen-bg">
+    <div id="app">
+        <div class="upper-wrapper">
+            <!-- ******HEADER****** -->
+            <header class="header">
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="../index/index.html"><span class="logo-icon"></span><span class="text" v-if="Multilingual[8]"> {{Multilingual[8].Describe}}</span></a>
+                    </h1><!--//logo-->
+                    <!--<ul class="nav navbar-nav" style="position:relative;float:right;margin-top:-37px;">
+                    <li class="nav-item dropdown">
+                        <select v-model="Language_Value" style="background-color:black;" class="dropdown-toggle" v-on:change="ChangeLan()" id="MultilSelect">
+                            <option v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                        </select>
+
+                    </li>
+                </ul>-->
+                    <div class="navbar-collapse" style="position:absolute;right:0;top:-15px;">
+                        <ul class="nav navbar-nav" style="">
+                            <li class="nav-item">
+                                <div class="language_item">
+                                    <select v-model="Language_Value" class="form-control" v-on:change="ChangeLan()" id="MultilSelect">
+                                        <option style="background-color:#000000;color:#ffffff;" v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                                    </select>
+                                    <i class="fa fa-angle-down" style="position:absolute;top:3px;right:12px;font-size:16px;z-index:-1;"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- //Select Language -->
+                </div><!--//container-->
+            </header><!--//header-->
+            <!-- ******Login Section****** -->
+            <div id="WarningMessage"></div>
+            <section class="login-section access-section section">
+                <div class="container">
+                    <div class="row">
+                        <div class="form-box col-md-offset-2 col-sm-offset-0 xs-offset-0 col-xs-12 col-md-8">
+                            <div class="form-box-inner">
+                                <h2 class="title text-center" v-if="Multilingual[0]">{{Multilingual[0].Describe}}</h2>
+                                <div class="row">
+                                    <div class="form-container col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-10 col-md-10 col-lg-10">
+                                        <form class="login-form">
+                                            <div class="form-group user">
+                                                <label class="sr-only" for="login-email">Email or username</label>
+                                                <input id="CUSTOMER_ID" v-if="Multilingual[6]" type="email" class="form-control login-email" :placeholder="Multilingual[6].Describe" v-model="customer.CUSTOMER_ID">
+                                            </div><!--//form-group-->
+                                            <div class="form-group password">
+                                                <label class="sr-only" for="login-password">Password</label>
+                                                <input id="PASSWORD" v-if="Multilingual[7]" type="password" class="form-control login-password" :placeholder="Multilingual[7].Describe" v-model="customer.PASSWORD">
+                                                <p class="forgot-password"><a href="../Login/ResetPassword.html" v-if="Multilingual[1]">{{Multilingual[1].Describe}}</a></p>
+                                            </div><!--//form-group-->
+                                            <button type="button" class="btn btn-block btn-cta-primary" @click="Login()" v-if="Multilingual[2]">{{Multilingual[2].Describe}}</button>
+                                            <!--<div class="checkbox remember">
+                                            <label>
+                                                <input type="checkbox"> Remember me
+                                            </label>
+                                        </div>-->
+                                            <!--//checkbox-->
+                                            <p class="lead"><span v-if="Multilingual[3]">{{Multilingual[3].Describe}}</span> <br /><a class="signup-link" href="../Register/Register.html" v-if="Multilingual[4]">{{Multilingual[4].Describe}}</a><br /><a href="../index/index.html" v-if="Multilingual[5]">{{Multilingual[5].Describe}}</a></p>
+
+                                        </form>
+                                    </div><!--//form-container-->
+                                </div><!--//row-->
+                            </div><!--//form-box-inner-->
+                        </div><!--//form-box-->
+                    </div><!--//row-->
+                </div><!--//container-->
+            </section><!--//contact-section-->
+        </div><!--//upper-wrapper-->
+        <!-- ******FOOTER****** -->
+        <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            <div class="row" style="background:#ffffff">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 footerlogo">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12 ">
+                                <img src="../../Content/images/Footer/logo.png" />
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                                <p class="footertittle" v-if="Navigation[30]">{{Navigation[30].Describe}} </p>
+                            </div>
+
+                        </div>
+                        <!--<img src="../../Content/images/Footer/logo.png" />-->
+
+
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footcontent">
+                        <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
+                            <h2 v-if="Navigation[26]">{{Navigation[26].Describe}} </h2>
+                            <p v-if="Navigation[29]">
+                                {{Navigation[29].Describe}}
+                            </p>
+
+                            <p class="Contact_icon" v-if="Navigation[28]">
+                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
+
+                            </p>
+                            <p class="Contact_icon">
+
+                            </p>
+
+                        </div>
+                        <div class="col-lg-5 col-md-5  col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12" style="margin-top:20px">
+                            <p class="p3"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><span v-if="Navigation[24]">{{Navigation[24].Describe}} </span> </p>
+                            <p class="p3"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i><span v-if="Navigation[25]">{{Navigation[25].Describe}} </span></p>
+                            <p class="p3">
+                                <i style="width:30px;height:30px;">
+                                    <img style="width:30px;height:30px;" src="../../Content/images/Footer/CustomerService.png " />
+                                </i><span v-if="Navigation[23]">{{Navigation[23].Describe}} </span>
+                            </p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </footer>
+    </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
+
+    <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/FitVids/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="../../Content/plugins/flexslider/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/WarningMessage.js"></script>
+
+    <!--Cookie-->
+    <script type="text/javascript" src="../../Content/js/Share/jquery.cookie.js"></script>
+
+    <!--Vue.js-->
+    <script type="text/javascript" src="../../Content/js/Share/vue.min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/vue-resource.min.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/GetCommonAPI.js"></script>
+    <script type="text/javascript" src="../../Content/js/Share/Multilingual.js"></script>
+    <script type="text/javascript" src="../../Content/js/Login/Login.js"></script>
+</body>
+</html>
+
+

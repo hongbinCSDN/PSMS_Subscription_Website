@@ -1,0 +1,392 @@
+
+ 
+ Recording Time：2018-09-21 14:41:54,156 
+ Tread ID:[25] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 14:41:53
+            EndTime:2018/9/21 14:41:54
+            TotalTime:0.1758927취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 14:59:02,951 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 14:58:20
+            EndTime:2018/9/21 14:59:02
+            TotalTime:42.313266취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 14:59:03,453 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 14:59:03
+            EndTime:2018/9/21 14:59:03
+            TotalTime:0.0617411취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:00:26,735 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:00:06
+            EndTime:2018/9/21 15:00:26
+            TotalTime:20.3143122취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:00:36,908 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:00:34
+            EndTime:2018/9/21 15:00:36
+            TotalTime:1.9649555취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:02:02,848 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:00:45
+            EndTime:2018/9/21 15:02:02
+            TotalTime:77.6663267취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=dwn0p5h4qbesrnhowta4pqjq
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:06:37,507 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:06:31
+            EndTime:2018/9/21 15:06:37
+            TotalTime:5.5306913취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:07:02,539 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/9/21 15:07:01
+            EndTime:2018/9/21 15:07:02
+            TotalTime:0.8758431취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer OW1C387e699KbvAa1IBHr7uX70g_9SWtN9B26IDv8-62jCHmELrYgDcLJQU-AN6fbOUD21vrewi9Q09OEydOE33TWqJWIvluAsIyZUqVJPY_1HoD4qtUdaHoBybyRaLpdNVqJRADM60xdiaPFd7fkr2WBSgtBSbG2N1Ah8NZOH0lqbZPElA78Zrr4QtEVQgJTdZsL6KzBaH4nfVeb-26fG3dRwOiZkZRC40LPurlSTw
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:07:04,908 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/9/21 15:07:04
+            EndTime:2018/9/21 15:07:04
+            TotalTime:0.8279186취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer OW1C387e699KbvAa1IBHr7uX70g_9SWtN9B26IDv8-62jCHmELrYgDcLJQU-AN6fbOUD21vrewi9Q09OEydOE33TWqJWIvluAsIyZUqVJPY_1HoD4qtUdaHoBybyRaLpdNVqJRADM60xdiaPFd7fkr2WBSgtBSbG2N1Ah8NZOH0lqbZPElA78Zrr4QtEVQgJTdZsL6KzBaH4nfVeb-26fG3dRwOiZkZRC40LPurlSTw
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:07:06,065 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/9/21 15:07:05
+            EndTime:2018/9/21 15:07:06
+            TotalTime:0.8286542취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer OW1C387e699KbvAa1IBHr7uX70g_9SWtN9B26IDv8-62jCHmELrYgDcLJQU-AN6fbOUD21vrewi9Q09OEydOE33TWqJWIvluAsIyZUqVJPY_1HoD4qtUdaHoBybyRaLpdNVqJRADM60xdiaPFd7fkr2WBSgtBSbG2N1Ah8NZOH0lqbZPElA78Zrr4QtEVQgJTdZsL6KzBaH4nfVeb-26fG3dRwOiZkZRC40LPurlSTw
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:08:39,023 
+ Tread ID:[12] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:08:30
+            EndTime:2018/9/21 15:08:39
+            TotalTime:8.4698192취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:09:53,679 
+ Tread ID:[12] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:09:52
+            EndTime:2018/9/21 15:09:53
+            TotalTime:0.904927취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:10:45,747 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:10:44
+            EndTime:2018/9/21 15:10:45
+            TotalTime:0.7882636취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-21 15:13:01,808 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/9/21 15:12:53
+            EndTime:2018/9/21 15:13:01
+            TotalTime:8.433358취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: ASP.NET_SessionId=0rrjz54sktea4p3fwvaadhc3; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 

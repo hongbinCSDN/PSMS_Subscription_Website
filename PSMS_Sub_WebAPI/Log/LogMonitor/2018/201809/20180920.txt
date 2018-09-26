@@ -1,0 +1,596 @@
+
+ 
+ Recording Time：2018-09-20 10:21:02,632 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ModifyPasswordController
+            ActionName:pSendVerifyCodeEmail
+            StartTime:2018/9/20 10:21:01
+            EndTime:2018/9/20 10:21:02
+            TotalTime:0.6123793취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer KIg6c6sGi7SKtEb5pkVXj6fUrcim2poi4gsksaq4V35yirOO_ctCzptz9z5pA06ZATrgip_1E2c7EygOOx_xmqFVB7BRJszrdULTpPHQpNfAoTh4om5VEzV9EoVlp8ulg_TsMJGK8MhtB2HnOFcx10QEQ5McbnbhfZobsKA2AM7sgyTH35REOkZ8XDwh58QDKy017IVMFdnTxjQeX_y97KkqqbPpIRm6QG6bdVC5vgw
+Cookie: ASP.NET_SessionId=vawfsyeibt0nscxgkwg4pwzw
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyAccountPassword.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:21:28,126 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ModifyPasswordController
+            ActionName:pModifyPassword
+            StartTime:2018/9/20 10:21:28
+            EndTime:2018/9/20 10:21:28
+            TotalTime:0.0669302취
+            Action Params:passwordVM=PSMS_VM.ModifyPassword.ModifyPasswordVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer KIg6c6sGi7SKtEb5pkVXj6fUrcim2poi4gsksaq4V35yirOO_ctCzptz9z5pA06ZATrgip_1E2c7EygOOx_xmqFVB7BRJszrdULTpPHQpNfAoTh4om5VEzV9EoVlp8ulg_TsMJGK8MhtB2HnOFcx10QEQ5McbnbhfZobsKA2AM7sgyTH35REOkZ8XDwh58QDKy017IVMFdnTxjQeX_y97KkqqbPpIRm6QG6bdVC5vgw
+Cookie: ASP.NET_SessionId=vawfsyeibt0nscxgkwg4pwzw
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyAccountPassword.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:22:13,677 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ModifyPasswordController
+            ActionName:pSendVerifyCodeEmail
+            StartTime:2018/9/20 10:22:13
+            EndTime:2018/9/20 10:22:13
+            TotalTime:0.5546228취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer KIg6c6sGi7SKtEb5pkVXj6fUrcim2poi4gsksaq4V35yirOO_ctCzptz9z5pA06ZATrgip_1E2c7EygOOx_xmqFVB7BRJszrdULTpPHQpNfAoTh4om5VEzV9EoVlp8ulg_TsMJGK8MhtB2HnOFcx10QEQ5McbnbhfZobsKA2AM7sgyTH35REOkZ8XDwh58QDKy017IVMFdnTxjQeX_y97KkqqbPpIRm6QG6bdVC5vgw
+Cookie: ASP.NET_SessionId=vawfsyeibt0nscxgkwg4pwzw
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyAccountPassword.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:22:48,133 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:ModifyPasswordController
+            ActionName:pModifyPassword
+            StartTime:2018/9/20 10:22:48
+            EndTime:2018/9/20 10:22:48
+            TotalTime:0.05231취
+            Action Params:passwordVM=PSMS_VM.ModifyPassword.ModifyPasswordVM
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer KIg6c6sGi7SKtEb5pkVXj6fUrcim2poi4gsksaq4V35yirOO_ctCzptz9z5pA06ZATrgip_1E2c7EygOOx_xmqFVB7BRJszrdULTpPHQpNfAoTh4om5VEzV9EoVlp8ulg_TsMJGK8MhtB2HnOFcx10QEQ5McbnbhfZobsKA2AM7sgyTH35REOkZ8XDwh58QDKy017IVMFdnTxjQeX_y97KkqqbPpIRm6QG6bdVC5vgw
+Cookie: ASP.NET_SessionId=vawfsyeibt0nscxgkwg4pwzw
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyAccountPassword.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:41:43,383 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 10:41:43
+            EndTime:2018/9/20 10:41:43
+            TotalTime:0.0489705취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer vtC84pQ0SmCkhw1IimSMYJlp5UQGXE9rXoJojR4XmxVMe68hKSfvQMMt7BI2eAnDNvj1bcHlQO3HP3ZQhbq6SUhV_hvZ9vTFtAXKLJYTHG2o8galonq8kaXQP22ytRFmqcxvIgcvgzQNT4vXOGocblXhYaN4Wgr618Ej7vozZVw1n7gtzjP1dPy1_zomWdPDvkPektx0jZz734SpR5Pk1Q8axvnAaFdHIEMDAY3_2bc
+Cookie: ASP.NET_SessionId=ewvb0z2iwm2vbrucufzcl24k; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:41:53,004 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 10:41:52
+            EndTime:2018/9/20 10:41:53
+            TotalTime:0.0269847취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer vtC84pQ0SmCkhw1IimSMYJlp5UQGXE9rXoJojR4XmxVMe68hKSfvQMMt7BI2eAnDNvj1bcHlQO3HP3ZQhbq6SUhV_hvZ9vTFtAXKLJYTHG2o8galonq8kaXQP22ytRFmqcxvIgcvgzQNT4vXOGocblXhYaN4Wgr618Ej7vozZVw1n7gtzjP1dPy1_zomWdPDvkPektx0jZz734SpR5Pk1Q8axvnAaFdHIEMDAY3_2bc
+Cookie: ASP.NET_SessionId=ewvb0z2iwm2vbrucufzcl24k; Multilingual_Id=2
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:48:43,747 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 10:48:43
+            EndTime:2018/9/20 10:48:43
+            TotalTime:0.038064취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer dyO8ONMtw_bLsOL1_SaaDa7_CDULESBvKXucLa5IBYGzsOq8uEVBBhFqJMzMLhqLiIWfT9FuDBJQWTK3kU3toS-qF878BiF3vXxVHXLFuK8mFS-V8nkiJ_FiEudAEwREoX9Khc5_Ov_tet1m9et17jf-9UNC-dMOSXeiBFj8vt5nVPGrMF2XWIFHuBv-DBe6jWZL51xrz4qG5d94gA2mmuL5qRUDptQMlQhAsps9MGs
+Cookie: ASP.NET_SessionId=rsrygerpc3a2euflqlsfhfxp
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:53:51,428 
+ Tread ID:[24] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 10:53:51
+            EndTime:2018/9/20 10:53:51
+            TotalTime:0.0609596취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer dyO8ONMtw_bLsOL1_SaaDa7_CDULESBvKXucLa5IBYGzsOq8uEVBBhFqJMzMLhqLiIWfT9FuDBJQWTK3kU3toS-qF878BiF3vXxVHXLFuK8mFS-V8nkiJ_FiEudAEwREoX9Khc5_Ov_tet1m9et17jf-9UNC-dMOSXeiBFj8vt5nVPGrMF2XWIFHuBv-DBe6jWZL51xrz4qG5d94gA2mmuL5qRUDptQMlQhAsps9MGs
+Cookie: ASP.NET_SessionId=rsrygerpc3a2euflqlsfhfxp
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 10:53:51,516 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 10:53:51
+            EndTime:2018/9/20 10:53:51
+            TotalTime:0.0260084취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer dyO8ONMtw_bLsOL1_SaaDa7_CDULESBvKXucLa5IBYGzsOq8uEVBBhFqJMzMLhqLiIWfT9FuDBJQWTK3kU3toS-qF878BiF3vXxVHXLFuK8mFS-V8nkiJ_FiEudAEwREoX9Khc5_Ov_tet1m9et17jf-9UNC-dMOSXeiBFj8vt5nVPGrMF2XWIFHuBv-DBe6jWZL51xrz4qG5d94gA2mmuL5qRUDptQMlQhAsps9MGs
+Cookie: ASP.NET_SessionId=rsrygerpc3a2euflqlsfhfxp
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:37,958 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:37
+            EndTime:2018/9/20 14:32:37
+            TotalTime:0.041002취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:43,755 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:43
+            EndTime:2018/9/20 14:32:43
+            TotalTime:0.0970296취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:43,824 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:43
+            EndTime:2018/9/20 14:32:43
+            TotalTime:0.0299829취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:53,916 
+ Tread ID:[16] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:53
+            EndTime:2018/9/20 14:32:53
+            TotalTime:0.0299855취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:59,220 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:59
+            EndTime:2018/9/20 14:32:59
+            TotalTime:0.0890018취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:32:59,298 
+ Tread ID:[16] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:32:59
+            EndTime:2018/9/20 14:32:59
+            TotalTime:0.0289827취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:07,088 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:06
+            EndTime:2018/9/20 14:33:07
+            TotalTime:0.0919444취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:07,159 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:07
+            EndTime:2018/9/20 14:33:07
+            TotalTime:0.0299809취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:13,859 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:13
+            EndTime:2018/9/20 14:33:13
+            TotalTime:0.0898715취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:13,929 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:13
+            EndTime:2018/9/20 14:33:13
+            TotalTime:0.02923취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:16,443 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pUpdateCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:16
+            EndTime:2018/9/20 14:33:16
+            TotalTime:0.0572069취
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-09-20 14:33:16,533 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/9/20 14:33:16
+            EndTime:2018/9/20 14:33:16
+            TotalTime:0.0509725취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 8I0ns_r55U9HijFPNuoB6F3y8zbjmQ1CBUiPfukK5-eBTerzYpC4kui-n2En7UaXGwa3spFgvR-CGWdKIGweVWcWt8yuW0IHYhl10MzjbDD7W5zfIxB5E5sf9jT6OeekAu8VLOxo9YjCa8gSBDvo5w7DeAK69EcN92l4ky8z6srKPWurbPZ7dF_p847zAnfLKtzBMwRz49cTTx9OV4hOSFXaLCNZS71OCgTXwAbl8n4
+Cookie: ASP.NET_SessionId=mdjhc2ikcggwpplvxasv55am
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 

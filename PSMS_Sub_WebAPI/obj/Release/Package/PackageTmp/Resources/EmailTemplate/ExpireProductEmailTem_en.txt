@@ -1,0 +1,75 @@
+﻿    <table>
+		<tr>
+			<td background="{0}" bgcolor="#d4d0c1" width="1400" height="760" valign="middle">
+  <!--[if gte mso 9]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:1400px;height:760px;">
+    <v:fill type="tile" src="{0}" color="#d4d0c1" />
+    <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+
+
+	<table width="100%" height="100%" style="font-family:'Microsoft YaHei','Arial','黑体','宋体',sans-serif Arial, sans-serif;">
+        <tr>
+            <td width="210"></td>
+            <td width="980">
+                <table width="980" style="background-color:#ffffff;border-radius:4px;padding:23px 28px 10px;opacity:0.9;">
+                    <tr>
+                        <td>
+                            <span style="color: #ff6a00;font-size: 20px;font-weight: bold;font-family: 'Roboto Slab', arial, sans-serif;">
+                                {1}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>{2} {12}, </strong></td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                                {3}
+                                {4}<span style="color:#ff0000;">{13}</span>{5} {14}{6}{15}{7}{16}
+                                
+
+                            <p>
+                            {18}
+                            </p>
+                            <p style="text-align:center">
+                            <a href="{19}">{19}</a>
+                            </p>
+                            <p>
+                            {17}
+                            </p>
+                            <p>
+														{8}
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        		{20}<br />
+                            {9}<br />
+                            {10}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>
+                                {11}
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="210"></td>
+        </tr>
+
+    </table>
+			  </div>
+  <!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]-->
+</td>
+	</tr>
+</table>

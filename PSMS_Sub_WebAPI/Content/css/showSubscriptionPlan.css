@@ -1,0 +1,234 @@
+﻿.upper-wrapper .psms-summary {
+    margin-bottom: 30px;
+    background: #e5e5e5; /*#f8f9fb*/
+}
+
+.upper-wrapper .psms-summary .row .website-title-posit {
+    padding-top: 10%;
+}
+
+.upper-wrapper .psms-summary .row .website-title {
+    height: 32px;
+    line-height: 32px;
+}
+
+.website-title .website-icon {
+    width: 32px;
+    height: 32px;
+    background: url(../../Content/images/show_subscription_plan/PSMS_ICON.jpg);
+    display: inline-block;
+}
+
+.website-title span:last-child {
+    vertical-align: bottom;
+    font-size: 23px;
+}
+
+.upper-wrapper .psms-summary .row ul {
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    overflow: hidden;
+    list-style: none;
+}
+
+    .upper-wrapper .psms-summary .row ul li {
+        margin-bottom: 15px;
+        margin-left: 20px;
+        float: left;
+    }
+
+.upper-wrapper .psms-summary .row .computer-icon {
+    width: 48px;
+    height: 46px;
+    margin-left: 44%;
+    margin-bottom: 7px;
+    background: url('../images/show_subscription_plan/Compute.png') 0 0 no-repeat;
+}
+
+.upper-wrapper .psms-summary .row .refresh_icon {
+    position: absolute;
+    left: 49%;
+    bottom: 8px;
+    font-size: x-large;
+}
+
+.upper-wrapper .subscription-info table {
+    table-layout: fixed;
+    font-size: 15px;
+}
+
+    .upper-wrapper .subscription-info table td {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        border-left: none;
+        border-right: none;
+    }
+/* Style:#ec6952 */
+.upper-wrapper table thead tr {
+    background-color: #59b8bc; /*modify by haskin */
+    color: #ffffff;
+    font-size: x-large;
+    border: 1px solid #59b8bc;
+}
+
+.upper-wrapper table > tbody > tr > td:first-child {
+    color: #808080;
+}
+
+#table-features {
+    margin: 0;
+}
+
+    #table-features td {
+        border: none
+    }
+
+.upper-wrapper .access-section.signup-section .intro {
+    margin-bottom: 40px;
+}
+/* Breath Light */
+.breathe-btn {
+    position: relative;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    margin-top: 3px;
+    line-height: 40px;
+    float: left;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 1200ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+.noStatusContent {
+    opacity:0.4;
+}
+.noStatus {
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0 1px 2px rgba(0,0,0,.3);
+    background-image: linear-gradient(to bottom,#000000,#000000);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+}
+
+.statusStarting {
+    color: #5f96ee;
+    border: 1px solid #5f96ee;
+    box-shadow: 0 1px 2px rgba(255,0,0,.3);
+    background-image: linear-gradient(to bottom,#5f96ee,#5f96ee);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5f96ee), to(#5f96ee));
+    animation-name: breatheStarting;
+    -webkit-animation-name: breatheStarting;
+}
+
+.statusFailed {
+    color: #f00;
+    border: 1px solid #ff0000;
+    box-shadow: 0 1px 2px rgba(255,0,0,.3);
+    background-image: linear-gradient(to bottom,#ff0000,#ff0000);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ff0000), to(#ff0000));
+    animation-name: breatheFailed;
+    -webkit-animation-name: breatheFailed;
+}
+
+.statusSuccess {
+    color: #f00;
+    border: 1px solid rgb(76, 255, 0);
+    box-shadow: 0 1px 2px rgb(76, 255, 0);
+    background-image: linear-gradient(to bottom,rgb(76, 255, 0),rgb(76, 255, 0));
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(76, 255, 0)), to(rgb(76, 255, 0)));
+    animation-name: breatheSuccess;
+    -webkit-animation-name: breatheSuccess;
+}
+
+@-webkit-keyframes breatheStarting {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px #5f96ee;
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid #5f96ee;
+        box-shadow: 0 1px 30px #5f96ee;
+    }
+}
+
+@-webkit-keyframes breatheFailed {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px rgba(255,0,0,0.1);
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid rgba(255,0,0,1);
+        box-shadow: 0 1px 30px rgba(255,0,0,1);
+    }
+}
+
+@-webkit-keyframes breatheSuccess {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px rgba(76, 255, 0,0.1);
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid rgba(76, 255, 0,1);
+        box-shadow: 0 1px 30px rgba(76, 255, 0,1);
+    }
+}
+
+@keyframes breatheStarting {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px #5f96ee;
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid #5f96ee;
+        box-shadow: 0 1px 30px #5f96ee;
+    }
+}
+
+@keyframes breatheFailed {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px rgba(255,0,0,0.1);
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid rgba(255,0,0,1);
+        box-shadow: 0 1px 30px rgba(255,0,0,1);
+    }
+}
+
+@keyframes breatheSuccess {
+    0% {
+        opacity: .5;
+        box-shadow: 0 1px 2px rgba(76, 255, 0,0.1);
+    }
+
+    100% {
+        opacity: 1;
+        border: 1px solid rgba(76, 255, 0,1);
+        box-shadow: 0 1px 30px rgba(76, 255, 0,1);
+    }
+}
+/*Breath Light End*/

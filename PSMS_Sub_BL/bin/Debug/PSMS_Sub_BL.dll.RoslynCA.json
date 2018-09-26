@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft(R) Visual C# 编译器",
+        "version": "2.8.0.0",
+        "fileVersion": "2.8.3.62923 (7aafab56)",
+        "semanticVersion": "2.8.0",
+        "language": "zh-CN"
+      },
+      "results": [
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/CUSTOMER_BL.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 13,
+                  "endLine": 81,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/PRODUCTINFO_BL.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 9,
+                  "endLine": 31,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'CUSTOMER_BL' to match camel case naming rules, consider using 'CustomerBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/CUSTOMER_BL.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 18,
+                  "endLine": 14,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'LANGUAGE_BL' to match camel case naming rules, consider using 'LanguageBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/LANGUAGE_BL.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PASSWORD_BL' to match camel case naming rules, consider using 'PasswordBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/PASSWORD_BL.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PAYMENT_BL' to match camel case naming rules, consider using 'PaymentBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/PAYMENT_BL.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'TOKEN_BL' to match camel case naming rules, consider using 'TokenBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/TOKEN_BL.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PRODUCTINFO_BL' to match camel case naming rules, consider using 'ProductinfoBl'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/PRODUCTINFO_BL.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_BL/CUSTOMER_BL.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 66,
+                  "endLine": 68,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in camel case",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be \"commented out\"",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

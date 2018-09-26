@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft(R) Visual C# 编译器",
+        "version": "2.8.0.0",
+        "fileVersion": "2.8.3.62923 (7aafab56)",
+        "semanticVersion": "2.8.0",
+        "language": "zh-CN"
+      },
+      "results": [
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PRODUCTINFO' to match camel case naming rules, consider using 'Productinfo'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_DM/PRODUCTINFO.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PAYMENTRECORD' to match camel case naming rules, consider using 'Paymentrecord'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_DM/PAYMENTRECORD.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'PAYMENT' to match camel case naming rules, consider using 'Payment'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_DM/PAYMENT.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'CUSTOMER' to match camel case naming rules, consider using 'Customer'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/PSMS/ASL_PSMS_CLOUD/PSMS_Sub_WebAPI/PSMS_Sub_DM/CUSTOMER.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in camel case",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are camel cased. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

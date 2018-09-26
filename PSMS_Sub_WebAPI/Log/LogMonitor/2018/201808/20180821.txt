@@ -1,0 +1,197 @@
+
+ 
+记录时间：2018-08-21 11:18:14,038 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/8/21 11:18:11
+            EndTime:2018/8/21 11:18:13
+            TotalTime:2.2081263秒
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer MCiex-bksyu_C_qV4bI9odb3L8WqgHIOw7K0jFDGNZ3BXJzOp1-1M7DeFqJnUiloFL1vyMPkAluu0dHP56nnxBCh674BSkrqgf9mKB5sPSOeHZb2nKeGTAlLKw37hVogy6z0l-3FRPrMAi0yJ6m_FlakGIMuJtDhhUeBhkKNDbHItvHOy_2refWm7_K2yMdfkEoT1eJBWeOiBSl_x7q14jOYfCOJ5L_7ZgxzttMgouk
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=ksvnu3ioniatcja1jbycpkii
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+记录时间：2018-08-21 11:22:55,354 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/8/21 11:22:36
+            EndTime:2018/8/21 11:22:44
+            TotalTime:7.4414256秒
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=d4dn0nzeicod4szps4w1y1dc
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+记录时间：2018-08-21 11:39:55,628 
+线程ID:[44] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:CustomerController
+            ActionName:pGetCustomerPersonalInfo
+            StartTime:2018/8/21 11:39:55
+            EndTime:2018/8/21 11:39:55
+            TotalTime:0.0260015秒
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer pdhwFg0bPS5tFHm5QofUyl4f2FJA5EY1tbpp4l1ny5RU9a7nKhFXhn70MkNBCUw6hutHvbwGkG2-TRkbq4XAXpdCXFSCNXpHyipXhw8D5h696kyvrMWO_KxHvJvAM276HmWIrReZkjYcpZIPo8B6jUqR3CsaLG2b8LeQoqlAoRy8hL9fSWu6qxP-5SFBNpyIKWTD7pbdino5b7b0kAHyK4srM0Ap5qD8Kf1CrQ-vo_4
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=d4dn0nzeicod4szps4w1y1dc
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ModifyPersonalInfo.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+记录时间：2018-08-21 11:43:48,664 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:RegisterController
+            ActionName:pRegisterAsync
+            StartTime:2018/8/21 11:43:47
+            EndTime:2018/8/21 11:43:48
+            TotalTime:0.9420539秒
+            Action Params:customer=PSMS_Sub_DM.CUSTOMER
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=bamyiti4earmplfo3j3bv5e5
+Host: localhost:27018
+Referer: http://localhost:27018/View/Register/Register.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 
+
+ 
+记录时间：2018-08-21 11:44:48,834 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/21 11:44:48
+            EndTime:2018/8/21 11:44:48
+            TotalTime:0.053003秒
+            Action Params:domain_name=teertt02
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lcvTGyQQJ75hObHlCEIIt4LlPV3S_zUTz5DX4SMPNfDsGKQXdvzN_-Y91f-qdOZtk8BjJs1vLBEaGW9u2oUK-MDfZDvVeEH9r4VKnObuZD0j20KMwBeCYkcK9h1g1ZzHc0nF6XxF0aSDXjOsqFNdVcQWfLO7IXZAf9yFxL-5NttA-XhomZal0WlLqZf8RVjBZNOkmIYVbcMBl-OvaLRXae-Q9MjhdgLkLZP-Qjw2GwE
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=bamyiti4earmplfo3j3bv5e5
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+记录时间：2018-08-21 11:44:50,397 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/21 11:44:50
+            EndTime:2018/8/21 11:44:50
+            TotalTime:0.0280016秒
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lcvTGyQQJ75hObHlCEIIt4LlPV3S_zUTz5DX4SMPNfDsGKQXdvzN_-Y91f-qdOZtk8BjJs1vLBEaGW9u2oUK-MDfZDvVeEH9r4VKnObuZD0j20KMwBeCYkcK9h1g1ZzHc0nF6XxF0aSDXjOsqFNdVcQWfLO7IXZAf9yFxL-5NttA-XhomZal0WlLqZf8RVjBZNOkmIYVbcMBl-OvaLRXae-Q9MjhdgLkLZP-Qjw2GwE
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=bamyiti4earmplfo3j3bv5e5
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:GET
+            
+ 
+
+ 
+记录时间：2018-08-21 11:44:50,516 
+线程ID:[13] 
+日志级别：  INFO  
+跟踪描述：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/21 11:44:50
+            EndTime:2018/8/21 11:44:50
+            TotalTime:0.0910052秒
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lcvTGyQQJ75hObHlCEIIt4LlPV3S_zUTz5DX4SMPNfDsGKQXdvzN_-Y91f-qdOZtk8BjJs1vLBEaGW9u2oUK-MDfZDvVeEH9r4VKnObuZD0j20KMwBeCYkcK9h1g1ZzHc0nF6XxF0aSDXjOsqFNdVcQWfLO7IXZAf9yFxL-5NttA-XhomZal0WlLqZf8RVjBZNOkmIYVbcMBl-OvaLRXae-Q9MjhdgLkLZP-Qjw2GwE
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=bamyiti4earmplfo3j3bv5e5
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:::1,
+            HttpMethod:POST
+            
+ 

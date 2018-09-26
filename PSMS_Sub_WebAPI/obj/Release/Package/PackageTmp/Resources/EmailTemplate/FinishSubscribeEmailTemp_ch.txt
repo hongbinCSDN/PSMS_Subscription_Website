@@ -1,0 +1,111 @@
+﻿    <table>
+		<tr>
+			<td background="{0}" bgcolor="#d4d0c1" width="1400" height="760" valign="middle">
+  <!--[if gte mso 9]>
+  <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:1400px;height:1400px;">
+    <v:fill type="tile" src="{0}" color="#d4d0c1" />
+    <v:textbox inset="0,0,0,0">
+  <![endif]-->
+  <div>
+
+
+	<table width="100%" height="100%" style="font-family:'Microsoft YaHei','Arial','黑体','宋体',sans-serif Arial, sans-serif;">
+        <tr>
+            <td width="350"></td>
+            <td width="700">
+            	<table width="700" style="position:absolute;background-color:#e8e8e8;border-radius:4px;top:28px;left:26%;padding:28px;opacity:0.95;">
+            <tr>
+                <td>
+                    <span style="color: #ff6a00;font-size: 20px;font-weight: bold;font-family: 'Roboto Slab', arial, sans-serif;">
+                        {1}
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>{2} {14}：</strong></td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-indent:2em;margin:12px 0 12px 0;">
+                        {3}
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 style="text-align:center;margin:5px 0 5px 0;">
+                        {4}
+                    </h2>
+                </td>
+            </tr>
+
+            <tr>
+            		
+                <td>
+                    <table width="700" style="text-align:center;">
+												<tr>
+                            <td>{21}</td>
+                            <td>{22}</td>
+                        </tr>
+                        <tr>
+                            <td>{5}</td>
+                            <td>{15}</td>
+                        </tr>
+                        <tr>
+                            <td>{6} </td>
+                            <td>
+                                {16}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>{7} </td>
+                            <td><p style="margin:8px 0;">{17}</p></td>
+                        </tr>
+                        <tr>
+                            <td>{8} </td>
+                            <td><p style="margin:8px 0;">{18}</p></td>
+                        </tr>
+                        <tr>
+                            <td>{9} </td>
+                            <td><p style="margin:8px 0;">{19}</p></td>
+                        </tr>
+                        <tr>
+                            <td>{10} </td>
+                            <td><p style="margin:8px 0;">{20}</p></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+										<p>
+                			{23}
+                		</p>
+                    <p>
+                    {24} <br />
+                    {12} <br />
+                    {13}
+                    </p>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            		<p>{11}</p>
+            	</td>
+            </tr>
+            
+        			</table>
+            </td>
+            <td width="350"></td>
+        </tr>
+
+    </table>
+    
+		  </div>
+  <!--[if gte mso 9]>
+    </v:textbox>
+  </v:rect>
+  <![endif]-->
+</td>
+	</tr>
+</table>

@@ -1,0 +1,12 @@
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\bin\Release\PSMS_VM.dll
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\bin\Release\PSMS_VM.pdb
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.csprojAssemblyReference.cache
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.csproj.CoreCompileInputs.cache
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.dll
+D:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.pdb
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\bin\Release\PSMS_VM.dll
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\bin\Release\PSMS_VM.pdb
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.csprojAssemblyReference.cache
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.csproj.CoreCompileInputs.cache
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.dll
+E:\PSMS\ASL_PSMS_CLOUD\PSMS_Sub_WebAPI\PSMS_VM\obj\Release\PSMS_VM.pdb

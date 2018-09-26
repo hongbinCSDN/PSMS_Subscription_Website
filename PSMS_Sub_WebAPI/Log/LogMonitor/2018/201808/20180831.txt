@@ -1,0 +1,3792 @@
+
+ 
+ Recording Time：2018-08-31 09:46:55,308 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 9:46:54
+            EndTime:2018/8/31 9:46:55
+            TotalTime:0.315018취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:47:00,226 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:47:00
+            EndTime:2018/8/31 9:47:00
+            TotalTime:0.0320018취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:47:00,386 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:47:00
+            EndTime:2018/8/31 9:47:00
+            TotalTime:0.1150065취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:48:00,256 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:48:00
+            EndTime:2018/8/31 9:48:00
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:49:00,268 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:49:00
+            EndTime:2018/8/31 9:49:00
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:50:00,268 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:50:00
+            EndTime:2018/8/31 9:50:00
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:50:53,657 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:50:53
+            EndTime:2018/8/31 9:50:53
+            TotalTime:0.0260014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:50:53,791 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:50:53
+            EndTime:2018/8/31 9:50:53
+            TotalTime:0.0990057취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:51:58,294 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:51:58
+            EndTime:2018/8/31 9:51:58
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:52:37,138 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:52:37
+            EndTime:2018/8/31 9:52:37
+            TotalTime:0.0250014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:52:37,375 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:52:37
+            EndTime:2018/8/31 9:52:37
+            TotalTime:0.1080062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:52:47,374 
+ Tread ID:[21] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:52:47
+            EndTime:2018/8/31 9:52:47
+            TotalTime:0.0250015취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:52:47,503 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:52:47
+            EndTime:2018/8/31 9:52:47
+            TotalTime:0.0950054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:53:15,218 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:53:15
+            EndTime:2018/8/31 9:53:15
+            TotalTime:0.0250015취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:53:15,345 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:53:15
+            EndTime:2018/8/31 9:53:15
+            TotalTime:0.0860049취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:53:28,084 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 9:53:28
+            EndTime:2018/8/31 9:53:28
+            TotalTime:0.0250015취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:53:28,226 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:53:28
+            EndTime:2018/8/31 9:53:28
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:54:29,247 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 9:54:29
+            EndTime:2018/8/31 9:54:29
+            TotalTime:0.0980056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:54:41,381 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/31 9:54:41
+            EndTime:2018/8/31 9:54:41
+            TotalTime:0.0540031취
+            Action Params:domain_name=testerrr
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 09:54:44,472 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/31 9:54:44
+            EndTime:2018/8/31 9:54:44
+            TotalTime:0.0470027취
+            Action Params:domain_name=testerrr
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer me7uZyydgnXXRAF-KNXcYQH_Y9OBZabS1UyVcgSQDDKpDZsE2Uf13q3bSGe_zuilCICCPnPNKHoSxjGSIs_GJxQOgfkNZtlmeHxqXnEOw59pqCO-QazlxaijdNQPc7ynb4gDikMHThFkiZzLOLo8_8dCQfTC2LsOiEGBrrY_KCoYc0AZA4GQ7iFDrNEDw9RNw9ZeW95DsqzpYipwQGgM9WX06d0_UYp4m3HMGAwZdKY
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=kbhavtfacwymmk4bvk4mkgy4
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:56:13,698 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 10:56:13
+            EndTime:2018/8/31 10:56:13
+            TotalTime:0.3360193취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:56:18,628 
+ Tread ID:[10] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 10:56:18
+            EndTime:2018/8/31 10:56:18
+            TotalTime:0.0320018취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:56:18,778 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:56:18
+            EndTime:2018/8/31 10:56:18
+            TotalTime:0.1020058취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:57:18,697 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:57:18
+            EndTime:2018/8/31 10:57:18
+            TotalTime:0.1100063취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:57:32,869 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 10:57:32
+            EndTime:2018/8/31 10:57:32
+            TotalTime:0.2740157취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:57:38,194 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 10:57:37
+            EndTime:2018/8/31 10:57:38
+            TotalTime:0.279016취
+            Action Params:
+            Http Request Headers:Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:57:40,450 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 10:57:40
+            EndTime:2018/8/31 10:57:40
+            TotalTime:0.0240013취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:57:40,614 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:57:40
+            EndTime:2018/8/31 10:57:40
+            TotalTime:0.1210069취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:58:40,539 
+ Tread ID:[23] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:58:40
+            EndTime:2018/8/31 10:58:40
+            TotalTime:0.1120064취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:58:58,168 
+ Tread ID:[16] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 10:58:58
+            EndTime:2018/8/31 10:58:58
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:58:58,307 
+ Tread ID:[22] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:58:58
+            EndTime:2018/8/31 10:58:58
+            TotalTime:0.1020058취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 10:59:58,181 
+ Tread ID:[24] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 10:59:58
+            EndTime:2018/8/31 10:59:58
+            TotalTime:0.1170067취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:00:58,176 
+ Tread ID:[25] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:00:58
+            EndTime:2018/8/31 11:00:58
+            TotalTime:0.1250071취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:01:24,276 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:01:24
+            EndTime:2018/8/31 11:01:24
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:01:24,421 
+ Tread ID:[30] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:01:24
+            EndTime:2018/8/31 11:01:24
+            TotalTime:0.0970055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:02:12,878 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:02:12
+            EndTime:2018/8/31 11:02:12
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Cache-Control: no-cache
+Connection: keep-alive
+Pragma: no-cache
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:02:13,015 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:02:12
+            EndTime:2018/8/31 11:02:13
+            TotalTime:0.0980056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:02:53,258 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:02:53
+            EndTime:2018/8/31 11:02:53
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:02:53,389 
+ Tread ID:[37] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:02:53
+            EndTime:2018/8/31 11:02:53
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:03:24,818 
+ Tread ID:[26] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:03:24
+            EndTime:2018/8/31 11:03:24
+            TotalTime:0.0260015취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:03:24,964 
+ Tread ID:[36] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:03:24
+            EndTime:2018/8/31 11:03:24
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:03:32,665 
+ Tread ID:[34] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:03:32
+            EndTime:2018/8/31 11:03:32
+            TotalTime:0.0230013취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:03:32,802 
+ Tread ID:[36] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:03:32
+            EndTime:2018/8/31 11:03:32
+            TotalTime:0.0990056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:04:32,750 
+ Tread ID:[46] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:04:32
+            EndTime:2018/8/31 11:04:32
+            TotalTime:0.1080062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:04:35,322 
+ Tread ID:[39] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:04:35
+            EndTime:2018/8/31 11:04:35
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:04:35,455 
+ Tread ID:[38] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:04:35
+            EndTime:2018/8/31 11:04:35
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:05:35,406 
+ Tread ID:[50] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:05:35
+            EndTime:2018/8/31 11:05:35
+            TotalTime:0.0990057취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:06:35,395 
+ Tread ID:[48] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:06:35
+            EndTime:2018/8/31 11:06:35
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:07:35,444 
+ Tread ID:[55] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:07:35
+            EndTime:2018/8/31 11:07:35
+            TotalTime:0.1060061취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:08:35,411 
+ Tread ID:[51] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:08:35
+            EndTime:2018/8/31 11:08:35
+            TotalTime:0.1010057취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:09:35,417 
+ Tread ID:[54] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:09:35
+            EndTime:2018/8/31 11:09:35
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:10:35,399 
+ Tread ID:[61] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:10:35
+            EndTime:2018/8/31 11:10:35
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:11:35,433 
+ Tread ID:[65] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:11:35
+            EndTime:2018/8/31 11:11:35
+            TotalTime:0.0990057취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:12:35,420 
+ Tread ID:[62] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:12:35
+            EndTime:2018/8/31 11:12:35
+            TotalTime:0.1080062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:13:35,423 
+ Tread ID:[68] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:13:35
+            EndTime:2018/8/31 11:13:35
+            TotalTime:0.1090062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:14:35,396 
+ Tread ID:[68] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:14:35
+            EndTime:2018/8/31 11:14:35
+            TotalTime:0.0960054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:15:35,416 
+ Tread ID:[73] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:15:35
+            EndTime:2018/8/31 11:15:35
+            TotalTime:0.1020058취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:16:35,423 
+ Tread ID:[78] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:16:35
+            EndTime:2018/8/31 11:16:35
+            TotalTime:0.1080061취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:17:35,425 
+ Tread ID:[74] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:17:35
+            EndTime:2018/8/31 11:17:35
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:18:35,430 
+ Tread ID:[88] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:18:35
+            EndTime:2018/8/31 11:18:35
+            TotalTime:0.1130064취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:19:35,423 
+ Tread ID:[88] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:19:35
+            EndTime:2018/8/31 11:19:35
+            TotalTime:0.106006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:20:35,418 
+ Tread ID:[85] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:20:35
+            EndTime:2018/8/31 11:20:35
+            TotalTime:0.1010058취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:21:35,436 
+ Tread ID:[88] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:21:35
+            EndTime:2018/8/31 11:21:35
+            TotalTime:0.1170067취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:22:35,439 
+ Tread ID:[96] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:22:35
+            EndTime:2018/8/31 11:22:35
+            TotalTime:0.1180068취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:23:35,433 
+ Tread ID:[97] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:23:35
+            EndTime:2018/8/31 11:23:35
+            TotalTime:0.1140065취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:24:35,438 
+ Tread ID:[95] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:24:35
+            EndTime:2018/8/31 11:24:35
+            TotalTime:0.1170067취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:25:35,440 
+ Tread ID:[102] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:25:35
+            EndTime:2018/8/31 11:25:35
+            TotalTime:0.1180067취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:26:35,434 
+ Tread ID:[108] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:26:35
+            EndTime:2018/8/31 11:26:35
+            TotalTime:0.1140066취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:27:35,441 
+ Tread ID:[104] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:27:35
+            EndTime:2018/8/31 11:27:35
+            TotalTime:0.1180068취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:28:35,431 
+ Tread ID:[115] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:28:35
+            EndTime:2018/8/31 11:28:35
+            TotalTime:0.1160066취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:29:35,427 
+ Tread ID:[111] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:29:35
+            EndTime:2018/8/31 11:29:35
+            TotalTime:0.1100063취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:30:35,420 
+ Tread ID:[111] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:30:35
+            EndTime:2018/8/31 11:30:35
+            TotalTime:0.0990056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:31:35,444 
+ Tread ID:[120] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:31:35
+            EndTime:2018/8/31 11:31:35
+            TotalTime:0.1130065취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:32:31,189 
+ Tread ID:[117] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:32:31
+            EndTime:2018/8/31 11:32:31
+            TotalTime:0.0290016취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:32:31,336 
+ Tread ID:[117] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:32:31
+            EndTime:2018/8/31 11:32:31
+            TotalTime:0.1040059취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:33:32,732 
+ Tread ID:[126] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:33:32
+            EndTime:2018/8/31 11:33:32
+            TotalTime:0.0960054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:34:32,746 
+ Tread ID:[120] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:34:32
+            EndTime:2018/8/31 11:34:32
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:35:13,249 
+ Tread ID:[120] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:35:13
+            EndTime:2018/8/31 11:35:13
+            TotalTime:0.0300017취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:35:13,386 
+ Tread ID:[127] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:35:13
+            EndTime:2018/8/31 11:35:13
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:36:13,331 
+ Tread ID:[130] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:36:13
+            EndTime:2018/8/31 11:36:13
+            TotalTime:0.1060061취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:37:13,332 
+ Tread ID:[137] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:37:13
+            EndTime:2018/8/31 11:37:13
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:38:13,341 
+ Tread ID:[138] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:38:13
+            EndTime:2018/8/31 11:38:13
+            TotalTime:0.105006취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:39:13,344 
+ Tread ID:[140] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:39:13
+            EndTime:2018/8/31 11:39:13
+            TotalTime:0.1080062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:40:13,332 
+ Tread ID:[146] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:40:13
+            EndTime:2018/8/31 11:40:13
+            TotalTime:0.1080061취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer lEf_B6iXhPEmeJvy1GKLO2alnJ7wVB6Pq8ToG5B2xoWUQ6WyI1JX3WuN7naSNkWBUNoELBZAZAxDwXmUYlhkRAMVunCXT1oxpeSDeVA6pbLq-NVFtX0qKjqWxYR7eQJNfdnQXsgURCnRMiL20N-m39sAINJdWRbTXTaz1ChHFVkFKhgoSirEq8bu-e6sYAAWNCJqmlRaOhpdW4ZUVHHHqMWTRhGts7odMNUOHRG76E8
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:53:13,270 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 11:53:12
+            EndTime:2018/8/31 11:53:13
+            TotalTime:0.2990171취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:53:14,686 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:53:14
+            EndTime:2018/8/31 11:53:14
+            TotalTime:0.0310018취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:53:14,836 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:53:14
+            EndTime:2018/8/31 11:53:14
+            TotalTime:0.1090063취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:53:19,612 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 11:53:19
+            EndTime:2018/8/31 11:53:19
+            TotalTime:0.0340019취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:54:14,739 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:54:14
+            EndTime:2018/8/31 11:54:14
+            TotalTime:0.1100063취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:54:50,100 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:54:50
+            EndTime:2018/8/31 11:54:50
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:54:50,251 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:54:50
+            EndTime:2018/8/31 11:54:50
+            TotalTime:0.0930054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:54:57,324 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 11:54:57
+            EndTime:2018/8/31 11:54:57
+            TotalTime:0.0230013취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:55:25,833 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:55:25
+            EndTime:2018/8/31 11:55:25
+            TotalTime:0.0230013취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:55:25,985 
+ Tread ID:[18] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:55:25
+            EndTime:2018/8/31 11:55:25
+            TotalTime:0.0940054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:04,524 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:56:04
+            EndTime:2018/8/31 11:56:04
+            TotalTime:0.0220012취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:04,659 
+ Tread ID:[19] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:56:04
+            EndTime:2018/8/31 11:56:04
+            TotalTime:0.0980056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:11,618 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 11:56:11
+            EndTime:2018/8/31 11:56:11
+            TotalTime:0.0260015취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:56,297 
+ Tread ID:[17] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:56:56
+            EndTime:2018/8/31 11:56:56
+            TotalTime:0.0240014취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:56,430 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:56:56
+            EndTime:2018/8/31 11:56:56
+            TotalTime:0.0960055취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:56:59,535 
+ Tread ID:[28] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 11:56:59
+            EndTime:2018/8/31 11:56:59
+            TotalTime:0.0220013취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:57:16,869 
+ Tread ID:[28] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 11:56:59
+            EndTime:2018/8/31 11:57:16
+            TotalTime:17.2829885취
+            Action Params:payment=
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:57:39,523 
+ Tread ID:[29] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 11:57:39
+            EndTime:2018/8/31 11:57:39
+            TotalTime:0.0220013취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:57:39,663 
+ Tread ID:[20] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 11:57:39
+            EndTime:2018/8/31 11:57:39
+            TotalTime:0.1040059취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 11:57:41,873 
+ Tread ID:[27] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 11:57:41
+            EndTime:2018/8/31 11:57:41
+            TotalTime:0.0220012취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer TBtNcoRg4ekQ04f_68kl-Mny3N1QXA6nQ56MriXfAvMJ_DOfqqmMBUgeC-0rEPJtvIbOOLSrh0Bm9W1bmv-U-8wsFzaSec1uQBu_PbKtrU-pLNJrFTU-cNm_lp_jmIVoymPgAUgfBOHecbaXhOlJAFo8jx61UtvCSxmkRYWDfyBI15vqmM6hPY0cWntc7v9umChSzZqiiIE_IyIqm4I35KVu_aDMwGEKzJWhD8zi5fo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:02:34,391 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 12:02:34
+            EndTime:2018/8/31 12:02:34
+            TotalTime:0.3180182취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:02:37,777 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 12:02:37
+            EndTime:2018/8/31 12:02:37
+            TotalTime:0.0300018취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:02:37,925 
+ Tread ID:[14] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 12:02:37
+            EndTime:2018/8/31 12:02:37
+            TotalTime:0.1020058취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:02:39,951 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 12:02:39
+            EndTime:2018/8/31 12:02:39
+            TotalTime:0.0280017취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:03:24,886 
+ Tread ID:[11] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 12:02:40
+            EndTime:2018/8/31 12:03:24
+            TotalTime:44.8575657취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-31 12:03:37,357 
+ Tread ID:[24] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 12:03:37
+            EndTime:2018/8/31 12:03:37
+            TotalTime:0.1080062취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer SYsTVgjIIUWZuGG63meGXV5CKrbfPdRAUOXlhTKq2YSgqBn0yIw2Q6uX3YycWIcFuYxJwCVAy5GSzLOHjJxjl3DeY5G94YXjBPZBm0IJJB9JTVT5R3Mkzc3-olhr1QpQ3hkltGh2Z7u8qF_QbEfQHUbVC8cngLHhQv4MQDl1LNeJok41DejsYGIzYTjC7zRH18M9FDuppl3-M2E635NMfY6yAazwmntfcVUHXgLtmmg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 13:40:02,466 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/31 13:40:02
+            EndTime:2018/8/31 13:40:02
+            TotalTime:0.0600034취
+            Action Params:domain_name=test122
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer Ytq87NqdUgoMWKxpdA-Z4Z5UD_0WWGXoLda3S5oMAswCt9Lw0xVVI6PqvM9GLx5geBI9d2io6z4WnvFHuMDh7S_jyMvYSftXa3H_TvBC5OAwCjm6RGqmGL9ujBnjxBm4q1Yom71ySZ6MSIeXngGZPAUpLW6WUdE8wGQQ8bJMCwEQHeKHLk6grNIj1pKLSNwTc1NPAxKE11OcXuNWxQyBkF5HyobFouuMTGy-z3L7FSg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 13:40:03,885 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 13:40:03
+            EndTime:2018/8/31 13:40:03
+            TotalTime:0.0370021취
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer Ytq87NqdUgoMWKxpdA-Z4Z5UD_0WWGXoLda3S5oMAswCt9Lw0xVVI6PqvM9GLx5geBI9d2io6z4WnvFHuMDh7S_jyMvYSftXa3H_TvBC5OAwCjm6RGqmGL9ujBnjxBm4q1Yom71ySZ6MSIeXngGZPAUpLW6WUdE8wGQQ8bJMCwEQHeKHLk6grNIj1pKLSNwTc1NPAxKE11OcXuNWxQyBkF5HyobFouuMTGy-z3L7FSg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 13:40:08,614 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 13:40:03
+            EndTime:2018/8/31 13:40:08
+            TotalTime:4.6582665취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer Ytq87NqdUgoMWKxpdA-Z4Z5UD_0WWGXoLda3S5oMAswCt9Lw0xVVI6PqvM9GLx5geBI9d2io6z4WnvFHuMDh7S_jyMvYSftXa3H_TvBC5OAwCjm6RGqmGL9ujBnjxBm4q1Yom71ySZ6MSIeXngGZPAUpLW6WUdE8wGQQ8bJMCwEQHeKHLk6grNIj1pKLSNwTc1NPAxKE11OcXuNWxQyBkF5HyobFouuMTGy-z3L7FSg
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:28,281 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetCustomerProducts
+            StartTime:2018/8/31 16:03:27
+            EndTime:2018/8/31 16:03:28
+            TotalTime:0.3120178취
+            Action Params:
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlanList.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:30,896 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 16:03:30
+            EndTime:2018/8/31 16:03:30
+            TotalTime:0.0310018취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:31,042 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:03:30
+            EndTime:2018/8/31 16:03:31
+            TotalTime:0.1000057취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:35,756 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 16:03:35
+            EndTime:2018/8/31 16:03:35
+            TotalTime:0.0270015취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:35,994 
+ Tread ID:[7] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:03:35
+            EndTime:2018/8/31 16:03:35
+            TotalTime:0.0940054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=1
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:41,232 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 16:03:41
+            EndTime:2018/8/31 16:03:41
+            TotalTime:0.0220012취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:03:41,379 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:03:41
+            EndTime:2018/8/31 16:03:41
+            TotalTime:0.1110063취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:08,341 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 16:04:08
+            EndTime:2018/8/31 16:04:08
+            TotalTime:0.0230013취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:08,472 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:04:08
+            EndTime:2018/8/31 16:04:08
+            TotalTime:0.0950054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:20,056 
+ Tread ID:[13] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 16:04:20
+            EndTime:2018/8/31 16:04:20
+            TotalTime:0.0280016취
+            Action Params:category=3
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:20,188 
+ Tread ID:[8] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 16:04:20
+            EndTime:2018/8/31 16:04:20
+            TotalTime:0.0540031취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:47,240 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionDetail
+            StartTime:2018/8/31 16:04:47
+            EndTime:2018/8/31 16:04:47
+            TotalTime:0.0330019취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:04:47,369 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:04:47
+            EndTime:2018/8/31 16:04:47
+            TotalTime:0.0940054취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:05:47,319 
+ Tread ID:[15] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:05:47
+            EndTime:2018/8/31 16:05:47
+            TotalTime:0.0970056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:06:47,317 
+ Tread ID:[16] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:06:47
+            EndTime:2018/8/31 16:06:47
+            TotalTime:0.1040059취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 16:07:47,312 
+ Tread ID:[22] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:SubscriptionController
+            ActionName:pGetSubscriptionStatus
+            StartTime:2018/8/31 16:07:47
+            EndTime:2018/8/31 16:07:47
+            TotalTime:0.0980056취
+            Action Params:orderref=1000000039
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer K0hlM1-UkTzOUY69OamPPLyPZ1rVeuKmw0fL9mjFDpV-vOVrQxtDwt7Nm0tJvwac1UI-CLBTRBgnBLeg46-akOb73VZai709vxcoK5gMTBI7Hbbvev9YaSkEFfxCm1UJPklaZeKDnl8lzcvHY9mRm6l_pKBWqWE6pT_6IurKRY9CduF4MDoWYqGpPT5tQPAsrmkVJGe63ajkBDx48wG1fuaD_DF_RuasdDdTIHsoqLc
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/ShowSubscriptionPlan.html?Ref=1000000039
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 17:36:29,189 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/31 17:36:29
+            EndTime:2018/8/31 17:36:29
+            TotalTime:0.0580034취
+            Action Params:domain_name=testing87
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer BMfR052KbeIL7WkDhCseISu2FjaUrhvHWIr5gomaXv9zNNmtPmnd0V3XS4JmuMzToG7tmHnOHLpnLnNO8Vdl1wUjJU8GAaL58BKsEdr73HHPdHR5hcGZcxZfmkbkidnwmTho3s4X6u1LT64DlrybmbuOEJLU9G0lbt7XJXwfXuUm7ZoRKWggY1D2Bxm-CnV-dW63lfu0Khv3-huLDrFYtiNuvxew_AjHcXDSpf5j9GA
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 17:36:32,036 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 17:36:32
+            EndTime:2018/8/31 17:36:32
+            TotalTime:0.0300017취
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer BMfR052KbeIL7WkDhCseISu2FjaUrhvHWIr5gomaXv9zNNmtPmnd0V3XS4JmuMzToG7tmHnOHLpnLnNO8Vdl1wUjJU8GAaL58BKsEdr73HHPdHR5hcGZcxZfmkbkidnwmTho3s4X6u1LT64DlrybmbuOEJLU9G0lbt7XJXwfXuUm7ZoRKWggY1D2Bxm-CnV-dW63lfu0Khv3-huLDrFYtiNuvxew_AjHcXDSpf5j9GA
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 17:39:13,513 
+ Tread ID:[25] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 17:39:13
+            EndTime:2018/8/31 17:39:13
+            TotalTime:0.053003취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer BMfR052KbeIL7WkDhCseISu2FjaUrhvHWIr5gomaXv9zNNmtPmnd0V3XS4JmuMzToG7tmHnOHLpnLnNO8Vdl1wUjJU8GAaL58BKsEdr73HHPdHR5hcGZcxZfmkbkidnwmTho3s4X6u1LT64DlrybmbuOEJLU9G0lbt7XJXwfXuUm7ZoRKWggY1D2Bxm-CnV-dW63lfu0Khv3-huLDrFYtiNuvxew_AjHcXDSpf5j9GA
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
+
+ 
+ Recording Time：2018-08-31 18:02:58,001 
+ Tread ID:[9] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCheckDomainName
+            StartTime:2018/8/31 18:02:57
+            EndTime:2018/8/31 18:02:57
+            TotalTime:0.0560032취
+            Action Params:domain_name=testing111
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 4FTKoj7HG0djkSyuvoMk2AZGJVkrHSuCiWh_GHk7IT0Euf2dLzg6IlMnBOdS0wFqEAIE5Ks4bTrqnx8Mfjg9aQceuBcE2wFgQcXRy_I-zqs2lBPu4JvaSlmhLATFfvSzVqS6_m4Jfp29xeuJtGTjkTQYsKqzTCWoUsYWh0PZ3SpGfDkhtoCJi051mximdfAadPTAfrJd0lC6ZChA4bACW8k-6p4u79K_f5nCzFG02Yo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 18:02:59,257 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pGetProductPostForm
+            StartTime:2018/8/31 18:02:59
+            EndTime:2018/8/31 18:02:59
+            TotalTime:0.0260015취
+            Action Params:category=1
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 4FTKoj7HG0djkSyuvoMk2AZGJVkrHSuCiWh_GHk7IT0Euf2dLzg6IlMnBOdS0wFqEAIE5Ks4bTrqnx8Mfjg9aQceuBcE2wFgQcXRy_I-zqs2lBPu4JvaSlmhLATFfvSzVqS6_m4Jfp29xeuJtGTjkTQYsKqzTCWoUsYWh0PZ3SpGfDkhtoCJi051mximdfAadPTAfrJd0lC6ZChA4bACW8k-6p4u79K_f5nCzFG02Yo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:GET
+            
+ 
+
+ 
+ Recording Time：2018-08-31 18:02:59,363 
+ Tread ID:[6] 
+ Log Level：  INFO  
+ Log Description：
+            Action execution time monitoring:
+            ContrillerName:PaymentController
+            ActionName:pCreateOrder
+            StartTime:2018/8/31 18:02:59
+            EndTime:2018/8/31 18:02:59
+            TotalTime:0.053003취
+            Action Params:payment=PSMS_Sub_DM.PAYMENT
+            Http Request Headers:Connection: keep-alive
+Accept: application/json, text/plain, */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.9
+Authorization: bearer 4FTKoj7HG0djkSyuvoMk2AZGJVkrHSuCiWh_GHk7IT0Euf2dLzg6IlMnBOdS0wFqEAIE5Ks4bTrqnx8Mfjg9aQceuBcE2wFgQcXRy_I-zqs2lBPu4JvaSlmhLATFfvSzVqS6_m4Jfp29xeuJtGTjkTQYsKqzTCWoUsYWh0PZ3SpGfDkhtoCJi051mximdfAadPTAfrJd0lC6ZChA4bACW8k-6p4u79K_f5nCzFG02Yo
+Cookie: Pycharm-b0435238=689af945-2e16-44bf-9725-e2b75863dd8b; ASP.NET_SessionId=w04x2x3ce5mwpmmadosiyqwv; Multilingual_Id=3
+Host: localhost:27018
+Referer: http://localhost:27018/View/index/SubscriptionPlan.html
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Origin: http://localhost:27018
+X-Requested-With: XMLHttpRequest
+
+            Client IP:,
+            HttpMethod:POST
+            
+ 
