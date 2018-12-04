@@ -18,7 +18,7 @@ namespace PSMS_Sub_DA
         /// <param name="orderref"></param>
         /// <param name="multilingual"></param>
         /// <returns></returns>
-        public DataSet GetQueryBySubscriptionDetail(string customer_id,string orderref,string multilingual)
+        public DataSet GetQueryBySubscriptionDetail(string customer_id, string orderref, string multilingual)
         {
             string sSql = "SP_Prod_SubscriptionDetail";
             SqlParameter[] sqlParams = new SqlParameter[]
@@ -36,26 +36,26 @@ namespace PSMS_Sub_DA
         /// </summary>
         /// <param name="customer_id"></param>
         /// <returns></returns>
-        public DataSet GetQueryByCustomerSubscriptions(string customer_id,string multilingual)
+        public DataSet GetQueryByCustomerSubscriptions(string customer_id, string multilingual)
         {
             string sSql = "SP_Prod_SubscriptionList";
             SqlParameter[] sqlParams = new SqlParameter[]
             {
                 new SqlParameter("@USERNAME",customer_id)
             };
-            DataSet ds = DBHelper.GetDataSet(sSql, sqlParams,CommandType.StoredProcedure);
+            DataSet ds = DBHelper.GetDataSet(sSql, sqlParams, CommandType.StoredProcedure);
             return ds;
         }
 
-        public DataSet GetQueryBySubscriptionStatus(string customer_id,string orderref)
+        public DataSet GetQueryBySubscriptionStatus(string user,string orderref)
         {
-            string sSql = "SELECT [PAYMENT_MASTER_ID],ORDERREF,CUSTOMER_ID,STATUS_CODE,VM_STATUS FROM SUS_T_PAYMENT JOIN WFE_MASTER ON SUS_T_PAYMENT.RECORD_ID = WFE_MASTER.[PAYMENT_MASTER_ID] AND CUSTOMER_ID = @USERNAME AND ORDERREF = @ORDERREF";
+            string sSql = "SP_Prod_QueryCloudResourceStatus";
             SqlParameter[] sqlParams = new SqlParameter[]
             {
-                new SqlParameter("@USERNAME",customer_id),
+                new SqlParameter("@CUSTOMER_ID",user),
                 new SqlParameter("@ORDERREF",orderref)
             };
-            DataSet ds = DBHelper.GetDataSet(sSql, sqlParams);
+            DataSet ds = DBHelper.GetDataSet(sSql, sqlParams, CommandType.StoredProcedure);
             return ds;
         }
 

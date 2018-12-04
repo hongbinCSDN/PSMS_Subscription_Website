@@ -137,7 +137,7 @@
             <div class="col-lg-12" style="background:white;padding-top:50px;padding-bottom:100px;z-index:2">
                 <div class="col-lg-12">
                     <h2 class="text-center"v-if="Multilingual[16]">{{Multilingual[16].Describe}}</h2>
-                    <p class="text-center title1"><i style="color:#f38b76" class="fa fa-crosshairs fa-2x" aria-hidden="true"></i></p>
+                    <p class="text-center "><span class="title1"><i style="color:#f38b76" class="fa fa-crosshairs fa-2x" aria-hidden="true"></i></span></p>
                     <p class="text-center " style="margin-top:50px;"v-if="Multilingual[17]">{{Multilingual[17].Describe}} </p>
                     <p class="text-center "v-if="Multilingual[18]">{{Multilingual[18].Describe}} </p>
                     <p class="text-center "v-if="Multilingual[19]">{{Multilingual[19].Describe}} </p>
@@ -152,7 +152,7 @@
            
 
         </section>
-        <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <footer style="z-index:100" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
             <div class="row" style="background:#303030">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
@@ -167,8 +167,6 @@
 
                         </div>
                         <!--<img src="../../Content/images/Footer/logo.png" />-->
-
-
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footcontent">
                         <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
@@ -181,7 +179,6 @@
                                 <span  class="white"style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                                 <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
                                 <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
-
                             </p>
                             
 
@@ -201,8 +198,7 @@
 
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                    <p class="text-center white" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a class="white" style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a class="white" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a class="white" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a class="white" v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                    <p class="text-center white" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a class="white" style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a class="white" href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a class="white" href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a class="white" v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                 </div>
             </div>
 

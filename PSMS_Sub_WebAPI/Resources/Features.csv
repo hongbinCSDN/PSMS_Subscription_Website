@@ -1,5 +1,5 @@
 ﻿Number,Identifying,Describe
-1028,1,房地產在線銷售平台
+1028,1,i.Properties
 1028,2,你的家一直在線
 1028,3,為你提供最好品質的服務
 1028,4,下面的流程遵循以下規則
@@ -25,17 +25,17 @@
 1028,24, 抽籤
 1028,25,銷售大使+買家
 1028,26,Walkin+買家
-1028,27,在銷售大使的協助下註冊\支付定金并獲得投資回報（意願登記）
+1028,27,在銷售大使的協助下註冊\支付定金並獲得投資回報（意願登記）
 1028,28,開發人員管理
-1028,29,在適用的情況下凍結銷售安排\并進行投票
+1028,29,在適用的情況下凍結銷售安排\並進行投票
 1028,30,Walkin用戶進入投票結果室\等待結果顯示
 1028,31,5.
 1028,32,買家
-1028,33,登記并進入區域進行單位選擇
+1028,33,登記並進入區域進行單位選擇
 1028,34,銷售大使/銷售經理幫助買家
 1028,35,操作系統選擇單元和打印的PASP合同
 1028,36,根據選定的付款計劃\準備第一次付款的支票
-1028,37,簽署合同并向銷售大使支付第一張付款支票
+1028,37,簽署合同並向銷售大使支付第一張付款支票
 1028,38,推銷員
 1028,39,將支票和合同副本提交給檢驗員
 1028,40,人群控制管理
@@ -46,7 +46,8 @@
 1028,45,潛在買家需要在每個階段掃描ROI，以監控該階段的閾值
 1028,46,管理人員可以用顏色指示器從上系統菜單中檢查儀表板，以監控銷售辦公室的情況
 1028,47, 頂部
-1030,1,房地产在线销售平台
+1028,48,設定付款
+1030,1,i.Properties
 1030,2,你的家一直在線
 1030,3,为您提供最好品质的服务
 1030,4,下面的流程遵循以下规则
@@ -93,11 +94,12 @@
 1030,45,潜在买家需要在每个阶段扫描ROI，以监控该阶段的阈值
 1030,46,管理人员可以用颜色指示器从上系统菜单中检查仪表板，以监控销售办公室的情况
 1030,47, 顶部
-1033,1,Property Sales Management System
+1030,48,设定付款
+1033,1,i.Properties
 1033,2,Your home is always online
 1033,3,Provide you with the best quality service
 1033,4,The following processes are simply follow by the rule
-1033,5,Enter the page > search the unit > Select the Unit and perform action.
+1033,5,Enter the page > Search the unit > Select the Unit and perform action.
 1033,6,Unit De-selection Process\Unit Release Process\Unit Selection History
 1033,7,Quality detail \ take the first step is a good house.
 1033,8,Uninvited sunlight and breeze\ natural introduction of flowers and plants\
@@ -140,3 +142,4 @@
 1033,45,Potential buyer need to scan the ROI on each stage to monitor the threshold on that stage
 1033,46,Management can check the dashboard from the upper system menu with color indicator to monitor the sale office situation.
 1033,47, TOP
+1033,48,Payment Setup

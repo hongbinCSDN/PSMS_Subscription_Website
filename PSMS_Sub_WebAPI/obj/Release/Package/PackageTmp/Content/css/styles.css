@@ -37,64 +37,79 @@ body {
             right: 0px;
             display: none
         }
-            .UserIcon .content  .content1 {
-                margin-top: 20px;
-                text-align: center
+
+        .UserIcon .content .content1 {
+            margin-top: 20px;
+            text-align: center
+        }
+
+            .UserIcon .content .content1 .div1 {
+                width: 350px;
+                height: 80px;
+                border-bottom: 1px solid #c8c8c8
             }
-                .UserIcon .content .content1 .div1 {
-                    width: 350px;
-                    height: 80px;
-                    border-bottom: 1px solid #c8c8c8
+
+                .UserIcon .content .content1 .div1 .img {
+                    width: 80px;
+                    float: left;
+                    margin-left: 20px;
                 }
-                    .UserIcon .content .content1 .div1 .img {
-                        width: 80px;
-                        float: left;
-                        margin-left: 20px;
-                    }
 
                     .UserIcon .content .content1 .div1 .img img {
                         width: 50px;
                         height: 50px;
                     }
 
-                    .UserIcon .content .content1 .div1 .username {
-                        width: 100px;
-                        float: left;
-                        padding-left: 30px;
-                    }
-                        .UserIcon .content  .content1 .div1 .username p {
-                            text-align: left;
-                            color: #808080
-                        }
-                        .UserIcon .content  .content1 .div1 .username i {
-                            color: #ea6352
-                        }
-                            .UserIcon .content .content1 .div2 {
-                    width: 350px;
-                    height: 100px;
-                    border-bottom: 1px solid #c8c8c8;
-                    margin-top: 30px;
+                .UserIcon .content .content1 .div1 .username {
+                    width: 100px;
+                    float: left;
+                    padding-left: 30px;
                 }
-                                .UserIcon .content .content1 .div2 p {
-                                    text-align: left;
-                                    color: #808080;
-                                    margin-top: -10px;
-                                    padding-left: 30px;
-                                    padding-top: 10px
-                                }
-                                .UserIcon .content .content1 .div2 p span{
-                                   float:right;
-                                }
 
+                    .UserIcon .content .content1 .div1 .username p {
+                        text-align: left;
+                        color: #808080
+                    }
 
-            .masked {
-                text-align: center;
-                background-image: -webkit-linear-gradient(left, #84dff7, #bacbff 25%, #ffffff 50%, #c7c7c7 75%, #ea0000);
-                -webkit-text-fill-color: transparent;
-                -webkit-background-clip: text;
-                -webkit-background-size: 200% 100%;
-                -webkit-animation: masked-animation 4s infinite linear;
+                    .UserIcon .content .content1 .div1 .username i {
+                        color: #ea6352
+                    }
+
+            .UserIcon .content .content1 .div2 {
+                width: 350px;
+                height: 100px;
+                border-bottom: 1px solid #c8c8c8;
+                margin-top: 30px;
             }
+
+                .UserIcon .content .content1 .div2 p {
+                    text-align: left;
+                    color: #808080;
+                    margin-top: -10px;
+                    padding-left: 30px;
+                    padding-top: 10px
+                }
+
+                    .UserIcon .content .content1 .div2 p span {
+                        float: right;
+                    }
+
+
+.masked {
+    text-align: center;
+    background-image: -webkit-linear-gradient(left, #84dff7, #bacbff 25%, #ffffff 50%, #c7c7c7 75%, #ea0000);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: masked-animation 4s infinite linear;
+}
+
+/* modify by chester 2018-10-23 */
+.text-danger {
+    color: #ff0000;
+    padding-left: 11px;
+    padding-top: 7px;
+}
 
 @-webkit-keyframes masked-animation {
     0% {
@@ -444,7 +459,6 @@ select {
 
         .header .main-nav .nav .nav-item {
             font-weight: normal;
-            text-transform: uppercase;
             font-size: 13px;
             margin-right: 15px;
         }
@@ -585,7 +599,6 @@ select {
 }
 
     .bg-slider-wrapper .flexslider {
-       
         margin: 0;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
@@ -608,7 +621,6 @@ select {
         }
 
             .bg-slider-wrapper .flexslider .slide.slide-1 {
-
                 background: #253340 url('../images/background/asl_home_bg.jpg') no-repeat 50% top; /*bg-header-1.jpg*/
                 -webkit-background-size: cover;
                 -moz-background-size: cover;

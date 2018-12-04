@@ -52,40 +52,40 @@
       <publishTime>11/13/2012 12:19:34</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_BL.dll">
-      <publishTime>09/25/2018 15:53:27</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_BL.pdb">
-      <publishTime>09/25/2018 15:53:27</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_DA.dll">
-      <publishTime>09/25/2018 15:53:26</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_DA.pdb">
-      <publishTime>09/25/2018 15:53:26</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_DM.dll">
-      <publishTime>09/07/2018 16:48:59</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_DM.pdb">
-      <publishTime>09/07/2018 16:48:59</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_WebAPI.dll">
-      <publishTime>09/25/2018 17:22:15</publishTime>
+      <publishTime>11/28/2018 15:29:09</publishTime>
     </File>
     <File Include="bin/PSMS_Sub_WebAPI.pdb">
-      <publishTime>09/25/2018 17:22:15</publishTime>
+      <publishTime>11/28/2018 15:29:09</publishTime>
     </File>
     <File Include="bin/PSMS_Utility.dll">
-      <publishTime>09/25/2018 15:53:26</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_Utility.pdb">
-      <publishTime>09/25/2018 15:53:26</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_VM.dll">
-      <publishTime>09/19/2018 18:21:00</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/PSMS_VM.pdb">
-      <publishTime>09/19/2018 18:21:00</publishTime>
+      <publishTime>11/28/2018 15:29:04</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>12/13/2017 22:09:38</publishTime>
@@ -262,10 +262,10 @@
       <publishTime>08/03/2018 13:36:55</publishTime>
     </File>
     <File Include="Content/css/Features.css">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>10/15/2018 17:36:29</publishTime>
     </File>
     <File Include="Content/css/Footer.css">
-      <publishTime>09/25/2018 11:16:23</publishTime>
+      <publishTime>10/22/2018 14:17:24</publishTime>
     </File>
     <File Include="Content/css/Index.css">
       <publishTime>09/25/2018 11:15:52</publishTime>
@@ -273,17 +273,29 @@
     <File Include="Content/css/ModifyPassword.css">
       <publishTime>09/19/2018 18:05:14</publishTime>
     </File>
+    <File Include="Content/css/ModifyPersonalInfo.css">
+      <publishTime>10/25/2018 15:45:30</publishTime>
+    </File>
+    <File Include="Content/css/PrivacyPolicy.css">
+      <publishTime>10/25/2018 15:45:30</publishTime>
+    </File>
+    <File Include="Content/css/Register.css">
+      <publishTime>10/15/2018 18:29:38</publishTime>
+    </File>
     <File Include="Content/css/ResetPassword.css">
       <publishTime>09/25/2018 14:10:54</publishTime>
     </File>
     <File Include="Content/css/showSubscriptionPlan.css">
-      <publishTime>09/25/2018 11:45:42</publishTime>
+      <publishTime>11/15/2018 15:46:48</publishTime>
     </File>
     <File Include="Content/css/styles.css">
-      <publishTime>09/25/2018 11:27:25</publishTime>
+      <publishTime>11/28/2018 14:36:10</publishTime>
     </File>
     <File Include="Content/css/SubscriptionPlan.css">
-      <publishTime>09/25/2018 11:15:52</publishTime>
+      <publishTime>11/06/2018 10:41:26</publishTime>
+    </File>
+    <File Include="Content/css/TermsOfUse.css">
+      <publishTime>10/25/2018 15:45:30</publishTime>
     </File>
     <File Include="Content/images/background/asl_home_bg.jpg">
       <publishTime>08/31/2018 13:48:34</publishTime>
@@ -292,7 +304,7 @@
       <publishTime>08/28/2018 17:34:42</publishTime>
     </File>
     <File Include="Content/images/background/asl_login_bg.jpg">
-      <publishTime>08/28/2018 09:31:27</publishTime>
+      <publishTime>10/22/2018 15:35:49</publishTime>
     </File>
     <File Include="Content/images/background/asl_login_bg_1.jpg">
       <publishTime>08/28/2018 17:34:47</publishTime>
@@ -377,6 +389,24 @@
     </File>
     <File Include="Content/images/blog/post-9-thumb.jpg">
       <publishTime>07/03/2018 14:47:49</publishTime>
+    </File>
+    <File Include="Content/images/features/features-001.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
+    </File>
+    <File Include="Content/images/features/features-002.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
+    </File>
+    <File Include="Content/images/features/features-003.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
+    </File>
+    <File Include="Content/images/features/features-004.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
+    </File>
+    <File Include="Content/images/features/features-005.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
+    </File>
+    <File Include="Content/images/features/features-006.png">
+      <publishTime>10/15/2018 17:36:29</publishTime>
     </File>
     <File Include="Content/images/features/Features-1.png">
       <publishTime>08/29/2018 10:34:03</publishTime>
@@ -514,46 +544,58 @@
       <publishTime>07/03/2018 14:47:49</publishTime>
     </File>
     <File Include="Content/images/show_subscription_plan/Compute.png">
-      <publishTime>08/24/2018 18:30:26</publishTime>
+      <publishTime>11/13/2018 18:21:51</publishTime>
+    </File>
+    <File Include="Content/images/show_subscription_plan/DB_icon.png">
+      <publishTime>11/13/2018 18:21:51</publishTime>
+    </File>
+    <File Include="Content/images/show_subscription_plan/DNS_icon.png">
+      <publishTime>11/13/2018 18:21:51</publishTime>
     </File>
     <File Include="Content/images/show_subscription_plan/PSMS_ICON.jpg">
       <publishTime>08/24/2018 18:30:26</publishTime>
     </File>
+    <File Include="Content/images/show_subscription_plan/SLB_icon.png">
+      <publishTime>11/13/2018 18:21:51</publishTime>
+    </File>
     <File Include="Content/js/Index/Features.js">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>10/24/2018 11:42:56</publishTime>
     </File>
     <File Include="Content/js/Index/Index.js">
-      <publishTime>09/18/2018 12:05:06</publishTime>
+      <publishTime>10/19/2018 10:48:23</publishTime>
+    </File>
+    <File Include="Content/js/Index/ModifyAccountEmail.js">
+      <publishTime>11/09/2018 16:02:56</publishTime>
     </File>
     <File Include="Content/js/Index/ModifyAccountPassword.js">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>11/09/2018 16:02:56</publishTime>
     </File>
     <File Include="Content/js/Index/ModifyPersionalInfo.js">
-      <publishTime>09/25/2018 10:10:11</publishTime>
+      <publishTime>10/18/2018 10:45:50</publishTime>
     </File>
     <File Include="Content/js/Index/ShowSubscriptionPlan.js">
-      <publishTime>09/17/2018 18:45:39</publishTime>
+      <publishTime>11/13/2018 18:21:51</publishTime>
     </File>
     <File Include="Content/js/Index/SubcriptedPlan.js">
-      <publishTime>09/17/2018 18:31:08</publishTime>
+      <publishTime>11/15/2018 15:46:48</publishTime>
     </File>
     <File Include="Content/js/Index/SubscriptionPlan.js">
-      <publishTime>09/25/2018 11:15:52</publishTime>
+      <publishTime>11/09/2018 16:02:56</publishTime>
     </File>
     <File Include="Content/js/Index/SubscriptionPlanList.js">
-      <publishTime>09/17/2018 18:32:36</publishTime>
+      <publishTime>10/18/2018 15:53:38</publishTime>
     </File>
     <File Include="Content/js/Index/SubscriptioPlan.js">
       <publishTime>08/03/2018 18:24:03</publishTime>
     </File>
     <File Include="Content/js/Login/Login.js">
-      <publishTime>09/14/2018 15:03:27</publishTime>
+      <publishTime>09/28/2018 10:31:44</publishTime>
     </File>
     <File Include="Content/js/Login/NewPassword.js">
       <publishTime>09/19/2018 15:00:05</publishTime>
     </File>
     <File Include="Content/js/Login/ResetPassword.js">
-      <publishTime>09/19/2018 15:16:22</publishTime>
+      <publishTime>10/25/2018 15:45:29</publishTime>
     </File>
     <File Include="Content/js/Payment/PaymentCancel.js">
       <publishTime>08/01/2018 18:48:49</publishTime>
@@ -571,7 +613,7 @@
       <publishTime>07/30/2018 14:42:31</publishTime>
     </File>
     <File Include="Content/js/Register/Register.js">
-      <publishTime>08/16/2018 11:59:29</publishTime>
+      <publishTime>10/16/2018 09:45:48</publishTime>
     </File>
     <File Include="Content/js/Share/blog.js">
       <publishTime>07/03/2018 15:32:32</publishTime>
@@ -580,7 +622,7 @@
       <publishTime>07/03/2018 15:32:32</publishTime>
     </File>
     <File Include="Content/js/Share/GetCommonAPI.js">
-      <publishTime>08/21/2018 14:24:21</publishTime>
+      <publishTime>10/16/2018 18:13:08</publishTime>
     </File>
     <File Include="Content/js/Share/jquery.blockUI.js">
       <publishTime>07/03/2018 15:32:32</publishTime>
@@ -595,7 +637,7 @@
       <publishTime>07/03/2018 15:32:32</publishTime>
     </File>
     <File Include="Content/js/Share/Multilingual.js">
-      <publishTime>08/16/2018 11:59:29</publishTime>
+      <publishTime>10/17/2018 18:24:22</publishTime>
     </File>
     <File Include="Content/js/Share/vimeo.js">
       <publishTime>07/03/2018 15:32:32</publishTime>
@@ -607,7 +649,13 @@
       <publishTime>07/03/2018 15:32:32</publishTime>
     </File>
     <File Include="Content/js/Share/WarningMessage.js">
-      <publishTime>09/25/2018 11:15:51</publishTime>
+      <publishTime>11/06/2018 10:41:26</publishTime>
+    </File>
+    <File Include="Content/js/Terms/PrivacyPolicy.js">
+      <publishTime>10/18/2018 11:45:14</publishTime>
+    </File>
+    <File Include="Content/js/Terms/TermsOfUse.js">
+      <publishTime>10/18/2018 11:45:22</publishTime>
     </File>
     <File Include="Content/plugins/back-to-top.js">
       <publishTime>07/03/2018 14:47:49</publishTime>
@@ -660,6 +708,24 @@
     <File Include="Content/plugins/jquery-placeholder/jquery.placeholder.js">
       <publishTime>07/03/2018 14:47:50</publishTime>
     </File>
+    <File Include="Content/plugins/laydate/laydate.js">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
+    <File Include="Content/plugins/laydate/theme/default/font/iconfont.eot">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
+    <File Include="Content/plugins/laydate/theme/default/font/iconfont.svg">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
+    <File Include="Content/plugins/laydate/theme/default/font/iconfont.ttf">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
+    <File Include="Content/plugins/laydate/theme/default/font/iconfont.woff">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
+    <File Include="Content/plugins/laydate/theme/default/laydate.css">
+      <publishTime>10/18/2018 10:45:50</publishTime>
+    </File>
     <File Include="Content/plugins/masonry.pkgd.min.js">
       <publishTime>07/03/2018 14:47:50</publishTime>
     </File>
@@ -673,10 +739,31 @@
       <publishTime>08/22/2018 12:01:10</publishTime>
     </File>
     <File Include="Resources/ActiveAccount.csv">
-      <publishTime>09/12/2018 17:22:12</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
+    </File>
+    <File Include="Resources/CancelAutoPayFailureEmail.csv">
+      <publishTime>11/08/2018 10:32:08</publishTime>
+    </File>
+    <File Include="Resources/CancelAutoPaySuccessEmail.csv">
+      <publishTime>11/08/2018 10:32:08</publishTime>
+    </File>
+    <File Include="Resources/ContactCustomerEmail.csv">
+      <publishTime>11/16/2018 15:45:55</publishTime>
+    </File>
+    <File Include="Resources/ContactSellersEmail.csv">
+      <publishTime>11/08/2018 10:32:08</publishTime>
     </File>
     <File Include="Resources/EmailMessage.csv">
-      <publishTime>09/25/2018 16:19:19</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
+    </File>
+    <File Include="Resources/EmailTemplate/CancelAutoPayTemp.txt">
+      <publishTime>11/06/2018 10:41:25</publishTime>
+    </File>
+    <File Include="Resources/EmailTemplate/ContactCustomerTemp.txt">
+      <publishTime>11/06/2018 10:41:25</publishTime>
+    </File>
+    <File Include="Resources/EmailTemplate/ContactSellersTemp.txt">
+      <publishTime>11/06/2018 10:41:25</publishTime>
     </File>
     <File Include="Resources/EmailTemplate/ExpireProductEmailTem_ch.txt">
       <publishTime>09/25/2018 15:48:48</publishTime>
@@ -689,6 +776,9 @@
     </File>
     <File Include="Resources/EmailTemplate/FinishSubscribeEmailTemp_en.txt">
       <publishTime>09/25/2018 15:48:48</publishTime>
+    </File>
+    <File Include="Resources/EmailTemplate/ModifyBankCardTemp.txt">
+      <publishTime>11/06/2018 10:41:25</publishTime>
     </File>
     <File Include="Resources/EmailTemplate/ModifyPasswordEmailTemp.txt">
       <publishTime>09/25/2018 15:48:48</publishTime>
@@ -703,91 +793,109 @@
       <publishTime>09/25/2018 15:48:48</publishTime>
     </File>
     <File Include="Resources/ExpireProductEmail.csv">
-      <publishTime>09/25/2018 16:31:25</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/Features.csv">
-      <publishTime>09/12/2018 13:45:24</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/FinishSubscribeEmail.csv">
-      <publishTime>09/25/2018 15:50:32</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/index.csv">
-      <publishTime>09/25/2018 11:15:52</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/login.csv">
-      <publishTime>09/19/2018 10:32:23</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
+    </File>
+    <File Include="Resources/modifyAccountEmail.csv">
+      <publishTime>11/28/2018 11:20:46</publishTime>
+    </File>
+    <File Include="Resources/ModifyBankCardSuccessEmail.csv">
+      <publishTime>11/15/2018 17:44:26</publishTime>
     </File>
     <File Include="Resources/modifyPassword.csv">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/modifyPersionalInfo.csv">
-      <publishTime>09/20/2018 17:00:29</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/navigation.csv">
-      <publishTime>09/20/2018 16:52:33</publishTime>
+      <publishTime>11/28/2018 14:36:10</publishTime>
     </File>
     <File Include="Resources/NewPassword.csv">
-      <publishTime>09/25/2018 14:32:39</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
+    </File>
+    <File Include="Resources/PrivacyPolicy.csv">
+      <publishTime>10/17/2018 10:18:21</publishTime>
     </File>
     <File Include="Resources/register.csv">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/resetPassword.csv">
-      <publishTime>09/19/2018 10:41:50</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/ResetPasswordEmail.csv">
-      <publishTime>09/25/2018 16:18:40</publishTime>
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/ShowSubscriptionPlan.csv">
-      <publishTime>09/25/2018 11:39:06</publishTime>
+      <publishTime>11/16/2018 15:45:55</publishTime>
     </File>
     <File Include="Resources/SubscriptedPlan.csv">
-      <publishTime>09/14/2018 14:11:15</publishTime>
+      <publishTime>11/15/2018 15:46:48</publishTime>
     </File>
     <File Include="Resources/SubscriptionList.csv">
-      <publishTime>09/07/2018 14:08:50</publishTime>
+      <publishTime>10/19/2018 17:41:29</publishTime>
     </File>
     <File Include="Resources/SubscriptionPlan.csv">
-      <publishTime>09/14/2018 16:17:43</publishTime>
+      <publishTime>11/06/2018 10:41:25</publishTime>
+    </File>
+    <File Include="Resources/Subscription_Agt_PSMS.csv">
+      <publishTime>11/28/2018 11:20:46</publishTime>
     </File>
     <File Include="Resources/System_Message.csv">
-      <publishTime>09/19/2018 18:05:14</publishTime>
+      <publishTime>11/15/2018 16:12:19</publishTime>
+    </File>
+    <File Include="Resources/Termsofuse.csv">
+      <publishTime>10/15/2018 18:42:00</publishTime>
     </File>
     <File Include="View/index/Features.html">
-      <publishTime>09/25/2018 11:17:18</publishTime>
+      <publishTime>10/18/2018 11:05:56</publishTime>
     </File>
     <File Include="View/index/index.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>10/25/2018 15:45:29</publishTime>
+    </File>
+    <File Include="View/index/ModifyAccountEmail.html">
+      <publishTime>10/15/2018 18:18:34</publishTime>
     </File>
     <File Include="View/index/ModifyAccountPassword.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>10/18/2018 11:46:01</publishTime>
     </File>
     <File Include="View/index/ModifyPersionalInfo.html">
       <publishTime>07/19/2018 16:16:17</publishTime>
     </File>
     <File Include="View/index/ModifyPersonalInfo.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>11/15/2018 15:46:49</publishTime>
     </File>
     <File Include="View/index/ShowSubscriptionPlan.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>11/15/2018 15:46:49</publishTime>
     </File>
     <File Include="View/index/SubscriptedPlan.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>11/15/2018 15:46:49</publishTime>
     </File>
     <File Include="View/index/SubscriptionPlan.html">
-      <publishTime>09/25/2018 14:47:23</publishTime>
+      <publishTime>11/09/2018 16:02:57</publishTime>
     </File>
     <File Include="View/index/SubscriptionPlanList.html">
-      <publishTime>09/25/2018 13:41:37</publishTime>
+      <publishTime>10/22/2018 14:20:15</publishTime>
     </File>
     <File Include="View/Login/Login.html">
-      <publishTime>09/25/2018 11:15:53</publishTime>
+      <publishTime>10/18/2018 11:49:48</publishTime>
     </File>
     <File Include="View/Login/NewPassword.html">
-      <publishTime>09/25/2018 14:10:54</publishTime>
+      <publishTime>10/18/2018 11:49:55</publishTime>
     </File>
     <File Include="View/Login/ResetPassword.html">
-      <publishTime>09/25/2018 14:10:54</publishTime>
+      <publishTime>10/18/2018 11:50:02</publishTime>
     </File>
     <File Include="View/Payment/AutoSendEmail.html">
       <publishTime>09/07/2018 09:53:13</publishTime>
@@ -808,10 +916,16 @@
       <publishTime>09/12/2018 17:34:19</publishTime>
     </File>
     <File Include="View/Register/Register.html">
-      <publishTime>09/25/2018 11:17:02</publishTime>
+      <publishTime>10/18/2018 11:52:08</publishTime>
+    </File>
+    <File Include="View/Terms/PrivacyPolicy.html">
+      <publishTime>10/18/2018 11:36:09</publishTime>
+    </File>
+    <File Include="View/Terms/TermsOfUse.html">
+      <publishTime>10/18/2018 11:36:16</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/25/2018 17:18:48</publishTime>
+      <publishTime>11/15/2018 17:51:50</publishTime>
     </File>
   </ItemGroup>
 </Project>

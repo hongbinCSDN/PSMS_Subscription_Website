@@ -115,7 +115,10 @@ namespace PSMS_Sub_WebAPI.Controllers.System
             try
             {
                 string percentage = BL_PRODUCTINFO.vmQueryByStatusPercent(SessionWrapper.CurrentUser.CustomerID, orderref);
-                return Ok(percentage);
+                string isRenewal = BL_PRODUCTINFO.vmQueryByCheckIsRenewal(orderref, SessionWrapper.CurrentUser.CustomerID).ToString() ;
+                string domain_name = BL_PRODUCTINFO.vmQueryByGetDomainName(orderref, SessionWrapper.CurrentUser.CustomerID).ToString();
+                string[] result = { percentage, isRenewal, domain_name };
+                return Ok(result);
             }
             catch (Exception e)
             {
@@ -136,7 +139,11 @@ namespace PSMS_Sub_WebAPI.Controllers.System
             try
             {
                 string percentage = BL_PRODUCTINFO.vmQueryGetStatusPercentByUsername(SessionWrapper.CurrentUser.CustomerID);
-                return Ok(percentage);
+                string orderref = BL_PRODUCTINFO.vmQueryByGetLastestPayInfoByUsername(SessionWrapper.CurrentUser.CustomerID);
+                string isRenewal = BL_PRODUCTINFO.vmQueryByCheckIsRenewal(orderref, SessionWrapper.CurrentUser.CustomerID).ToString();
+                string domain_name = BL_PRODUCTINFO.vmQueryByGetDomainName(orderref, SessionWrapper.CurrentUser.CustomerID).ToString();
+                string[] result = { percentage, isRenewal, domain_name };
+                return Ok(result);
             }
             catch (Exception e)
             {

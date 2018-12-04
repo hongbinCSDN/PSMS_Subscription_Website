@@ -50,6 +50,7 @@
     <Compile Include="PRODUCTINFO_DA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RESETPASSWORD_DA.cs" />
+    <Compile Include="SALES_DA.cs" />
     <Compile Include="SUBSCRIPTION_DA.cs" />
     <Compile Include="TOKEN_DA.cs" />
   </ItemGroup>

@@ -18,6 +18,7 @@ namespace PSMS_Utility
             {
                 result.Append(line);
             }
+            sr.Close();     //Modify by chester 2018/10/08
             return result.ToString();
         }
     }

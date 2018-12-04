@@ -12,8 +12,8 @@ var vm = new Vue({
         UserInfo: {}  //Modify by bill 2018-6-17
     },
     mounted: function () {
-            this.LoadMultilingual(),
-            this.shownavigation()          
+            this.LoadMultilingual()
+                
     },
     methods: {
         GetToken: function () {
@@ -70,7 +70,6 @@ var vm = new Vue({
                 this.Language_Value = ViewDropDownLanguage();
                 this.GetToken();
                
-
             }, function (response) { console.log(response); });
         },
         ChangeLan: function () {
@@ -80,7 +79,102 @@ var vm = new Vue({
                 this.PromptMessage = response.body.Table2;
                 this.Navigation = response.body.Table3;
                 this.more = this.Multilingual[9].Describe
-               
+                this.$nextTick(function() {
+                    if ($(".item2:eq(0)").outerHeight() > $(".item1:eq(0)").outerHeight()) {
+
+                        var height = ($(".item2:eq(0)").outerHeight() - $(".item1:eq(0)").outerHeight()) / 2
+                        document.getElementsByClassName("item1")[0].style.marginTop = height + "px"
+                        document.getElementsByClassName("item2")[0].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(0)").outerHeight() - $(".item2:eq(0)").outerHeight()) / 2
+                        document.getElementsByClassName("item2")[0].style.marginTop = height1 + "px"
+                        document.getElementsByClassName("item1")[0].style.marginTop = 0 + "px";
+                    }
+                    if ($(".item2:eq(1)").outerHeight() > $(".item1:eq(1)").outerHeight()) {
+                        var height = ($(".item2:eq(1)").outerHeight() - $(".item1:eq(1)").outerHeight()) / 2
+                        document.getElementsByClassName("item1")[1].style.marginTop = height + "px"
+                        document.getElementsByClassName("item2")[1].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(1)").outerHeight() - $(".item2:eq(1)").outerHeight()) / 2
+                        document.getElementsByClassName("item2")[1].style.marginTop = height1 + "px"
+                        document.getElementsByClassName("item1")[1].style.marginTop = 0 + "px";
+                    }
+
+                    if ($(".item2:eq(2)").outerHeight() > $(".item1:eq(2)").outerHeight()) {
+
+                        var height = ($(".item2:eq(2)").outerHeight() - $(".item1:eq(2)").outerHeight()) / 2;
+                        document.getElementsByClassName("item1")[2].style.marginTop = height + "px"
+                        document.getElementsByClassName("item2")[2].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(2)").outerHeight() - $(".item2:eq(2)").outerHeight()) / 2;
+                        document.getElementsByClassName("item2")[2].style.marginTop = height1 + "px";
+                        document.getElementsByClassName("item1")[2].style.marginTop = 0 + "px";
+                    }
+
+                    if ($(".item2:eq(3)").outerHeight() > $(".item1:eq(3)").outerHeight()) {
+
+                        var height = ($(".item2:eq(3)").outerHeight() - $(".item1:eq(3)").outerHeight()) / 2;
+                        document.getElementsByClassName("item1")[3].style.marginTop = height + "px";
+                        document.getElementsByClassName("item2")[3].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(3)").outerHeight() - $(".item2:eq(3)").outerHeight()) / 2;
+                        document.getElementsByClassName("item2")[3].style.marginTop = height1 + "px";
+                        document.getElementsByClassName("item1")[3].style.marginTop = 0 + "px";
+                    }
+                    if ($(".item2:eq(4)").outerHeight() > $(".item1:eq(4)").outerHeight()) {
+
+                        var height = ($(".item2:eq(4)").outerHeight() - $(".item1:eq(4)").outerHeight()) / 2;
+
+                        document.getElementsByClassName("item1")[4].style.marginTop = height + "px";
+                        document.getElementsByClassName("item2")[4].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(4)").outerHeight() - $(".item2:eq(4)").outerHeight()) / 2;
+                        document.getElementsByClassName("item2")[4].style.marginTop = height1 + "px";
+                        document.getElementsByClassName("item1")[4].style.marginTop = 0 + "px";
+
+                    }
+
+
+                    if ($(".item2:eq(5)").outerHeight() > $(".item1:eq(5)").outerHeight()) {
+
+                        var height = ($(".item2:eq(5)").outerHeight() - $(".item1:eq(5)").outerHeight()) / 2
+
+                        document.getElementsByClassName("item1")[5].style.marginTop = height + "px"
+                        document.getElementsByClassName("item2")[5].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(5)").outerHeight() - $(".item2:eq(5)").outerHeight()) / 2
+                        document.getElementsByClassName("item2")[5].style.marginTop = height1 + "px"
+                        document.getElementsByClassName("item1")[5].style.marginTop = 0 + "px";
+                    }
+                    if ($(".item2:eq(6)").outerHeight() > $(".item1:eq(6)").outerHeight()) {
+
+                        var height = ($(".item2:eq(6)").outerHeight() - $(".item1:eq(6)").outerHeight()) / 2
+
+                        document.getElementsByClassName("item1")[6].style.marginTop = height + "px"
+                        document.getElementsByClassName("item2")[6].style.marginTop = 0 + "px";
+                    }
+                    else {
+
+                        var height1 = ($(".item1:eq(6)").outerHeight() - $(".item2:eq(6)").outerHeight()) / 2
+                        document.getElementsByClassName("item2")[6].style.marginTop = height1 + "px"
+                        document.getElementsByClassName("item1")[6].style.marginTop = 0 + "px";
+                    }
+
+
+
+                })
 
             }, function (response) { console.log(response); });
         },
@@ -210,107 +304,107 @@ var vm = new Vue({
               
                 ///let the div of item1 and div of item2 vertical center parent div 
                 //add by Haskin 20180831
-                if ($(".item2:eq(0)").outerHeight() == 78 || isdivcenter>2) {
-                  //  console.log($(".item2:eq(0)").outerHeight());
+                //if ($(".item2:eq(0)").outerHeight() == 78 || isdivcenter>2) {
+                //  //  console.log($(".item2:eq(0)").outerHeight());
                    
-                }
-                else{
-                    //console.log("123");
-                if ($(".item2:eq(0)").outerHeight() > $(".item1:eq(0)").outerHeight()) {
+                //}
+                //else{
+                //    //console.log("123");
+                //if ($(".item2:eq(0)").outerHeight() > $(".item1:eq(0)").outerHeight()) {
 
-                    var height = ($(".item2:eq(0)").outerHeight() - $(".item1:eq(0)").outerHeight()) / 2
-                    document.getElementsByClassName("item1")[0].style.marginTop = height + "px"
-                    document.getElementsByClassName("item2")[0].style.marginTop = 0 + "px";
-                }
-                else {
+                //    var height = ($(".item2:eq(0)").outerHeight() - $(".item1:eq(0)").outerHeight()) / 2
+                //    document.getElementsByClassName("item1")[0].style.marginTop = height + "px"
+                //    document.getElementsByClassName("item2")[0].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(0)").outerHeight() - $(".item2:eq(0)").outerHeight()) / 2
-                    document.getElementsByClassName("item2")[0].style.marginTop = height1 + "px"
-                    document.getElementsByClassName("item1")[0].style.marginTop = 0 + "px";
-                }
-                if ($(".item2:eq(1)").outerHeight() > $(".item1:eq(1)").outerHeight()) {
-                    var height = ($(".item2:eq(1)").outerHeight() - $(".item1:eq(1)").outerHeight()) / 2
-                    document.getElementsByClassName("item1")[1].style.marginTop = height + "px"
-                    document.getElementsByClassName("item2")[1].style.marginTop = 0 + "px";
-                }
-                else {
+                //    var height1 = ($(".item1:eq(0)").outerHeight() - $(".item2:eq(0)").outerHeight()) / 2
+                //    document.getElementsByClassName("item2")[0].style.marginTop = height1 + "px"
+                //    document.getElementsByClassName("item1")[0].style.marginTop = 0 + "px";
+                //}
+                //if ($(".item2:eq(1)").outerHeight() > $(".item1:eq(1)").outerHeight()) {
+                //    var height = ($(".item2:eq(1)").outerHeight() - $(".item1:eq(1)").outerHeight()) / 2
+                //    document.getElementsByClassName("item1")[1].style.marginTop = height + "px"
+                //    document.getElementsByClassName("item2")[1].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(1)").outerHeight() - $(".item2:eq(1)").outerHeight()) / 2
-                    document.getElementsByClassName("item2")[1].style.marginTop = height1 + "px"
-                    document.getElementsByClassName("item1")[1].style.marginTop = 0 + "px";
-                }
+                //    var height1 = ($(".item1:eq(1)").outerHeight() - $(".item2:eq(1)").outerHeight()) / 2
+                //    document.getElementsByClassName("item2")[1].style.marginTop = height1 + "px"
+                //    document.getElementsByClassName("item1")[1].style.marginTop = 0 + "px";
+                //}
 
-                if ($(".item2:eq(2)").outerHeight() > $(".item1:eq(2)").outerHeight()) {
+                //if ($(".item2:eq(2)").outerHeight() > $(".item1:eq(2)").outerHeight()) {
 
-                    var height = ($(".item2:eq(2)").outerHeight() - $(".item1:eq(2)").outerHeight()) / 2;
-                    document.getElementsByClassName("item1")[2].style.marginTop = height + "px"
-                    document.getElementsByClassName("item2")[2].style.marginTop = 0 + "px";
-                }
-                else {
+                //    var height = ($(".item2:eq(2)").outerHeight() - $(".item1:eq(2)").outerHeight()) / 2;
+                //    document.getElementsByClassName("item1")[2].style.marginTop = height + "px"
+                //    document.getElementsByClassName("item2")[2].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(2)").outerHeight() - $(".item2:eq(2)").outerHeight()) / 2;
-                    document.getElementsByClassName("item2")[2].style.marginTop = height1 + "px";
-                    document.getElementsByClassName("item1")[2].style.marginTop = 0 + "px";
-                }
+                //    var height1 = ($(".item1:eq(2)").outerHeight() - $(".item2:eq(2)").outerHeight()) / 2;
+                //    document.getElementsByClassName("item2")[2].style.marginTop = height1 + "px";
+                //    document.getElementsByClassName("item1")[2].style.marginTop = 0 + "px";
+                //}
 
-                if ($(".item2:eq(3)").outerHeight() > $(".item1:eq(3)").outerHeight()) {
+                //if ($(".item2:eq(3)").outerHeight() > $(".item1:eq(3)").outerHeight()) {
 
-                    var height = ($(".item2:eq(3)").outerHeight() - $(".item1:eq(3)").outerHeight()) / 2;
-                    document.getElementsByClassName("item1")[3].style.marginTop = height + "px";
-                    document.getElementsByClassName("item2")[3].style.marginTop = 0 + "px";
-                }
-                else {
+                //    var height = ($(".item2:eq(3)").outerHeight() - $(".item1:eq(3)").outerHeight()) / 2;
+                //    document.getElementsByClassName("item1")[3].style.marginTop = height + "px";
+                //    document.getElementsByClassName("item2")[3].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(3)").outerHeight() - $(".item2:eq(3)").outerHeight()) / 2;
-                    document.getElementsByClassName("item2")[3].style.marginTop = height1 + "px";
-                    document.getElementsByClassName("item1")[3].style.marginTop = 0 + "px";
-                }
-                if ($(".item2:eq(4)").outerHeight() > $(".item1:eq(4)").outerHeight()) {
+                //    var height1 = ($(".item1:eq(3)").outerHeight() - $(".item2:eq(3)").outerHeight()) / 2;
+                //    document.getElementsByClassName("item2")[3].style.marginTop = height1 + "px";
+                //    document.getElementsByClassName("item1")[3].style.marginTop = 0 + "px";
+                //}
+                //if ($(".item2:eq(4)").outerHeight() > $(".item1:eq(4)").outerHeight()) {
 
-                    var height = ($(".item2:eq(4)").outerHeight() - $(".item1:eq(4)").outerHeight()) / 2;
+                //    var height = ($(".item2:eq(4)").outerHeight() - $(".item1:eq(4)").outerHeight()) / 2;
 
-                    document.getElementsByClassName("item1")[4].style.marginTop = height + "px";
-                    document.getElementsByClassName("item2")[4].style.marginTop = 0 + "px";
-                }
-                else {
+                //    document.getElementsByClassName("item1")[4].style.marginTop = height + "px";
+                //    document.getElementsByClassName("item2")[4].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(4)").outerHeight() - $(".item2:eq(4)").outerHeight()) / 2;
-                    document.getElementsByClassName("item2")[4].style.marginTop = height1 + "px";
-                    document.getElementsByClassName("item1")[4].style.marginTop = 0 + "px";
+                //    var height1 = ($(".item1:eq(4)").outerHeight() - $(".item2:eq(4)").outerHeight()) / 2;
+                //    document.getElementsByClassName("item2")[4].style.marginTop = height1 + "px";
+                //    document.getElementsByClassName("item1")[4].style.marginTop = 0 + "px";
                     
-                }
+                //}
 
              
-                if ($(".item2:eq(5)").outerHeight() > $(".item1:eq(5)").outerHeight()) {
+                //if ($(".item2:eq(5)").outerHeight() > $(".item1:eq(5)").outerHeight()) {
 
-                    var height = ($(".item2:eq(5)").outerHeight() - $(".item1:eq(5)").outerHeight()) / 2
+                //    var height = ($(".item2:eq(5)").outerHeight() - $(".item1:eq(5)").outerHeight()) / 2
 
-                    document.getElementsByClassName("item1")[5].style.marginTop = height + "px"
-                    document.getElementsByClassName("item2")[5].style.marginTop = 0 + "px";
-                }
-                else {
+                //    document.getElementsByClassName("item1")[5].style.marginTop = height + "px"
+                //    document.getElementsByClassName("item2")[5].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(5)").outerHeight() - $(".item2:eq(5)").outerHeight()) / 2
-                    document.getElementsByClassName("item2")[5].style.marginTop = height1 + "px"
-                    document.getElementsByClassName("item1")[5].style.marginTop = 0 + "px";
-                }
-                if ($(".item2:eq(6)").outerHeight() > $(".item1:eq(6)").outerHeight()) {
+                //    var height1 = ($(".item1:eq(5)").outerHeight() - $(".item2:eq(5)").outerHeight()) / 2
+                //    document.getElementsByClassName("item2")[5].style.marginTop = height1 + "px"
+                //    document.getElementsByClassName("item1")[5].style.marginTop = 0 + "px";
+                //}
+                //if ($(".item2:eq(6)").outerHeight() > $(".item1:eq(6)").outerHeight()) {
 
-                    var height = ($(".item2:eq(6)").outerHeight() - $(".item1:eq(6)").outerHeight()) / 2
+                //    var height = ($(".item2:eq(6)").outerHeight() - $(".item1:eq(6)").outerHeight()) / 2
 
-                    document.getElementsByClassName("item1")[6].style.marginTop = height + "px"
-                    document.getElementsByClassName("item2")[6].style.marginTop = 0 + "px";
-                }
-                else {
+                //    document.getElementsByClassName("item1")[6].style.marginTop = height + "px"
+                //    document.getElementsByClassName("item2")[6].style.marginTop = 0 + "px";
+                //}
+                //else {
 
-                    var height1 = ($(".item1:eq(6)").outerHeight() - $(".item2:eq(6)").outerHeight()) / 2
-                    document.getElementsByClassName("item2")[6].style.marginTop = height1 + "px"
-                    document.getElementsByClassName("item1")[6].style.marginTop = 0 + "px";
-                }
+                //    var height1 = ($(".item1:eq(6)").outerHeight() - $(".item2:eq(6)").outerHeight()) / 2
+                //    document.getElementsByClassName("item2")[6].style.marginTop = height1 + "px"
+                //    document.getElementsByClassName("item1")[6].style.marginTop = 0 + "px";
+                //}
                  
-                    isdivcenter++;
+                //    isdivcenter++;
 
-                 }
+                // }
                
 
 
@@ -344,14 +438,19 @@ var vm = new Vue({
             document.getElementById("imgdetails").style.display = "none"
         },
         Divhover: function (className) {
+          
+            document.getElementsByClassName("rotateY")[className].className += " rotateYhover";
               //Modify by Haskin 20180919
             document.getElementsByClassName("topboder")[className].style.width = "100%";
             document.getElementsByClassName("leftboder")[className].style.height = "100%";
             document.getElementsByClassName("rightboder")[className].style.height = "100%";
             document.getElementsByClassName("bottomboder")[className].style.width = "100%";
-              //Modify by Haskin 20180919
+            //Modify by Haskin 20180919
+          
         },
         Divhoverout: function (className) {
+            //document.getElementsByClassName("rotateY")[className].classList.remove = ("rotateYhover");
+            document.getElementsByClassName("rotateY")[className].classList.remove("rotateYhover");
             //Modify by Haskin 20180919
             document.getElementsByClassName("topboder")[className].style.width = "0%";
             document.getElementsByClassName("leftboder")[className].style.height = "0%";

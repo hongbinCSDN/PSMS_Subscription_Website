@@ -183,14 +183,16 @@ var vm = new Vue({
             this.codemessage = "";
         },
         Countdown: function () {
-            let interval = window.setInterval(() => {
-                this.content = this.watitime + this.Multilingual[15].Describe
-                if ((this.watitime--) <= 0) {
-                    this.isdisavled = false;
+            let interval = window.setInterval(function () {
+                console.log("waittime:" + vm.watitime);
+                console.log("multilingual:" + vm.Multilingual[15].Describe);
+                vm.content = vm.watitime + vm.Multilingual[15].Describe;
+                if ((vm.watitime--) <= 0) {
+                    vm.isdisavled = false;
                     document.getElementById("button_id").disabled = false
                     window.clearInterval(interval);
-                    this.watitime = 120;
-                    this.content = this.Multilingual[11].Describe; 
+                    vm.watitime = 120;
+                    vm.content = vm.Multilingual[11].Describe; 
                 }
             }, 1000);
 

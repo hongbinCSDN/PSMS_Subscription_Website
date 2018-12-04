@@ -16,5 +16,6 @@ namespace PSMS_VM.Subscription
         public string PRODUCT_AT_TIME { get; set; }
         public string STATUS { get; set; }
         public string PAYMENT_TYPE_ID { get; set; }  //Add by bill 2018.9.3
+        public string PAYWAY_ID { get; set; }  // Add by bill 2018-10-18
     }
 }

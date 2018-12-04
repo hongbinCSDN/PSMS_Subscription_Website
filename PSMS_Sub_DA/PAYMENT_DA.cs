@@ -104,25 +104,18 @@ namespace PSMS_Sub_DA
 
         public int CreateOrder(PAYMENT payment)
         {
-            //string Sql1 = "SELECT * FROM SUS_T_PAYMENT WHERE ORDERREF=@ORDERREF AND CUSTOMER_ID=@CUSTOMER_ID ";
-            //SqlParameter[] sqlParams1 = new SqlParameter[]
-            //{
-            //   new SqlParameter("@ORDERREF",payment.ORDERREF),
-            //   new SqlParameter("@CUSTOMER_ID",payment.CUSTOMER_ID)
-            //};
-            //DataSet ds1 = DBHelper.GetDataSet(Sql1, sqlParams1);
-            //if(ds1.Tables[0].Rows.Count > 0)
-            //{
-            //    return 0;
-            //}
-            //else
-            //{
             string sSql = "SP_Payment_CreateOrder";
             payment.STATUS_CODE = "NULL";
             if (payment.RENEWAL_LAST_ORDERREF == null || payment.RENEWAL_LAST_ORDERREF == "")
             {
-                payment.RENEWAL_LAST_ORDERREF = "N";              
-            }          
+                payment.RENEWAL_LAST_ORDERREF = "N";
+            }
+            if(payment.PAYWAY_ID == null || payment.PAYWAY_ID == "")
+            {
+                payment.PAYWAY_ID = "1";
+            }
+
+
             SqlParameter[] sqlParams = new SqlParameter[]
             {
                 new SqlParameter("@ORDERREF",payment.ORDERREF),
@@ -132,11 +125,11 @@ namespace PSMS_Sub_DA
                 new SqlParameter("@PAYMENT_TYPE_ID",payment.PAYMENT_TYPE_ID),
                 new SqlParameter("@DOMAIN_NAME",payment.DOMAIN_NAME),
                 new SqlParameter("@RENEWAL_LAST_ORDERREF",payment.RENEWAL_LAST_ORDERREF),
-                new SqlParameter("@MULTILINGUAL_ID",payment.MULTILINGUAL_ID)
+                new SqlParameter("@MULTILINGUAL_ID",payment.MULTILINGUAL_ID),
+                new SqlParameter("@PAYWAY_ID",payment.PAYWAY_ID),   //Add by bill 2018-10-18
             };
             DataSet ds = DBHelper.GetDataSet(sSql, sqlParams, CommandType.StoredProcedure);
             return 1;
-            //}
         }
 
         public int CheckIsCanRenew(string orederref)
@@ -193,53 +186,348 @@ namespace PSMS_Sub_DA
             }
         }
 
-        public string UpdateStatusCode(PaymentStatusCode data)
+        public ResultVM UpdateStatusCode(PaymentStatusCode data)
         {
-            int count = 0;
-            if (data.USERNAME == ConfigurationManager.AppSettings["ExternalInterfaceAccount"].ToString().Trim() && data.PASSWORD == ConfigurationManager.AppSettings["ExternalInterfacePassword"].ToString().Trim())
+            try
             {
-                string sSql = "UPDATE SUS_T_PAYMENT SET STATUS_CODE=@STATUS_CODE WHERE RECORD_ID=@RECORD_ID AND ORDERREF=@ORDERREF AND STATUS_PAYMENT='0'";
-                SqlParameter[] sqlParams = new SqlParameter[]
+                string result = "300";
+                string message = "The interface account is not correct";
+                if (data.USERNAME == ConfigurationManager.AppSettings["ExternalInterfaceAccount"].ToString().Trim() && data.PASSWORD == ConfigurationManager.AppSettings["ExternalInterfacePassword"].ToString().Trim())
                 {
-                    new SqlParameter("@STATUS_CODE",data.STATUS_CODE),
+                    string sql = "SP_ExternalInterface_UpdateStatusCode";
+                    SqlParameter[] sqlParams = new SqlParameter[]
+                    {
                     new SqlParameter("@RECORD_ID",data.RECORD_ID),
-                    new SqlParameter("@ORDERREF",data.ORDERREF)
-                };
-                count = DBHelper.Exec(sSql, sqlParams);
+                    new SqlParameter("@STATUS_CODE",data.STATUS_CODE)
+                    };
+                    DataSet ds = DBHelper.GetDataSet(sql, sqlParams, CommandType.StoredProcedure);
+                    result = ds.Tables[0].Rows[0]["RESULT"].ToString();
+                }
+                if (result == "0")
+                {
+                    message = "Update successful";
+                }
+                else if (result == "200")
+                {
+                    message = "There is no this status code, please check.";
+                }
+                else if (result == "100")
+                {
+                    message = "There is no this record, please check.";
+                }
+                return new ResultVM { Affected = int.Parse(result), Message = message };
+
             }
-            if (count > 0)
+            catch (Exception e)
             {
-                return "success";
-            }
-            else
-            {
-                return "fasle";
+                return new ResultVM { Message = e.ToString() };
             }
         }
 
-        public int UpdateOrderExpireDate(OrderExpireDateVM data)
+        public ResultVM UpdateOrderExpireDate(OrderExpireDateVM data)
         {
-            int count = 0;
-            if (data.USERNAME == ConfigurationManager.AppSettings["ExternalInterfaceAccount"].ToString().Trim() && data.PASSWORD == ConfigurationManager.AppSettings["ExternalInterfacePassword"].ToString().Trim())
+
+            try
             {
-                string sSql = "UPDATE SUS_T_PAYMENT SET PRODUCT_CR_TIME=@PRODUCT_CR_TIME,PRODUCT_AT_TIME=@PRODUCT_AT_TIME WHERE RECORD_ID=@RECORD_ID AND ORDERREF=@ORDERREF AND STATUS_PAYMENT='0'";
+                string result = "300";
+                string message = "The interface account is not correct";
+                if (data.USERNAME == ConfigurationManager.AppSettings["ExternalInterfaceAccount"].ToString().Trim() && data.PASSWORD == ConfigurationManager.AppSettings["ExternalInterfacePassword"].ToString().Trim())
+                {
+                    string sql = "SP_ExternalInterface_UpdateProductExpireDate";
+                    SqlParameter[] sqlParams = new SqlParameter[]
+                    {
+                        new SqlParameter("@RECORD_ID",data.RECORD_ID),
+                        new SqlParameter("@PRODUCT_AT_TIME",data.PRODUCT_AT_TIME)
+
+                    };
+                    DataSet ds = DBHelper.GetDataSet(sql, sqlParams, CommandType.StoredProcedure);
+                    result = ds.Tables[0].Rows[0]["RESULT"].ToString();
+                }
+                if (result == "0")
+                {
+                    message = "Update successful";
+                }
+                else if (result == "100")
+                {
+                    message = "There is no this record, please check.";
+                }
+                return new ResultVM { Affected = int.Parse(result), Message = message };
+            }
+            catch (Exception e)
+            {
+                return new ResultVM { Message = e.ToString() };
+            }
+
+        }
+
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="XmlFiledValues"></param>
+        /// <returns></returns>
+        public string SaveQueryPaymentStatus(string[] XmlFiledValues)
+        {
+            try
+            {
+                string sql = "SP_Payment_SavePaymentStatusFromAisapay";
                 SqlParameter[] sqlParams = new SqlParameter[]
                 {
-                    new SqlParameter("@PRODUCT_CR_TIME",data.PRODUCT_CR_TIME),
-                    new SqlParameter("@PRODUCT_AT_TIME",data.PRODUCT_AT_TIME),
-                    new SqlParameter("@RECORD_ID",data.RECORD_ID),
-                    new SqlParameter("@ORDERREF",data.ORDERREF)
+
+                    new SqlParameter("@OrderStatus",XmlFiledValues[0]),
+                    new SqlParameter("@Ref",XmlFiledValues[1]),
+                    new SqlParameter("@PayRef",XmlFiledValues[2]),
+                    new SqlParameter("@Amt",XmlFiledValues[3]),
+                    new SqlParameter("@Cur",XmlFiledValues[4]),
+                    new SqlParameter("@Prc",XmlFiledValues[5]),
+                    new SqlParameter("@Src",XmlFiledValues[6]),
+                    new SqlParameter("@Ord",XmlFiledValues[7]),
+                    new SqlParameter("@Holder",XmlFiledValues[8]),
+                    new SqlParameter("@AuthId",XmlFiledValues[9]),
+                    new SqlParameter("@AlertCode",XmlFiledValues[10]),
+                    new SqlParameter("@Remark",XmlFiledValues[11]),
+                    new SqlParameter("@Eci",XmlFiledValues[12]),
+                    new SqlParameter("@PayerAuth",XmlFiledValues[13]),
+                    new SqlParameter("@SourceIp",XmlFiledValues[14]),
+                    new SqlParameter("@IpCountry",XmlFiledValues[15]),
+                    new SqlParameter("@PayMethod",XmlFiledValues[16]),
+                    new SqlParameter("@PanFirst4",XmlFiledValues[17]),
+                    new SqlParameter("@PanLast4",XmlFiledValues[18]),
+                    new SqlParameter("@CardIssuingCountry",XmlFiledValues[19]),
+                    new SqlParameter("@ChannelType",XmlFiledValues[20]),
+                    new SqlParameter("@TxTime",XmlFiledValues[21]),
+                    new SqlParameter("@SuccessCode",XmlFiledValues[22]),
+                    new SqlParameter("@MSchPayId",XmlFiledValues[23]),
+                    new SqlParameter("@DSchPayId",XmlFiledValues[24]),
+                    new SqlParameter("@MerchantId",XmlFiledValues[25]),
+                    new SqlParameter("@ErrMsg",XmlFiledValues[26]),
+                    new SqlParameter("@Update_Time",System.DateTime.Now),
                 };
-                count = DBHelper.Exec(sSql, sqlParams);
+                //nt count = DBHelper.Exec(sql, sqlParams, CommandType.StoredProcedure);
+                DataSet ds = DBHelper.GetDataSet(sql, sqlParams, CommandType.StoredProcedure);
+                return ds.Tables[0].Rows.Count == 0 ? null : ds.Tables[0].Rows[0]["RESULT"].ToString();
+
             }
-            if (count > 0)
+            catch (Exception e)
             {
-                return 1;
+                throw new Exception(e.Message);
             }
-            else
+
+
+        }
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="SchXmlFiledValues"></param>
+        /// <returns></returns>
+        public void SaveQuerySchPaymentInfo(string[] SchXmlFiledValues)
+        {
+            try
             {
-                return 0;
+                string sql = "SP_Payment_SaveSchPaymentInfo";
+                SqlParameter[] sqlParams = new SqlParameter[]
+               {
+                   new SqlParameter("@mSchPayId",SchXmlFiledValues[0]),
+                   new SqlParameter("@schType",SchXmlFiledValues[1]),
+                   new SqlParameter("@startDate",SchXmlFiledValues[2]),
+                   new SqlParameter("@endDate",SchXmlFiledValues[3]),
+                   new SqlParameter("@merRef",SchXmlFiledValues[4]),
+                   new SqlParameter("@amount",SchXmlFiledValues[5]),
+                   new SqlParameter("@payType",SchXmlFiledValues[6]),
+                   new SqlParameter("@payMethod",SchXmlFiledValues[7]),
+                   new SqlParameter("@account",SchXmlFiledValues[8]),
+                   new SqlParameter("@holder",SchXmlFiledValues[9]),
+                   new SqlParameter("@expiryDate",SchXmlFiledValues[10]),
+                   new SqlParameter("@status",SchXmlFiledValues[11]),
+                   new SqlParameter("@suspendDate",SchXmlFiledValues[12]),
+                   new SqlParameter("@lastTerminateDate",SchXmlFiledValues[13]),
+                   new SqlParameter("@reActivateDate",SchXmlFiledValues[14]),
+                   new SqlParameter("@update_time",System.DateTime.Now),
+               };
+                int count = DBHelper.Exec(sql, sqlParams, CommandType.StoredProcedure);
+
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
             }
         }
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="DetailSchXmlFiledValues"></param>
+        /// <param name="mSchPayId"></param>
+        /// <returns></returns>
+        public void SaveQueryDetailSchPaymentInfo(string[] DetailSchXmlFiledValues, string mSchPayId)
+        {
+            try
+            {
+                string sql = "SP_Payment_SaveDetailSchPayment";
+                SqlParameter[] sqlParams = new SqlParameter[]
+                {
+                    new SqlParameter("@mSchPayId",mSchPayId),
+                    new SqlParameter("@dSchPayId",DetailSchXmlFiledValues[0]),
+                    new SqlParameter("@schType",DetailSchXmlFiledValues[1]),
+                    new SqlParameter("@orderDate",DetailSchXmlFiledValues[2]),
+                    new SqlParameter("@tranDate",DetailSchXmlFiledValues[3]),
+                    new SqlParameter("@currency",DetailSchXmlFiledValues[4]),
+                    new SqlParameter("@amount",DetailSchXmlFiledValues[5]),
+                    new SqlParameter("@status",DetailSchXmlFiledValues[6]),
+                    new SqlParameter("@payRef",DetailSchXmlFiledValues[7]),
+                    new SqlParameter("@update_time",System.DateTime.Now),
+                };
+                int count = DBHelper.Exec(sql, sqlParams, CommandType.StoredProcedure);
+
+
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public DataSet QueryOrderPayRef(string orderRef)
+        {
+            string sql = "SELECT PAYREF FROM PAY_T_PAYMENTRECORD WHERE REF=@REF";
+            SqlParameter[] sqlParams = new SqlParameter[]
+            {
+                new SqlParameter("@REF",orderRef),
+            };
+            DataSet ds = DBHelper.GetDataSet(sql, sqlParams);
+            return ds.Tables[0].Rows.Count == 0 ? null : ds;
+        }
+
+        // Add by chester 2018-10-22
+        public DataSet QueryAutoPayMessage(string merref)
+        {
+            string sSql = "SELECT [mSchPayId],[account],[payMethod],[startDate],[endDate],[holder],[expiryDate] FROM PAY_T_AISAPAY_SCHEDULEPAYMENT WHERE merRef = @merRef";
+            SqlParameter[] sqlParam = new SqlParameter[]
+            {
+                new SqlParameter("@merRef",merref),
+            };
+            DataSet ds = DBHelper.GetDataSet(sSql, sqlParam);
+            return ds.Tables[0].Rows.Count == 0 ? null : ds;
+        }
+
+        public DataSet QueryDetailSchPay(string schPayId)
+        {
+            string sSql = "SELECT [dSchPayId],[schType],[orderDate],[tranDate],[currency],[amount],[status] FROM [PAY_T_ASIAPAY_DETAILSCHPAY] WHERE mSchPayId=@SCHPAYID ";
+            SqlParameter[] sqlParam = new SqlParameter[]
+            {
+                new SqlParameter("@SCHPAYID",schPayId)
+            };
+            DataSet ds = DBHelper.GetDataSet(sSql, sqlParam);
+            return ds.Tables[0].Rows.Count == 0 ? null : ds;
+        }
+
+        public DataTable GetPaymentMethod()
+        {
+            string sSql = "SELECT * FROM SYS_T_DICTIONARY WHERE CATEGORY='PAYMETHOD' AND STATUES=1";
+            DataSet ds = DBHelper.GetDataSet(sSql);
+            DataTable dt = new DataTable();
+            dt = ds.Tables[0].Copy();
+            return dt;
+        }
+        // End
+
+        public void SaveChangeCardInfoFeedBack(string[] feedback)
+        {
+            try
+            {
+                string sql = "SP_Payment_SaveChangeCardInfoFeedBack";
+                SqlParameter[] sqlParam = new SqlParameter[]
+                {
+                new SqlParameter("@resultCode",feedback[0]),
+                new SqlParameter("@mSchPayId",feedback[1]),
+                new SqlParameter("@merchantId",feedback[2]),
+                new SqlParameter("@orderRef",feedback[3]),
+                new SqlParameter("@status",feedback[4]),
+                new SqlParameter("@errMsg",feedback[5]),
+               };
+                DBHelper.Exec(sql, sqlParam, CommandType.StoredProcedure);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+
+        }
+
+        public void UpdateCardInfoFeedBack(string orderRef, string mSchPayId)
+        {
+            try
+            {
+                string sql = "SP_Payment_UpdateCardInfo_feedback";
+                SqlParameter[] sqlParam = new SqlParameter[]
+               {
+                new SqlParameter("@ORDERREF",orderRef),
+                new SqlParameter("@MSCHPAYID",mSchPayId),
+
+               };
+                DBHelper.Exec(sql, sqlParam, CommandType.StoredProcedure);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public string GetSchPaymentmSchPayId(string orderRef)
+        {
+            try
+            {
+                string sql = "SELECT mSchPayId FROM PAY_T_AISAPAY_SCHEDULEPAYMENT WHERE merRef = @orderRef";
+                SqlParameter[] sqlParam = new SqlParameter[]
+                {
+                    new SqlParameter("@orderRef",orderRef)
+                };
+                DataSet ds = DBHelper.GetDataSet(sql, sqlParam);
+                return ds.Tables[0].Rows.Count == 0 ? "" : ds.Tables[0].Rows[0]["mSchPayId"].ToString();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        public void UpdateSchPaymentStatus(string mSchPayId, string orderRef)
+        {
+            try
+            {
+                string sql = "SP_Payment_UpdateSchPaymentStatus";
+                SqlParameter[] sqlParam = new SqlParameter[]
+                {
+                    new SqlParameter("@mSchPayId",mSchPayId),
+                    new SqlParameter("@orderRef",orderRef)
+                };
+                DBHelper.Exec(sql, sqlParam, CommandType.StoredProcedure);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+        // Add by Chester 2018.10.31
+        public string GetSchPaymentAccount(string orderRef)
+        {
+            try
+            {
+                string sql = "SELECT account FROM [dbo].[PAY_T_AISAPAY_SCHEDULEPAYMENT] WHERE merRef=@ORDERREF";
+                SqlParameter[] sqlParam = new SqlParameter[]
+                {
+                new SqlParameter("@ORDERREF",orderRef)
+                };
+                DataSet ds = DBHelper.GetDataSet(sql, sqlParam);
+                return ds.Tables[0].Rows.Count == 0 ? "" : ds.Tables[0].Rows[0]["account"].ToString();
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+        // End
     }
 }

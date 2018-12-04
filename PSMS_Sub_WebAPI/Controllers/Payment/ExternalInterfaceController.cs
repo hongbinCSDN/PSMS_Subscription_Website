@@ -7,11 +7,12 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Web;
 using System.Web.Http;
 
 namespace PSMS_Sub_WebAPI.Controllers.Payment
 {
-    [WebApiTracker,Authorize, Authenticate]
+    [WebApiTracker]
     public class ExternalInterfaceController : ApiController
     {
 
@@ -23,9 +24,19 @@ namespace PSMS_Sub_WebAPI.Controllers.Payment
 
         [Route("Payment/ToStatusCode")]      
         [HttpPost]
+        [Authorize]
         public async Task<IHttpActionResult> pUpdateStatusCode(PaymentStatusCode data) 
         {
-            return await Task.FromResult(UpdateStatusCode(data));
+            // Modify by bill 2018-10-16
+            if (CheckRequestWay(HttpContext.Current.Request.Url.ToString()))
+            {
+                return await Task.FromResult(UpdateStatusCode(data));
+            }
+            else
+            {
+                return Ok("Only https works");
+            }
+            //return await Task.FromResult(UpdateStatusCode(data));
         } 
 
         public IHttpActionResult UpdateStatusCode(PaymentStatusCode data)
@@ -42,9 +53,20 @@ namespace PSMS_Sub_WebAPI.Controllers.Payment
 
         [Route("Payment/UpdateOrderExpireDate")]
         [HttpPost]
+        [Authorize]
         public async Task<IHttpActionResult> pUpdateOrderExpireDate(OrderExpireDateVM data)
         {
-            return await Task.FromResult(UpdateOrderExpireDate(data));
+            // Modify by bill 2018-10-16
+            if (CheckRequestWay(HttpContext.Current.Request.Url.ToString()))
+            {
+                return await Task.FromResult(UpdateOrderExpireDate(data));
+            }
+            else
+            {
+
+                return Ok("Only https works");
+            }
+            //return await Task.FromResult(UpdateOrderExpireDate(data));
         }
 
         public IHttpActionResult UpdateOrderExpireDate(OrderExpireDateVM data)
@@ -56,6 +78,24 @@ namespace PSMS_Sub_WebAPI.Controllers.Payment
             catch(Exception e)
             {
                 return Ok(e);
+            }
+        }
+
+        /// <summary>
+        /// Determine if the request is HTTPS
+        /// Modify by bill 2018-10-16
+        /// </summary>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        public bool CheckRequestWay(string url)
+        {
+            if (url.Contains("https://"))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
 

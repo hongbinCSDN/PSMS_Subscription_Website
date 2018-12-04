@@ -16,11 +16,11 @@ namespace PSMS_Sub_BL
         {
             get
             {
-                return _PRODUCTINFO_DA ?? (_PRODUCTINFO_DA=new PRODUCTINFO_DA());
+                return _PRODUCTINFO_DA ?? (_PRODUCTINFO_DA = new PRODUCTINFO_DA());
             }
         }
 
-        public ResultVM vmQueryProuctInfoByUsername(string username,string multilingual)
+        public ResultVM vmQueryProuctInfoByUsername(string username, string multilingual)
         {
             return new ResultVM { Data = DA.GetProductByUsername(username, multilingual) };
         }
@@ -47,7 +47,7 @@ namespace PSMS_Sub_BL
         /// <returns></returns>
         public ResultVM vmQueryByProductInfo(string customer_id, string orderref, string multilingual)
         {
-            return new ResultVM { Data = DA.GetQueryByProductInfo(customer_id, orderref,multilingual) };
+            return new ResultVM { Data = DA.GetQueryByProductInfo(customer_id, orderref, multilingual) };
         }
        
 
@@ -61,5 +61,43 @@ namespace PSMS_Sub_BL
         {
             return DA.GetQueryByStatusPercent(customer_id, orderref);
         }
+
+        // Modify by Chester 2018-11-14
+        /// <summary>
+        /// Check the order for renewal
+        /// </summary>
+        /// <param name="orderref"></param>
+        /// <param name="username"></param>
+        /// <returns>
+        /// 1: renewal
+        /// 0: no renewal
+        /// </returns>
+        public int vmQueryByCheckIsRenewal(string orderref, string username)
+        {
+            DataSet ds = DA.GetPaymentStatusByOrder(orderref, username);
+            bool isRenewal = ds.Tables[0].Rows[0]["STATUS_CODE"].ToString().StartsWith("RN|");
+            if ((ds.Tables[0].Rows[0]["STATUS_CODE"].ToString() == "RENEWAL" || isRenewal) && ds.Tables[0].Rows[0]["STATUS_PAYMENT"].ToString() == "0")
+            {
+                return 1;
+            }
+            return 0;
+        }
+
+        /// <summary>
+        /// Get the domain name by orderref and username
+        /// </summary>
+        /// <param name="orderref"></param>
+        /// <param name="username"></param>
+        /// <returns>Domain name</returns>
+        public string vmQueryByGetDomainName(string orderref,string username)
+        {
+            return DA.GetPaymentDomainName(orderref, username);
+        }
+
+        public string vmQueryByGetLastestPayInfoByUsername(string username)
+        {
+            return DA.GetLastestPaymentInfoByUsername(username).Tables[0].Rows[0]["ORDERREF"].ToString();
+        }
+        // End
     }
 }

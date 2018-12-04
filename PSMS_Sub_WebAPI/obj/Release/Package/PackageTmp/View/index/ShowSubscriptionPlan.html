@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Show Subcription Plan</title>
+    <title>Show Subscription Plan</title>
     <!-- Meta -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -71,8 +71,8 @@
                                         </div>
                                     </div>
                                     <div class="div2">
-                                        <p v-if="Navigation[12]"><strong>{{Navigation[12].Describe}}</strong>  <span>{{this.UserInfo.LOGINTIME}}</span> </p>
-                                        <p v-if="Navigation[13]"> <strong>{{Navigation[13].Describe}}</strong> <span>{{this.UserInfo.EMAIL}}</span> </p>
+                                        <p><strong v-if="Navigation[12]">{{Navigation[12].Describe}}</strong>  <span>{{this.UserInfo.LOGINTIME}}</span> </p>
+                                        <p><strong v-if="Navigation[13]">{{Navigation[13].Describe}}</strong> <span>{{this.UserInfo.EMAIL}}</span> </p>
                                     </div>
                                 </div>
 
@@ -95,53 +95,146 @@
 
         </header>
         <!--<div class="bg-slider-wrapper">
-        <div class="flexslider bg-slider">
-            <ul class="slides">
-                <li class="slide slide-1"></li>
-                <li class="slide slide-2"></li>
-                <li class="slide slide-3"></li>
-            </ul>
-        </div>
-    </div>-->
+            <div class="flexslider bg-slider">
+                <ul class="slides">
+                    <li class="slide slide-1"></li>
+                    <li class="slide slide-2"></li>
+                    <li class="slide slide-3"></li>
+                </ul>
+            </div>
+        </div>-->
         <div class="upper-wrapper" style="background:  url('../../Content/images/background/asl_home_bg.jpg');background-size:cover;height:100%;width:100%;overflow: hidden;">
             <section class="signup-section access-section section" style="position:relative;z-index:4;padding-bottom:100px;">
                 <div class="container" style="margin-top:60px;">
                     <div class="form-box">
                         <div class="form-box-inner">
                             <div>
-                                <a href="SubscriptionPlanList.html" class="btn  btn-cta-primary">{{Multilingual[25].Describe}}</a>
+                                <a href="SubscriptionPlanList.html" class="btn  btn-cta-primary" v-if="Multilingual[25]">{{Multilingual[25].Describe}}</a>
                             </div>
                             <h2 class="title text-center">
                                 <span v-if="Multilingual[0]">{{Multilingual[0].Describe}}</span>
                             </h2>
                             <p class="intro text-center website-title">
                                 <span class="website-icon"></span>
-                                <span>{{Subscription.DOMAIN_NAME}}.pssasl.com</span>
+                                <span>{{Subscription.DOMAIN_NAME}}.aslpss.com</span>
                             </p>
                             <div class="psms-summary">
                                 <div class="row">
-                                    <div class="col-md-offset-1 col-md-10">
-                                        <div v-for="status in Status" class="col-md-3" style="padding:10% 0;">
-                                            <div class="computer-icon"></div>
+                                    <div class="col-md-offset-1 col-md-10 col-sm-12">
+                                        <div v-if="IsHasECS" class="col-md-3 col-sm-6" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[67]">{{Multilingual[67].Describe}}</p>
 
-                                            <div class="computer-info-left" style="padding-left:25%">
-                                                <span style="float:left;margin-right:10px;" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
-                                                <div class="breathe-btn" v-bind:class="[ (status=='Running')?'statusSuccess' : '',(status=='Starting')?'statusStarting':'',(status=='Stopped')?'statusFailed' : '' ]"></div>
-                                                <span v-if="(status=='Running')&&Multilingual[16]">{{Multilingual[16].Describe}}</span>
-                                                <span v-if="(status=='Stopped')&&Multilingual[17]">{{Multilingual[17].Describe}}</span>
-                                                <span v-if="(status=='Starting')&&Multilingual[18]">{{Multilingual[18].Describe}}</span>
+                                            <div class="icon computer-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+
+                                                <div class="breathe-btn" v-bind:class="[ (Status[0]==ECSStatus.run)?'statusSuccess' : '',(Status[0]==ECSStatus.start)?'statusStarting':'',(Status[0]==ECSStatus.stopping)?'statusFailed' : '', (Status[0]==ECSStatus.stopped)?'statusFailed' : '']"></div>
+
+                                                <span v-if="(Status[0]==ECSStatus.run)&&Multilingual[16]">{{Multilingual[16].Describe}}</span>
+                                                <span v-if="(Status[0]==ECSStatus.start)&&Multilingual[18]">{{Multilingual[18].Describe}}</span>
+                                                <span v-if="(Status[0]==ECSStatus.stopping)&&Multilingual[66]">{{Multilingual[66].Describe}}</span>
+                                                <span v-if="(Status[0]==ECSStatus.stopped)&&Multilingual[17]">{{Multilingual[17].Describe}}</span>
                                             </div>
                                         </div>
-                                        <div v-for="comp in (4-Status.length)" class="col-md-3 noStatusContent" style="padding:10% 0;">
-                                            <div class="computer-icon"></div>
+                                        <div v-else="" class="col-md-3 col-sm-6 noStatusContent" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[67]">{{Multilingual[67].Describe}}</p>
+                                            <div class="icon computer-icon"></div>
 
-                                            <div class="computer-info-left" style="padding-left:25%">
-                                                <span style="float:left;margin-right:10px;" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
                                                 <div class="breathe-btn noStatus"></div>
                                                 <span v-if="Multilingual[19]">{{Multilingual[19].Describe}}</span>
-
                                             </div>
                                         </div>
+
+                                        <div v-if="IsHasRDS" class="col-md-3 col-sm-6" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[68]">{{Multilingual[68].Describe}}</p>
+
+                                            <div class="icon rds-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+
+                                                <div class="breathe-btn" v-bind:class="[ (Status[2]==RDSStatus.run)?'statusSuccess' : 'statusFailed']"></div>
+
+                                                <span v-if="(Status[2]==RDSStatus.run)&&Multilingual[16]">{{Multilingual[16].Describe}}</span>
+                                                <span v-if="(Status[2]==RDSStatus.error)&&Multilingual[65]">{{Multilingual[65].Describe}}</span>
+                                                <!--
+                                                <span v-if="(status=='Stopped')&&Multilingual[17]">{{Multilingual[17].Describe}}</span>
+                                                <span v-if="(status=='Abnormal')&&Multilingual[18]">{{Multilingual[18].Describe}}</span>-->
+                                            </div>
+                                        </div>
+                                        <div v-else="" class="col-md-3 col-sm-6 noStatusContent" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[68]">{{Multilingual[68].Describe}}</p>
+                                            <div class="icon rds-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+                                                <div class="breathe-btn noStatus"></div>
+                                                <span v-if="Multilingual[19]">{{Multilingual[19].Describe}}</span>
+                                            </div>
+                                        </div>
+
+
+                                        <div v-if="IsHasSLB" class="col-md-3 col-sm-6" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[69]">{{Multilingual[69].Describe}}</p>
+
+                                            <div class="icon slb-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+
+                                                <div class="breathe-btn" v-bind:class="[ (Status[1]==SLBStatus.run)?'statusSuccess' : 'statusFailed']"></div>
+
+                                                <span v-if="(Status[1]==SLBStatus.run)&&Multilingual[60]">{{Multilingual[60].Describe}}</span>
+                                                <span v-if="(Status[1]==SLBStatus.stop)&&Multilingual[61]">{{Multilingual[61].Describe}}</span>
+                                                <!--<span v-if="(Status[1]=='locked')&&Multilingual[62]">{{Multilingual[62].Describe}}</span>-->
+
+                                                <!--
+                                                <span v-if="(status=='Stopped')&&Multilingual[17]">{{Multilingual[17].Describe}}</span>
+                                                <span v-if="(status=='Abnormal')&&Multilingual[18]">{{Multilingual[18].Describe}}</span>-->
+                                            </div>
+                                        </div>
+                                        <div v-else="" class="col-md-3 col-sm-6 noStatusContent" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[69]">{{Multilingual[69].Describe}}</p>
+                                            <div class="icon slb-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+                                                <div class="breathe-btn noStatus"></div>
+                                                <span v-if="Multilingual[19]">{{Multilingual[19].Describe}}</span>
+                                            </div>
+                                        </div>
+
+                                        <div v-if="IsHasDomain" class="col-md-3 col-sm-6" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[70]">{{Multilingual[70].Describe}}</p>
+
+                                            <div class="icon dns-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+
+                                                <div class="breathe-btn" v-bind:class="[ (Status[3]==DomainStatus.run)?'statusSuccess' : 'statusFailed']"></div>
+
+                                                <span v-if="(Status[3]==DomainStatus.run)&&Multilingual[64]">{{Multilingual[63].Describe}}</span>
+                                                <span v-if="(Status[3]==DomainStatus.stop)&&Multilingual[63]">{{Multilingual[64].Describe}}</span>
+                                                <!--
+                                                <span v-if="(status=='Stopped')&&Multilingual[17]">{{Multilingual[17].Describe}}</span>
+                                                <span v-if="(status=='Abnormal')&&Multilingual[18]">{{Multilingual[18].Describe}}</span>-->
+                                            </div>
+                                        </div>
+                                        <div v-else="" class="col-md-3 col-sm-6 noStatusContent" style="padding:10% 0;">
+                                            <p class="text-center" v-if="Multilingual[70]">{{Multilingual[70].Describe}}</p>
+                                            <div class="icon dns-icon"></div>
+
+                                            <div v-bind:class="[(Language_Value==='2')?'computer-info-left':'computer-info-left-ch']">
+                                                <span class="pull-left" v-bind:class="[(Language_Value==='2')?'computer-info-content':'computer-info-content-ch']" v-if="Multilingual[1]">{{Multilingual[1].Describe}}:</span>
+                                                <div class="breathe-btn noStatus"></div>
+                                                <span v-if="Multilingual[19]">{{Multilingual[19].Describe}}</span>
+                                            </div>
+                                        </div>
+
                                         <a class="refresh_icon" href="javascript:void(0)" @click="CheckStatus"><span class="fa fa-refresh" v-bind:class="{ 'fa-spin': IsRefresh }" aria-hidden="true"></span></a>
                                     </div>
                                 </div>
@@ -160,19 +253,18 @@
                                             <tr>
                                                 <td>
                                                     <span v-if="Multilingual[3]">{{Multilingual[3].Describe}} </span>
-
                                                 </td>
                                                 <td><span>{{Subscription.NAMED_USER_COUNT}}</span></td>
                                             </tr>
                                             <!--<tr>
-                                            <td>
-                                                <span v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span>
+                                                <td>
+                                                    <span v-if="Multilingual[4]">{{Multilingual[4].Describe}}</span>
 
-                                            </td>
-                                            <td rel="popover" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" v-bind:data-content="Subscription.FEATURES">
-                                                <span>{{Subscription.FEATURES}}</span>
-                                            </td>
-                                        </tr>-->
+                                                </td>
+                                                <td rel="popover" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="top" data-html="true" v-bind:data-content="Subscription.FEATURES">
+                                                    <span>{{Subscription.FEATURES}}</span>
+                                                </td>
+                                            </tr>-->
                                             <tr>
                                                 <td>
                                                     <span v-if="Multilingual[20]">{{Multilingual[20].Describe}}</span>
@@ -228,31 +320,34 @@
                                                 </td>
                                                 <td><span>VISA</span></td>
                                             </tr>
-                                            <tr>
+                                            <!--<tr>
                                                 <td>
                                                     <span v-if="Multilingual[12]">{{Multilingual[12].Describe}}  </span>
                                                 </td>
-                                                <td><span>{{Subscription.CREATE_TIME|FormatDate}}</span></td>
-                                            </tr>
+                                                <td><span v-if="Subscription.CREATE_TIME!=''">{{Subscription.CREATE_TIME | FormatDate}}</span></td>
+                                            </tr>-->
                                             <tr>
                                                 <td>
                                                     <span v-if="Multilingual[13]">{{Multilingual[13].Describe}}     </span>
 
                                                 </td>
                                                 <td>
-                                                    <span>{{Subscription.PRODUCT_CR_TIME|FormatDate}}</span>
+                                                    <span v-if="Subscription.PRODUCT_CR_TIME!=''">{{Subscription.PRODUCT_CR_TIME | FormatDate}}</span>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     <span v-if="Multilingual[14]">{{Multilingual[14].Describe}}  </span>
                                                 </td>
-                                                <td><span>{{Subscription.PRODUCT_AT_TIME|FormatDate}}</span></td>
+                                                <td><span v-if="Subscription.PRODUCT_AT_TIME!=''">{{Subscription.PRODUCT_AT_TIME|FormatDate}}</span></td>
                                             </tr>
                                             <tr>
                                                 <td class="text-center" colspan="2">
                                                     <strong>
-                                                        <a @click="CheckIsCanRenew()" class="btn  btn-cta-primary" style="width:70%;" v-if="Multilingual[15]">{{Multilingual[15].Describe}}</a>
+                                                        <a @click="CheckIsCanRenew()" class="btn  btn-cta-primary" style="width:70%;" v-if="Subscription.PAYWAY_ID == '1'">{{Multilingual[15].Describe}}</a>
+                                                    </strong>
+                                                    <strong>
+                                                        <a @click="AutoPayment()" data-toggle="modal" data-target="#AutoPayMsg_Modal" class="btn  btn-cta-primary" style="width:70%;" v-if="Subscription.PAYWAY_ID == '2'">{{Multilingual[26].Describe}}</a>
                                                     </strong>
                                                 </td>
                                             </tr>
@@ -305,7 +400,7 @@
                             </p>
 
                             <p class="Contact_icon" v-if="Navigation[28]">
-                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                <span style=" padding-right :50px; font-family: Britannic;" v-if="Navigation[28]">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                                 <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
                                 <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
 
@@ -330,8 +425,7 @@
 
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                 </div>
             </div>
 
@@ -341,8 +435,333 @@
 
 
         </footer>
+
+
+        <div data-keyboard="false" data-backdrop="static" tabindex="-1" class="modal fade" id="AutoPayMsg_Modal">
+            <div class="modal-dialog" v-if="ModalType==='1'" v-show="!IsUpdateCardNumber">
+                <div style="margin-top:30%" class="modal-content">
+                    <div style="background:#59b8bc;height:60px;border-radius:5px;" class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="CloseModal"><span aria-hidden="true">&times;</span></button>
+                        <p style="font-family:inherit; text-align:center;color:white;line-height:26px;font-size:26px">
+                            <stong v-if="Multilingual[34]">{{Multilingual[34].Describe}}</stong>
+                        </p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-offset-2 col-sm-9">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[27]">
+                                                {{Multilingual[27].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <div>
+                                                {{AutoPayMsg.account | FromatAccount}}
+                                                <a href="javascript:void(0)" @click="UpdateCardNumber"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[28]">
+                                                {{Multilingual[28].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <div>
+                                                {{AutoPayMsg.payMethod}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[31]">
+
+                                                {{Multilingual[31].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <div>
+                                                {{AutoPayMsg.holder}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[32]">
+                                                {{Multilingual[32].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <div>
+                                                {{AutoPayMsg.expiryDate}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[29]">
+                                                {{Multilingual[29].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <div v-if="AutoPayMsg.startDate">
+                                                {{AutoPayMsg.startDate | FormatStrDate}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<div class="form-group">
+                                        <label class="col-sm-7">
+                                            <span v-if="Multilingual[58]">
+                                                {{Multilingual[58].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-5">
+                                            <button style="padding-top:0;padding-bottom:0;" @click="CancelAutoPay" v-if="Multilingual[59]" class="btn btn-cta-secondary">
+                                                {{Multilingual[59].Describe}}
+                                            </button>
+                                        </div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="border-top:none">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <button style="width :60%;font-family:inherit;" @click="CancelAutoPay" v-if="Multilingual[58]" class="btn btn-block btn-cta-primary pull-right clean-transition">
+                                    {{Multilingual[58].Describe}}
+                                </button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button style="margin-left:auto;margin-right:auto; width :60%;font-family:inherit;" type="button" class="btn btn-block btn-cta-primary clean-transition" v-on:click="AutoPaymentDetail">
+                                    <span v-if="Multilingual[33]">
+                                        {{Multilingual[33].Describe}}
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div v-else-if="ModalType==='2'" class="modal-dialog modal-lg">
+                <div style="margin-top:30%" class="modal-content">
+                    <div style="background:#59b8bc;height:60px;border-radius:5px;" class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="CloseModal"><span aria-hidden="true">&times;</span></button>
+                        <p style="font-family:inherit; text-align:center;color:white;line-height:26px;font-size:26px">
+                            <stong v-if="Multilingual[35]">{{Multilingual[35].Describe}}</stong>
+                        </p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table class="table">
+                                    <tr>
+                                        <td v-if="Multilingual[36]">{{Multilingual[36].Describe}}</td>
+                                        <td v-if="Multilingual[37]">{{Multilingual[37].Describe}}</td>
+                                        <td v-if="Multilingual[38]">{{Multilingual[38].Describe}}</td>
+                                        <td v-if="Multilingual[39]">{{Multilingual[39].Describe}}</td>
+                                        <td v-if="Multilingual[40]">{{Multilingual[40].Describe}}</td>
+                                        <td v-if="Multilingual[41]">{{Multilingual[41].Describe}}</td>
+                                        <td v-if="Multilingual[42]">{{Multilingual[42].Describe}}</td>
+                                    </tr>
+                                    <tr v-for="detail in AutoPayDetail">
+                                        <td>{{detail.dSchPayId}}</td>
+                                        <td>{{detail.schType | FormatFrequency}}</td>
+                                        <td>
+                                            <span v-if="detail.orderDate">
+                                                {{detail.orderDate | FormatStrDate}}
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span v-if="detail.tranDate">
+                                                {{detail.tranDate | FormatStrDate}}
+                                            </span>
+                                        </td>
+                                        <td>{{detail.currency}}</td>
+                                        <td>{{detail.amount}}</td>
+                                        <td>{{detail.status}}</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="border-top:none">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button style=" margin-left:auto;margin-right:auto; width :44%;font-family:inherit;" type="button" class="btn btn-block btn-cta-primary" v-on:click="ReturnAutoPayMsg">
+                                    <span v-if="Multilingual[48]">
+                                        {{Multilingual[48].Describe}}
+                                    </span>
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-dialog" v-else-if="ModalType==='3'">
+                <div style="margin-top:30%" class="modal-content">
+                    <div style="background:#59b8bc;height:60px;border-radius:5px;" class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" v-on:click="CloseModal" @click="CancelVerifyEmail"><span aria-hidden="true">&times;</span></button>
+                        <p style="font-family:inherit; text-align:center;color:white;line-height:26px;font-size:26px">
+                            <stong v-if="Multilingual[57]">{{Multilingual[57].Describe}}</stong>
+                        </p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <div class="input-group">
+                                                <div v-if="Multilingual[56]">
+                                                    <input type="text" v-model="Verifycode" v-bind:placeholder="Multilingual[56].Describe" class="form-control">
+                                                </div>
+                                                <div class="input-group-addon">
+                                                    <button type="button" class="btn btn-cta-secondary" @click="GetVerifyCodeEmail" v-bind:disabled="IsSendVerifyEmail">
+                                                        <span v-if="!IsSendVerifyEmail"><span v-if="Multilingual[54]">{{Multilingual[54].Describe}}</span></span>
+                                                        <span v-if="IsSendVerifyEmail"><span v-if="Multilingual[55]">{{Multilingual[55].Describe}}</span>({{ResendTime}})</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="text-danger" v-if="Verifycode_error!=''">
+                                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                {{Verifycode_error}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="border-top:none">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <button style="margin:0 auto;width:44%;font-family:inherit;" type="button" class="btn btn-block clean-transition" @click="CancelVerifyEmail">
+                                    <span v-if="Multilingual[52]">
+                                        {{Multilingual[52].Describe}}
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button style="margin-left:auto;margin-right:auto; width :44%;font-family:inherit;" type="button" class="btn btn-block btn-cta-primary clean-transition" v-on:click="VerifyAutoPayEmail">
+                                    <span v-if="PromptMessage[29]">
+                                        {{PromptMessage[29].Describe}}
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-dialog" v-show="IsUpdateCardNumber">
+                <div style="margin-top:30%" class="modal-content">
+                    <div style="background:#59b8bc;height:60px;border-radius:5px;" class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" v-on:click="CloseModal" @click="CancelUpdate" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <p style="font-family:inherit; text-align:center;color:white;line-height:26px;font-size:26px">
+                            <stong v-if="Multilingual[53]">{{Multilingual[53].Describe}}</stong>
+                        </p>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-offset-1 col-sm-10">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-6 control-label">
+                                            <span v-if="Multilingual[44]">
+                                                {{Multilingual[44].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-6">
+                                            <select v-model="PayMethodValue" style="appearance:menulist;-webkit-appearance: menulist;" class="form-control">
+                                                <option v-for="item in DropDownPayMethod" v-bind:value="item.VALUE">
+                                                    {{item.DICTIONARY_KEY}}
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-6 control-label">
+                                            <span v-if="Multilingual[45]">
+                                                {{Multilingual[45].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-6" v-if="Multilingual[49]">
+                                            <input type="text" v-model="CardNum" class="form-control" maxlength="16" v-bind:placeholder="Multilingual[49].Describe" />
+                                            <div class="text-danger" v-if="CardNum_error!=''">
+                                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                {{CardNum_error}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-6 control-label">
+                                            <span v-if="Multilingual[31]">
+                                                {{Multilingual[31].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-6" v-if="Multilingual[50]">
+                                            <input type="text" v-model="HolderName" class="form-control" v-bind:placeholder="Multilingual[50].Describe" />
+                                            <div class="text-danger" v-if="HolderName_error!=''">
+                                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                {{HolderName_error}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-6 control-label">
+                                            <span v-if="Multilingual[47]">
+                                                {{Multilingual[47].Describe}}
+                                            </span>
+                                        </label>
+                                        <div class="col-sm-6">
+                                            <div v-if="Multilingual[51]">
+                                                <input id="cardCale" type="text" class="form-control" v-bind:placeholder="Multilingual[51].Describe" />
+                                                <i class="fa fa-calendar calendar" aria-hidden="true"></i>
+                                            </div>
+
+
+                                            <div class="text-danger" v-if="ExpireDate_error!=''">
+                                                <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                {{ExpireDate_error}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="border-top:none">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <button style="width :60%;font-family:inherit;" type="button" class="btn btn-block pull-right" @click="UpdateReturnAutoPay">
+                                    <span v-if="Multilingual[52]">
+                                        {{Multilingual[52].Describe}}
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button style="margin-left:auto;margin-right:auto; width :60%;font-family:inherit;" type="button" class="btn btn-block btn-cta-primary" @click="UpdateCardNum">
+                                    <span v-if="Multilingual[43]">
+                                        {{Multilingual[43].Describe}}
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div v-if="IsBackdrop" class="custom-modal-backdrop custom-modal-fade custom-in"></div>
     </div>
     <div id="WarningMessage"></div>
+
     <!-- Javascript -->
     <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -355,7 +774,7 @@
     <!--Cookie-->
     <script type="text/javascript" src="../../Content/js/Share/jquery.cookie.js"></script>
     <!-- Vimeo video API -->
-    
+
     <script src="../../Content/js/Share/froogaloop2.min.js"></script>
     <script type="text/javascript" src="../../Content/js/Share/vimeo.js"></script>
     <!--Vue-->
@@ -364,6 +783,7 @@
     <script src="../../Content/js/Share/WarningMessage.js"></script>
     <script src="../../Content/js/Share/GetCommonAPI.js"></script>
     <script src="../../Content/js/Share/Multilingual.js"></script>
+    <script src="../../Content/plugins/laydate/laydate.js"></script>
     <script src="../../Content/js/Index/ShowSubscriptionPlan.js"></script>
 </body>
 </html>

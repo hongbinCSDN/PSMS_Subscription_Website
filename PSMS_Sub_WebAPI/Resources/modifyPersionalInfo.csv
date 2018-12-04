@@ -1,7 +1,7 @@
 ﻿Number,Identifying,Describe
-1028,1,房地產在線銷售平台
-1028,2,修改個人信息
-1028,3,個人信息
+1028,1,i.Properties
+1028,2,賬號資料
+1028,3,您的賬號資料
 1028,4,英文名
 1028,5,中文名
 1028,6,郵箱
@@ -19,9 +19,15 @@
 1028,18,請輸入您公司的名稱
 1028,19,請輸入您公司的地址
 1028,20,修改密碼
-1030,1,房地在线销售平台
-1030,2,修改个人信息
-1030,3,个人信息
+1028,21,修改
+1028,22,取消修改
+1028,23,請輸入驗證碼
+1028,24,獲取郵箱驗證碼
+1028,25,重新發送
+1028,26,修改賬號資料
+1030,1,i.Properties
+1030,2,账号资料
+1030,3,您的賬号資料
 1030,4,英文名
 1030,5,中文名
 1030,6,邮箱
@@ -39,9 +45,15 @@
 1030,18,请输入您公司的名称
 1030,19,请输入您公司的地址
 1030,20,修改密码
-1033,1,Property Sales Management System
-1033,2,Modify Personal Information
-1033,3,Personal Information
+1030,21,修改
+1030,22,取消修改
+1030,23,请输入验证码
+1030,24,获取邮箱验证码
+1030,25,重新发送
+1030,26,修改账号资料
+1033,1,i.Properties
+1033,2,Account Information
+1033,3,Your Account Profile
 1033,4,English Name
 1033,5,Chinese Name
 1033,6,Email
@@ -59,3 +71,9 @@
 1033,18,Please enter your company name
 1033,19,Please enter your company address
 1033,20,Modify Account Password
+1033,21,Modify
+1033,22,Cancel
+1033,23,Please enter your verification code
+1033,24,Send Verification Code Email
+1033,25,Resend
+1033,26,Modify

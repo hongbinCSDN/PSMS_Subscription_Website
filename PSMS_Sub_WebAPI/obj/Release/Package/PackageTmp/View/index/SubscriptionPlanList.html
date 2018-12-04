@@ -159,7 +159,7 @@
                                     </tr>
 
                                     <tr v-for="Subscription in Subscriptions">
-                                        <td><a v-bind:href="'../index/ShowSubscriptionPlan.html?Ref='+Subscription.ORDERREF">{{Subscription.DOMAIN_NAME}}.pssasl.com</a></td>
+                                        <td><a v-bind:href="'../index/ShowSubscriptionPlan.html?Ref='+Subscription.ORDERREF">{{Subscription.DOMAIN_NAME}}.aslpss.com</a></td>
                                         <!--<td>{{Subscription.FEATURES}}</td>-->
                                         <!--<td>{{Subscription.CREATE_TIME|FormatDate}}  - 2019/08/06 12 : 00 </td>-->
                                         <td>{{Subscription.PRODUCT_CR_TIME|FormatDate}}  - {{Subscription.PRODUCT_AT_TIME|FormatDate}} </td>
@@ -181,7 +181,8 @@
                                         </td>
                                         <!--Add by bill 2018.9.3-->
                                         <td>
-                                            <a style="cursor: pointer;" @click="CheckIsCanRenew(Subscription.PAYMENT_TYPE_ID,Subscription.DOMAIN_NAME,Subscription.ORDERREF)">{{Multilingual[10].Describe}}</a>
+                                            <a v-if="Subscription.PAYWAY_ID == '1'" style="cursor: pointer;" @click="CheckIsCanRenew(Subscription.PAYMENT_TYPE_ID,Subscription.DOMAIN_NAME,Subscription.ORDERREF)">{{Multilingual[10].Describe}}</a>
+                                            <span v-if="Subscription.PAYWAY_ID == '2'" style="cursor: pointer;color:#59b8bc">{{Multilingual[12].Describe}}</span>  
                                         </td> <!---->
                                         <!--End-->
                                     </tr>
@@ -257,8 +258,7 @@
 
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                 </div>
             </div>
 

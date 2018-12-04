@@ -53,11 +53,11 @@ namespace PSMS_Sub_BL
         /// </summary>
         /// <param name="customer"></param>
         /// <returns></returns>
-        public ResultVM vmQueryByRegister(CUSTOMER customer,string category)
+        public ResultVM vmQueryByRegister(CUSTOMER customer, string category)
         {
-            return new ResultVM { Data = DA.AddQueryByRegister(customer,category) };
+            return new ResultVM { Data = DA.AddQueryByRegister(customer, category) };
         }
-        
+
 
         /// <summary>
         /// VaildAccount
@@ -98,7 +98,7 @@ namespace PSMS_Sub_BL
             return DA.GetQueryByGetPersonalInfo(customer);
         }
 
-        
+
         /// <summary>
         /// Update The Customer's Information
         /// </summary>
@@ -108,7 +108,7 @@ namespace PSMS_Sub_BL
         {
             if (string.IsNullOrEmpty(customer.CUSTOMER_NAME) || string.IsNullOrEmpty(customer.EMAIL) || string.IsNullOrEmpty(customer.COMPANY) || string.IsNullOrEmpty(customer.PHONE))
             {
-                return new ResultVM { Data = 0  };
+                return new ResultVM { Data = 0 };
             }
             customer.CNAME = customer.CNAME ?? "";
             customer.FIXED_TELEPHONE = customer.FIXED_TELEPHONE ?? "";
@@ -118,6 +118,32 @@ namespace PSMS_Sub_BL
 
         //Modify end
 
+        /// <summary>
+        /// Modify the account's email
+        /// </summary>
+        /// <param name="username"></param>
+        /// <param name="email"></param>
+        /// <returns>
+        /// 0:modify failed
+        /// 1:modify successed
+        /// -3:Email has exist
+        /// </returns>
+        /// Add By Chester 2018.10.11
+        public int vmQueryByUpdateAccountEmail(string username, string email)
+        {
+            if (!DA.IsEmailUnique(email))
+            {
+                return -3;
+            }
+            return DA.UpdateCustomerEmail(username, email);
+        }
+
+        public bool vmQueryByIsEmailUnique(string email)
+        {
+            return DA.IsEmailUnique(email);
+        }
+
+        // End
 
         // Add by bill 2018.8.21
         /// <summary>
@@ -125,9 +151,9 @@ namespace PSMS_Sub_BL
         /// </summary>
         /// <param name="username"></param>
         /// <returns></returns>
-        public void vmQueryByLoginLog(string username,string access_ip)
+        public void vmQueryByLoginLog(string username, string access_ip)
         {
-            DA.WriteLoginLog(username,access_ip);
+            DA.WriteLoginLog(username, access_ip);
         }
         //End
     }

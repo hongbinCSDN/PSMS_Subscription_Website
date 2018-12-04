@@ -16,6 +16,7 @@
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="../../Content/css/styles.css">
     <link href="../../Content/css/Footer.css" rel="stylesheet" />
+    <link href="../../Content/css/Register.css" rel="stylesheet" />
 </head>
 
 <body class="signup-page access-page has-full-screen-bg">
@@ -28,13 +29,13 @@
                         <a href="../index/index.html"><span class="logo-icon"></span><span class="text" v-if="Multilingual[19]">{{Multilingual[19].Describe}}</span></a>
                     </h1><!--//logo-->
                     <!--<ul class="nav navbar-nav" style="position:relative;float:right;margin-top:-37px;">
-                    <li class="nav-item dropdown">
-                        <select v-model="Language_Value" style="background-color:;" class="form-control" v-on:change="ChangeLan()" id="MultilSelect">
-                            <option v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
-                        </select>
+                        <li class="nav-item dropdown">
+                            <select v-model="Language_Value" style="background-color:;" class="form-control" v-on:change="ChangeLan()" id="MultilSelect">
+                                <option v-for="item in DropDownLanguage" v-bind:value="item.VALUE">{{item.DESCRIBE}}</option>
+                            </select>
 
-                    </li>
-                </ul>-->
+                        </li>
+                    </ul>-->
 
                     <div class="navbar-collapse" style="position:absolute;right:0;top:-15px;">
                         <ul class="nav navbar-nav" style="">
@@ -65,20 +66,35 @@
                                         <form class="signup-form">
                                             <div class="form-group user">
                                                 <label class="sr-only" style="color:red" for="signup-email">Your username</label>
-                                                <input id="signup-email" v-if="Multilingual[7]" type="text" class="form-control " style="width:460px" :placeholder="Multilingual[7].Describe" v-model="customer.CUSTOMER_ID"><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="signup-email" v-if="Multilingual[7]" type="text" class="form-control " style="width:460px" :placeholder="Multilingual[7].Describe" v-model="customer.CUSTOMER_ID" v-on:blur="CheckUsername" />
+                                                <i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="Username_error!=''" class="text-danger error-msg"><i class="fa fa-times-circle" aria-hidden="true"></i> {{Username_error}}</p>
                                             </div>
                                             <div class="form-group password ">
                                                 <label class="sr-only" for="signup-password">Your password</label>
 
-                                                <input id="signup-password" v-if="Multilingual[8]" type="password" style="width:460px" class="form-control login-password " :placeholder="Multilingual[8].Describe" v-model="customer.PASSWORD"><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="signup-password" v-if="Multilingual[8]" type="password" style="width:460px" class="form-control login-password " :placeholder="Multilingual[8].Describe" v-model="customer.PASSWORD" v-on:blur="CheckPassword" />
+                                                <i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="Password_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{Password_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group password">
                                                 <label class="sr-only" for="signup-password">Confirm your password</label>
-                                                <input id="signup-confirm-password" v-if="Multilingual[9]" type="password" style="width:460px" class="form-control login-password" :placeholder="Multilingual[9].Describe"><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="signup-confirm-password" v-if="Multilingual[9]" type="password" style="width:460px" class="form-control login-password" :placeholder="Multilingual[9].Describe" v-on:blur="CheckConfirmPassword"><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="ConfirmPasswrod_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{ConfirmPasswrod_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group  user">
                                                 <label class="sr-only" for="register-name"></label>
-                                                <input id="register-name" v-if="Multilingual[10]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[10].Describe" v-model="customer.CUSTOMER_NAME" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="register-name" v-if="Multilingual[10]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[10].Describe" v-model="customer.CUSTOMER_NAME" v-on:blur="CheckEnglishName" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="EnglishName_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{EnglishName_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group user">
                                                 <label class="sr-only" for="register-cname"></label>
@@ -86,11 +102,20 @@
                                             </div>
                                             <div class="form-group email">
                                                 <label class="sr-only" for="register-email"></label>
-                                                <input id="register-email" v-if="Multilingual[12]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[12].Describe" v-model="customer.EMAIL" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="register-email" v-if="Multilingual[12]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[12].Describe" v-model="customer.EMAIL" v-on:blur="CheckEmail" />
+                                                <i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="Email_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{Email_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group company">
                                                 <label class="sr-only" for="register-company"></label>
-                                                <input id="register-company" v-if="Multilingual[13]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[13].Describe" v-model="customer.COMPANY" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="register-company" v-if="Multilingual[13]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[13].Describe" v-model="customer.COMPANY" v-on:blur="CheckCompanyName" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="Company_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{Company_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group company">
                                                 <label class="sr-only" for="register-company-address"></label>
@@ -98,15 +123,28 @@
                                             </div>
                                             <div class="form-group phone">
                                                 <label class="sr-only" for="register-phone"></label>
-                                                <input id="register-phone" v-if="Multilingual[14]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[14].Describe" v-model="customer.PHONE" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input id="register-phone" v-if="Multilingual[14]" type="text" style="width:460px" class="form-control login-email" :placeholder="Multilingual[14].Describe" v-model="customer.PHONE" v-on:blur="CheckPhone" />
+                                                <i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="Phone_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{Phone_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group telephone">
                                                 <label class="sr-only" for="register-fixed-telephone"></label>
-                                                <input id="register-fixed-telephone" v-if="Multilingual[17]" type="text" maxlength="15" style="width:460px" class="form-control login-email" :placeholder="Multilingual[17].Describe" v-model="customer.FIXED_TELEPHONE" />
+                                                <input id="register-fixed-telephone" v-if="Multilingual[17]" type="text" maxlength="15" style="width:460px" class="form-control login-email" :placeholder="Multilingual[17].Describe" v-model="customer.FIXED_TELEPHONE" v-on:blur="CheckTelPhone" />
+                                                <p v-if="Telphone_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{Telphone_error}}
+                                                </p>
                                             </div>
                                             <div class="form-group code">
-
-                                                <input type="text" v-if="Multilingual[15]" style="width:460px" class="form-control" id="code_input" value="" :placeholder="Multilingual[15].Describe" /><i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <input type="text" v-if="Multilingual[15]" style="width:460px" class="form-control" id="code_input" value="" :placeholder="Multilingual[15].Describe" v-on:blur="CheckVerifyCode" />
+                                                <i class="fa" style="color:red;float:right;margin-top:-25px;">*</i>
+                                                <p v-if="VerifyCode_error!=''" class="text-danger error-msg">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    {{VerifyCode_error}}
+                                                </p>
                                                 <div id="v_container" style="width:460px;height:50px;margin-top:10px;"></div>
                                             </div>
                                             <button type="button" class="btn btn-block btn-cta-primary" @click="RegisterCustomerAccount()" v-if="Multilingual[2]">{{Multilingual[2].Describe}}</button>
@@ -148,10 +186,10 @@
                             </p>
 
                             <p class="Contact_icon" v-if="Navigation[28]">
-                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+                                <span style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>
+                                <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                                 <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
                                 <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
-
                             </p>
                             <p class="Contact_icon">
 
@@ -173,19 +211,11 @@
 
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                 </div>
             </div>
-
-
-
-
-
-
         </footer>
     </div>
-
     <!-- Javascript -->
     <script type="text/javascript" src="../../Content/plugins/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="../../Content/plugins/bootstrap/js/bootstrap.min.js"></script>

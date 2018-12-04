@@ -20,5 +20,6 @@ namespace PSMS_Sub_DM
         public DateTime UPDATE_TIME { get; set; }
         public string RENEWAL_LAST_ORDERREF { get; set; }
         public string MULTILINGUAL_ID { get; set; }
+        public string PAYWAY_ID { get; set; }   //Add by bill 2018-10-18
     }
 }

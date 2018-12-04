@@ -2,26 +2,53 @@
     body{
     
 }
+.content-info h4 {
+    color: #404040;
+}
+.content-info p {
+    color: #868686;
+}
+.content-info > div {
+    padding:50px 0;
+ 
+}
+    .content-info > div > div {
+  
+        background: #ffffff;
+        padding: 0;
+    }
+
+.rotateY {
+    transition: transform 1s;
+    -moz-transition: transform 1s; /* Firefox 4 */
+    -webkit-transition: transform 1s; /* Safari and Chrome */
+    -o-transition: transform 1s; /* Opera */
+}
+    .rotateYhover {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg); /* Safari and Chrome */
+        -moz-transform: rotateY(180deg); /* Firefox */
+    }
 .transition-width {
-    background: rgba(0, 0, 0, 0.75);
-    transition: width 0.6s;
-    -moz-transition: width 0.6s; /* Firefox 4 */
-    -webkit-transition: width 0.6s; /* Safari 和 Chrome */
-    -o-transition: width 0.6s; /* Opera */
+    background: #59b8bc;
+    transition: width 1s;
+    -moz-transition: width 1s; /* Firefox 4 */
+    -webkit-transition: width 1s; /* Safari 和 Chrome */
+    -o-transition: width 1s; /* Opera */
 }
 
 .transition-hight {
-    background: rgba(0, 0, 0, 0.75);
-    transition: height 0.2s;
-    -moz-transition: height 0.2s; /* Firefox 4 */
-    -webkit-transition: height 0.6s; /* Safari 和 Chrome */
-    -o-transition: height 0.2s; /* Opera */
+    background: #59b8bc;
+    transition: height 1s;
+    -moz-transition: height 1s; /* Firefox 4 */
+    -webkit-transition: height 1s; /* Safari 和 Chrome */
+    -o-transition: height 1s; /* Opera */
 }
 
 .topboder {
     position: absolute;
     z-index: 1;
-    height: 2px;
+    height: 1px;
     width: 0%;
     top: 0px;
 }
@@ -29,7 +56,7 @@
 .bottomboder {
     position: absolute;
     z-index: 1;
-    height: 2px;
+    height: 1px;
     width: 0%;
     bottom: 0px;
     right: 0px;
@@ -40,14 +67,14 @@
     height: 0%;
     position: absolute;
     left: 0px;
-    width: 2px;
+    width: 1px;
 }
 
 .rightboder {
     height: 0%;
     position: absolute;
     right: 0px;
-    width: 2px;
+    width: 1px;
     bottom: 0px;
 }
 
@@ -95,14 +122,13 @@
     -webkit-transition: -webkit-transform 2s; /* Safari and Chrome */
     -o-transition: -o-transform 2s; /* Opera */
 }
-.rotate:hover {
-        color: #ea6352;
+    .rotate:hover {
+        color: #59b8bc;
         transform: rotate(360deg);
         -ms-transform: rotate(360deg); /* Internet Explorer */
         -moz-transform: rotate(360deg); /* Firefox */
         -webkit-transform: rotate(360deg); /* Safari 和 Chrome */
         -o-transform: rotate(360deg); /* Opera */
-       
     }
 .under .item2 {
     vertical-align: middle;

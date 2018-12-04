@@ -1,6 +1,7 @@
 ﻿using PSMS_Utility;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
@@ -77,7 +78,7 @@ namespace PSMS_Sub_DA
         /// <returns></returns>
         public string GetQueryByStatusPercent(string customer_id, string orderref)
         {
-            string sSql = "SELECT PERCENTAGE FROM SYS_T_ALICLOUDSTATUS WHERE STATUS_CODE=(SELECT STATUS_CODE FROM SUS_T_PAYMENT WHERE ORDERREF=@ORDERREF AND CUSTOMER_ID=@CUSTOMER_ID)";
+            string sSql = "SELECT PERCENTAGE FROM SYS_T_ALICLOUDSTATUS WHERE STATUS_CODE=(SELECT STATUS_CODE FROM SUS_T_PAYMENT WHERE ORDERREF=@ORDERREF AND CUSTOMER_ID=@CUSTOMER_ID AND STATUS_PAYMENT='0' )";
             SqlParameter[] sqlParams = new SqlParameter[]
            {
                 new SqlParameter("@CUSTOMER_ID",customer_id),
@@ -98,6 +99,43 @@ namespace PSMS_Sub_DA
             return ds.Tables[0].Rows[0]["PERCENTAGE"].ToString();
         }
 
+        // Modify by Chester 2018-11-14
+        public DataSet GetPaymentStatusByOrder(string orderref,string username)
+        {
+            string sql = "SELECT [STATUS_CODE],[STATUS_PAYMENT] FROM [SUS_T_PAYMENT] where ORDERREF=@ORDERREF and CUSTOMER_ID=@USERNAME";
+            SqlParameter[] sqlParams = new SqlParameter[]
+            {
+                new SqlParameter("@ORDERREF",orderref),
+                new SqlParameter("@USERNAME",username)
+            };
+            DataSet ds = DBHelper.GetDataSet(sql, sqlParams);
+            return ds;
+        }
+
+        public string GetPaymentDomainName(string orderref,string username)
+        {
+            string sql = "SELECT DOMAIN_NAME FROM [SUS_T_PAYMENT] where ORDERREF=@ORDERREF and CUSTOMER_ID=@USERNAME";
+            SqlParameter[] sqlParams = new SqlParameter[]
+            {
+                new SqlParameter("@ORDERREF",orderref),
+                new SqlParameter("@USERNAME",username)
+            };
+            DataSet ds = DBHelper.GetDataSet(sql, sqlParams);
+            return ds.Tables[0].Rows[0][0].ToString();
+        }
+
+        public DataSet GetLastestPaymentInfoByUsername(string username)
+        {
+            string sql = "SELECT TOP 1 * FROM SUS_T_PAYMENT WHERE CUSTOMER_ID=@CUSTOMER_ID AND STATUS_PAYMENT='0' ORDER BY CREATE_TIME DESC";
+            SqlParameter[] sqlParams = new SqlParameter[]
+            {
+                new SqlParameter("@CUSTOMER_ID",username)
+            };
+            DataSet ds = DBHelper.GetDataSet(sql, sqlParams);
+            return ds;
+        }
+
+        // End
         /// <summary>
         /// Check The Payment Status
         /// </summary>

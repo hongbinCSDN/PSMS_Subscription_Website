@@ -11,6 +11,7 @@
 1028,10,您還未訂閱我們的產品！
 1028,11,續費
 1028,12,您確定要續費嗎？
+1028,13,自動扣款
 1030,1,您的订阅计划列表
 1030,2,属于您的产品
 1030,3,网站名称
@@ -23,11 +24,12 @@
 1030,10,您还未订阅我们的产品！
 1030,11,续费
 1030,12,您确定要续费吗？
+1030,13,自动扣款
 1033,1,Your Subscription Plan List
 1033,2,The Products Belong To You
-1033,3,WEBSITE NAME
-1033,4,SUBSCRIPTION PERIOD
-1033,5,STATUS
+1033,3,Website Name
+1033,4,Subscription Period
+1033,5,Status
 1033,6,Running
 1033,7,Stopped
 1033,8,Abnormal
@@ -35,3 +37,4 @@
 1033,10,You have not subscribed to our products!
 1033,11,Renewal
 1033,12,Are you sure you want to renewal ?
+1033,13,Automatic

@@ -40,12 +40,12 @@ namespace PSMS_Sub_BL
             return DA.CheckDomainName(domain_name);
         }
 
-        public string vmQueryByUpdateStatusCode(PaymentStatusCode data)
+        public ResultVM vmQueryByUpdateStatusCode(PaymentStatusCode data)
         {
             return DA.UpdateStatusCode(data);
         }
         
-        public int vmQueryByUpdateOrderExpireDate(OrderExpireDateVM data)
+        public ResultVM vmQueryByUpdateOrderExpireDate(OrderExpireDateVM data)
         {
             return DA.UpdateOrderExpireDate(data);
         }
@@ -54,5 +54,87 @@ namespace PSMS_Sub_BL
         {
             return DA.CheckIsCanRenew(orederref);
         }
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="XmlFiledValues"></param>
+        /// <returns></returns>
+        public string vmSaveQueryPaymentStatus(string[] XmlFiledValues)
+        {
+           return DA.SaveQueryPaymentStatus(XmlFiledValues);
+        }
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="SchXmlFiledValues"></param>
+        /// <returns></returns>
+        public void vmSaveQuerySchPaymentInfo(string[] SchXmlFiledValues)
+        {
+    DA.SaveQuerySchPaymentInfo(SchXmlFiledValues);
+        }
+
+        /// <summary>
+        /// Add by bill 2018-10-19
+        /// </summary>
+        /// <param name="DetailSchXmlFiledValues"></param>
+        /// <param name="mSchPayId"></param>
+        /// <returns></returns>
+        public void vmSaveQueryDetailSchPaymentInfo(string[] DetailSchXmlFiledValues,string mSchPayId)
+        {
+            DA.SaveQueryDetailSchPaymentInfo(DetailSchXmlFiledValues, mSchPayId);
+        }
+
+        public DataSet vmQueryOrderPayRef(string orderRef)
+        {
+            return DA.QueryOrderPayRef(orderRef);
+        }
+
+        // Add by chester 2018-10-22
+
+        public DataSet vmQueryAutoPayMessage(string merref)
+        {
+            return DA.QueryAutoPayMessage(merref);
+        }
+
+        public DataSet vmQueryDetailSchPay(string schPayId)
+        {
+            return DA.QueryDetailSchPay(schPayId);
+        }
+
+        public DataTable vmGetPaymentMethod()
+        {
+            return DA.GetPaymentMethod();
+        }
+        // End
+
+        public void vmSaveChangeCardInfoFeedBack(string[] feedback)
+        {
+            DA.SaveChangeCardInfoFeedBack(feedback);
+        }
+
+        public void vmUpdateCardInfoFeedBack(string orderRef,string mSchPayId)
+        {
+            DA.UpdateCardInfoFeedBack(orderRef, mSchPayId);
+        }
+
+        public string  vmQuerySchPaymentmSchPayId(string orderRef)
+        {
+            return DA.GetSchPaymentmSchPayId(orderRef);
+        }
+
+
+        public void vmUpdateSchpaymentStatus(string mSchPayId,string orderRef)
+        {
+            DA.UpdateSchPaymentStatus(mSchPayId, orderRef);
+        }
+
+        // Add by Chester 2018.10.31
+        public string vmQuerySchPaymentAccount(string orderRef)
+        {
+            return DA.GetSchPaymentAccount(orderRef);
+        }
+        // End
     }
 }

@@ -2,13 +2,13 @@
 1028,1,主頁面
 1028,2,產品特點
 1028,3,訂閱
-1028,4,个人
+1028,4,賬號
 1028,5,登錄
 1028,6,註冊
 1028,7,退出登錄
-1028,8,修改個人信息
+1028,8,賬號資料
 1028,9,修改密碼
-1028,10,房地產在線銷售平台
+1028,10,i.Properties
 1028,11,訂閱狀態
 1028,12,訂閲計劃列表
 1028,13,登錄時間：
@@ -29,17 +29,17 @@
 1028,28,產品信息
 1028,29,關注我們
 1028,30,自動系統集團有限公司（ASL）擁有四十多年的成功經驗\在香港及周邊地區的客戶、合作夥伴和供應商口中享有卓越的聲譽。
-1028,31,房地產在線銷售平台
+1028,31,i.Properties
 1030,1,主页面
 1030,2,产品特点
 1030,3,订阅
-1030,4,个人
+1030,4,账号
 1030,5,登录
 1030,6,注册
 1030,7,退出登录
-1030,8,修改个人信息
+1030,8,账号资料
 1030,9,修改密码
-1030,10,房地产在线销售平台
+1030,10,i.Properties
 1030,11,订阅状态
 1030,12,订阅计划列表
 1030,13,登录时间：
@@ -60,19 +60,19 @@
 1030,28,产品信息
 1030,29,关注我们
 1030,30,自动系统集团有限公司（ASL）拥有四十多年的成功经验\在香港及周边地区的客户、合作伙伴和供应商口中享有卓越的声誉。
-1030,31,房地产在线销售平台
-1033,1,HOME
-1033,2,FEATURES
-1033,3,SUBSCRIBE
-1033,4,PERSONAL
-1033,5,LOG IN
-1033,6,SIGN UP FREE
-1033,7,LOG OUT
-1033,8,MODIFY PERSONAL INFORMATION
-1033,9,MODIFY PASSWORD
-1033,10,Property Sales Management System
-1033,11,SUBSCRIPTION STATUS
-1033,12,SUBSCRIPTION PLAN LIST
+1030,31,i.Properties
+1033,1,Home
+1033,2,Features
+1033,3,Subscribe
+1033,4,Account
+1033,5,Log in
+1033,6,Sign up free
+1033,7,Log out
+1033,8,Account information
+1033,9,Change password
+1033,10,i.Properties
+1033,11,Subscription status
+1033,12,Subscription plan list
 1033,13,Login Time:
 1033,14,Email:
 1033,15,Copyright Notice
@@ -91,4 +91,4 @@
 1033,28,Product Information
 1033,29,Follow Us
 1033,30,Automated Systems (H.K.) Limited (ASL) has a distinguished and proud reputation of more than 40 years of successful business in Hong Kong and surrounding regions with our customers\ partners and vendors.
-1033,31,Property Sales Management System
+1033,31,i.Properties

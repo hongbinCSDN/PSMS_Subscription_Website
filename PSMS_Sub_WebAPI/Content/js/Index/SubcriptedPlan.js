@@ -11,10 +11,12 @@ var vm = new Vue({
         ProgressPercent: '',
         ProductInfo: {},
         ProductFuncs: [],
+        IsRenewal: false,
+        Domain_name:"",// Modify by Chester 2018-11-14
         UserInfo: {}  //Modify by bill 2018-6-17
     },
     mounted: function () {
-        this.LoadMultilingual()      
+        this.LoadMultilingual()
     },
     methods: {
         GetToken: function () {
@@ -94,26 +96,26 @@ var vm = new Vue({
                     this.LoadProductFunc();
                     this.LoadProgress();
                 }, function (response) {
-                    WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
-                    $("#myModal").modal(); 
+                    WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                    $("#myModal").modal();
                 })
             }
-            else {               
-                var api = GetCommonAPI_IE("System/GetProductByUser");            
+            else {
+                var api = GetCommonAPI_IE("System/GetProductByUser");
                 this.$http.get(api, { headers: { Authorization: 'bearer ' + this.Token } }).then(function (response) {
                     this.ProductInfo = response.body.Data.Table[0];
                     //Modify / Add by Chester 2018.08.10
                     if (this.ProductInfo != null && this.ProductInfo != "") {
                         this.LoadProductFunc();
                         this.LoadProgress();
-                    } else {                   
+                    } else {
                         WarningMessage_Link('WarningMessage', this.PromptMessage[28].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, "'../index/SubscriptionPlan.html'");
                         $("#myModal").modal();
                     }
                     //Modify End
                 }, function (response) {
-                    WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe,this.PromptMessage[29].Describe, 'vm.RemoveToken()');
-                    $("#myModal").modal(); 
+                    WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                    $("#myModal").modal();
                 });
             }
 
@@ -122,24 +124,36 @@ var vm = new Vue({
             if (this.GetQueryString('Ref') != null && this.GetQueryString('Ref') != '') {
                 var api = GetCommonAPI_IE('System/GetStatusPercent');
                 this.$http.get(api, { params: { "orderref": this.GetQueryString('Ref') }, headers: { Authorization: 'bearer ' + this.Token } }).then(function (response) {
-                    this.ProgressPercent = response.body;
+                    this.ProgressPercent = response.body[0];
+                    this.Domain_name = response.body[2];
+                    if (response.body[1] === "1") {
+                        this.IsRenewal = true;
+                    } else {
+                        this.IsRenewal = false;
+                    }
                     if (this.ProgressPercent == '100%') {
                         clearTimeout(this);
                     } else {
                         setTimeout(function () {
-                           // console.log(vm.ProgressPercent);
+                            // console.log(vm.ProgressPercent);
                             vm.LoadProgress();
                         }, 5000);
                     };
                 }, function (response) {
-                    WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
-                    $("#myModal").modal();                                 
+                    WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                    $("#myModal").modal();
                 });
             }
             else {
                 var api = GetCommonAPI_IE('System/GetStatusPercentByUser');
                 this.$http.get(api, { headers: { Authorization: 'bearer ' + this.Token } }).then(function (response) {
-                    this.ProgressPercent = response.body;
+                    this.ProgressPercent = response.body[0];
+                    this.Domain_name = response.body[2];
+                    if (response.body[1] === "1") {
+                        this.IsRenewal = true;
+                    } else {
+                        this.IsRenewal = false;
+                    }
                     //console.log(this.ProgressPercent);
                     if (this.ProgressPercent == '100%') {
                         clearTimeout(this);
@@ -150,8 +164,8 @@ var vm = new Vue({
                         }, 5000);
                     };
                 }, function (response) {
-                    WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
-                    $("#myModal").modal();  
+                    WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                    $("#myModal").modal();
                 });
             }
         },

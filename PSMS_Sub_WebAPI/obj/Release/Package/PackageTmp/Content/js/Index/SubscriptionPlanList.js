@@ -116,7 +116,7 @@ var vm = new Vue({
                     this.IsNoSubcription = true;
                 } 
             }, function (response) {
-                WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
                 $("#myModal").modal(); 
             })
         },
@@ -145,7 +145,7 @@ var vm = new Vue({
                     $("#myModal").modal();
                 }
             }, function (response) {
-                WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
                 $("#myModal").modal();
             });
 
@@ -194,7 +194,7 @@ var vm = new Vue({
             this.payment.RENEWAL_LAST_ORDERREF = this.Ref;
             this.$http.post(api, this.payment, { headers: { Authorization: 'bearer ' + this.Token } }).then(function (response) {           
             }, function (response) {
-                WarningMessageAddbutton3('WarningMessage', response.body, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
+                WarningMessageAddbutton3('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
                 $("#myModal").modal();
             });
         }

@@ -1,5 +1,5 @@
 ﻿Number,Identifying,Describe
-1028,1,登錄房地產在線銷售平台
+1028,1,登錄 i.Properties
 1028,2,忘記密碼？
 1028,3,登錄
 1028,4,您還沒有本平台的賬號嗎？
@@ -7,8 +7,8 @@
 1028,6,返回主頁
 1028,7,用戶名
 1028,8,密碼
-1028,9,房地產在線銷售平台
-1030,1,登录房地产在线销售平台
+1028,9,i.Properties
+1030,1,登录 i.Properties
 1030,2,忘记密码？
 1030,3,登录
 1030,4,您还没有本平台的账号吗？
@@ -16,8 +16,8 @@
 1030,6,返回主页
 1030,7,用户名
 1030,8,密码
-1030,9,房地产在线销售平台
-1033,1,Login to Property Sales Management System
+1030,9,i.Properties
+1033,1,Login to i.Properties
 1033,2,Forgot password?
 1033,3,Log in
 1033,4,Don't have an account yet?
@@ -25,4 +25,4 @@
 1033,6,Return to home page!
 1033,7,Username
 1033,8,Password
-1033,9,Property Sales Management System
+1033,9,i.Properties

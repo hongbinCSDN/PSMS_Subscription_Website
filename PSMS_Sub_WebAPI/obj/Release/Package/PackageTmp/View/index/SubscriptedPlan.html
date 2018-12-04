@@ -42,7 +42,7 @@
                             <li class="nav-item" v-if="Navigation[1]"><a class="padding" href="features.html">{{Navigation[1].Describe}}</a></li> <!--Features-->
                             <li class="nav-item" v-if="Navigation[2]"><a class="padding" href="../index/SubscriptionPlan.html">{{Navigation[2].Describe}}</a></li><!--Pricing-->
                             <li class="nav-item dropdown" ref="personal" style="display:none;">
-                                <a class="dropdown-toggle padding" style="color:#59b8bc"  data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#" v-if="Navigation[3]"> {{Navigation[3].Describe}}<i class="fa fa-angle-down"></i></a> <!---->
+                                <a class="dropdown-toggle padding" style="color:#59b8bc" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false" href="#" v-if="Navigation[3]"> {{Navigation[3].Describe}}<i class="fa fa-angle-down"></i></a> <!---->
                                 <ul class="dropdown-menu">
                                     <li><a href="../index/ModifyPersonalInfo.html" v-if="Navigation[7]">{{Navigation[7].Describe}}</a></li>
                                     <li><a href="../index/ModifyAccountPassword.html" v-if="Navigation[8]">{{Navigation[8].Describe}}</a></li>
@@ -95,14 +95,14 @@
         </header>
 
         <!--<div class="bg-slider-wrapper" style="min-width:583px;">
-        <div class="flexslider bg-slider">
-            <ul class="slides">
-                <li class="slide slide-1"></li>
-                <li class="slide slide-2"></li>
-                <li class="slide slide-3"></li>
-            </ul>
-        </div>
-    </div>-->
+            <div class="flexslider bg-slider">
+                <ul class="slides">
+                    <li class="slide slide-1"></li>
+                    <li class="slide slide-2"></li>
+                    <li class="slide slide-3"></li>
+                </ul>
+            </div>
+        </div>-->
         <div class="upper-wrapper" style="margin-top:-15px;background:  url('../../Content/images/background/asl_home_bg.jpg');background-size:cover;height:100%;width:100%;overflow: hidden;">
 
 
@@ -114,7 +114,7 @@
                                 <h2 class="title text-center"><span v-if="Multilingual[0]">{{Multilingual[0].Describe}}</span></h2>
                                 <div class="row">
                                     <div class="col-lg-offset-1 col-lg-10">
-                                        <table class="table table-hover text-center" style="font-size:17px">
+                                        <table class="table table-hover text-center" style="font-size:17px;table-layout:fixed;">
                                             <tr>
                                                 <td><span v-if="Multilingual[1]">{{Multilingual[1].Describe}}</span></td>
                                                 <td>{{this.ProductInfo.NAMED_USER_COUNT}}</td>
@@ -127,11 +127,11 @@
                                                 </td>
                                             </tr>
                                             <!--<tr>
-                                            <td><span v-if="Multilingual[2]">{{Multilingual[2].Describe}}</span></td>
-                                            <td>
-                                                <p v-for="proFunc in ProductFuncs">{{proFunc}}</p>
-                                            </td>
-                                        </tr>-->
+                                                <td><span v-if="Multilingual[2]">{{Multilingual[2].Describe}}</span></td>
+                                                <td>
+                                                    <p v-for="proFunc in ProductFuncs">{{proFunc}}</p>
+                                                </td>
+                                            </tr>-->
                                             <tr>
                                                 <td><span v-if="Multilingual[3]">{{Multilingual[3].Describe}}</span></td>
                                                 <td><span>{{this.ProductInfo.ANTI_DDOS}}</span></td>
@@ -153,10 +153,10 @@
                                                     <span v-if="Multilingual[7]">{{Multilingual[7].Describe}}</span>
                                                 </td>
                                                 <td>
-                                                    <strong><span style="color:#3cb133" v-if="ProgressPercent == '100%'&&Multilingual[12]">{{Multilingual[12].Describe}}</span></strong>
+                                                    <strong><span style="color:#3cb133" v-if="!ProgressPercent||ProgressPercent == '100%'&&Multilingual[12]">{{Multilingual[12].Describe}}</span></strong>
                                                 </td>
                                             </tr>
-                                            <tr v-if="ProgressPercent != '100%'">
+                                            <tr v-if="ProgressPercent&&ProgressPercent != '100%'">
                                                 <td colspan="2" style="border-top:none">
                                                     <div class="progress" style="margin-bottom:0;height:24px;">
                                                         <div class="progress-bar progress-bar-success progress-bar-striped active" style="min-width:2em;font-size:16px;padding-top:3px" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" v-bind:style="{width:ProgressPercent}">
@@ -166,8 +166,12 @@
                                                     </div>
 
                                                     <p class="text-center" style="margin-top:10px;margin-bottom:0;color:gray;font-size:smaller;">
-                                                        (<span v-if="Multilingual[9]">{{Multilingual[9].Describe}}</span>)
+                                                        (
+                                                        <span v-if="!IsRenewal&&Multilingual[9]">{{Multilingual[9].Describe}}</span>
+                                                        <span v-if="IsRenewal&&Multilingual[14]&&Multilingual[15]">{{Multilingual[14].Describe}}{{Domain_name}}{{Multilingual[15].Describe}}</span>
+                                                        )
                                                     </p>
+
                                                 </td>
                                             </tr>
 
@@ -237,8 +241,7 @@
 
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                    <p class="text-center" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                 </div>
             </div>
 

@@ -103,8 +103,6 @@
             </div>
 
         </header>
-
-
         <div id="navigation" style="display:none">
             <nav class="navbar navbar-inverse  navbar-static-top" id="sidebar-wrapper" style="z-index:2; transition:top 1s; -webkit-transition:top 1s; position:fixed;border:none;border-radius:5px; width:180px;top:150px;left:5px; background:rgba(0,0,0,.01);" role="navigation">
                 <ul class="nav ulclass">
@@ -122,7 +120,6 @@
                 </ul>
             </nav>
         </div>
-
         <div id="myCarousel" class="carousel slide" style="border:1px none">
             <div class="company_nameleft col-lg-12" style="position:absolute;width:80%;margin-left:10%; z-index:4">
                 <p class="ff1" style="text-align:center;font-size:36px;margin-top:10%;color:white" v-if="Multilingual[0]">{{Multilingual[0].Describe}}</p>
@@ -140,8 +137,6 @@
                         &nbsp;&nbsp;&nbsp;<i v-if="Multilingual[13]" :title="Multilingual[13].Describe" class="fa fa-tasks fa-2x rotate" aria-hidden="true"></i>
                     </span>
                 </p>
-
-
             </div>
             <!-- 轮播（Carousel）指标 -->
             <ol class="carousel-indicators">
@@ -173,10 +168,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-
-
         <div class="upper-wrapper">
-            <section class="signup-section access-section section" style="position:relative;z-index:1;">
+            <section class="signup-section access-section section" style="position:relative;z-index:1;padding-left:0;padding-right:0">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 company_nameright">
@@ -191,335 +184,91 @@
                                 {{Multilingual[5].Describe}}
                             </p>
                         </div>
-                    </div>
-                    <div class="row">
-                        <!--<div class="mousehever1 righthever "></div>-->
-                        <div id="1" @mouseover="Divhover(0)" @mouseout="Divhoverout(0)" class="col-lg-12 col-md-5 col-md-offset-0  col-sm-12 col-xs-12  under " style="background:#f1f1f1;z-index:2; padding-left: 0px;padding-right: 0px;position:relative">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width" style="height:3px"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 item1">
-
-                                <img id="img1" @click="Imgdetails('../../Content/images/Features/Features-1.png')" style=" max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-1.png" />
-                            </div>
-                            <div id="con1" class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle ">
-
-                                    <h2 id="hh" style="padding-left:5%" v-if="Multilingual[9]">{{Multilingual[9].Describe}} </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext ">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="2" @mouseover="Divhover(1)" @mouseout="Divhoverout(1)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under pading-0" style="z-index:2; padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div id="con2" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 style="padding-left:5%" v-if="Multilingual[10]">{{Multilingual[10].Describe}}  </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img2" @click="Imgdetails('../../Content/images/Features/Features-2.png')" style="max-width: 100%;max-height:100%;" src="../../Content/images/Features/Features-2.png" />
-                            </div>
-                        </div>
-
-                        <div id="3" @mouseover="Divhover(2)" @mouseout="Divhoverout(2)" class="col-lg-12 col-md-12 col-sm-12 col-xs-12  under" style="background:#f1f1f1;z-index:2; padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img3" @click="Imgdetails('../../Content/images/Features/Features-3.png')" style="max-width: 100%;max-height: 100%;" src="../../Content/images/Features/Features-3.png" />
-                            </div>
-                            <div id="con3" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 style="padding-left:5%" v-if="Multilingual[11]">{{Multilingual[11].Describe}} </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="4" @mouseover="Divhover(3)" @mouseout="Divhoverout(3)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under" style="z-index:2; padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div id="con4" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 style="padding-left:5%" v-if="Multilingual[15]">{{Multilingual[13].Describe}}  </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img4" @click="Imgdetails('../../Content/images/Features/Features-4.png')" style="max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-4.png" />
-                            </div>
-                        </div>
-
-                        <div id="5" @mouseover="Divhover(4)" @mouseout="Divhoverout(4)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under pading-0" style="background:#f1f1f1;z-index:2; padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img5" @click="Imgdetails('../../Content/images/Features/Features-5.png')" style="max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-5.png" />
-                            </div>
-                            <div id="con5" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 class="padding-left" v-if="Multilingual[39]"> {{Multilingual[39].Describe}} </h2>
-                                    <h3 class="padding-left" v-if="Multilingual[40]"> {{Multilingual[40].Describe}} </h3>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <span v-if="Multilingual[41]"> {{Multilingual[41].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <span v-if="Multilingual[42]"> {{Multilingual[42].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <span v-if="Multilingual[43]"> {{Multilingual[43].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}}<span v-if="Multilingual[44]"> {{Multilingual[44].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[45]"> {{Multilingual[45].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                        <div id="6" @mouseover="Divhover(5)" @mouseout="Divhoverout(5)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under" style=" padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div id="con6" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 class="padding-left" v-if="Multilingual[23]"> {{Multilingual[23].Describe}} </h2>
-                                    <h3 class="padding-left" v-if="Multilingual[24]"> {{Multilingual[24].Describe}} </h3>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[25]"> {{Multilingual[25].Describe}}</strong><span v-if="Multilingual[26]"> {{Multilingual[26].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[27]"> {{Multilingual[27].Describe}}</strong><span v-if="Multilingual[28]"> {{Multilingual[28].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <span v-if="Multilingual[29]"> {{Multilingual[29].Describe}}</span>
-                                    </p>
-
-
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img6" @click="Imgdetails('../../Content/images/Features/Features-6.png')" style="max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-6.png" />
-                            </div>
-                        </div>
-
-                        <div id="7" @mouseover="Divhover(6)" @mouseout="Divhoverout(6)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under" style="background:#f1f1f1;z-index:2; padding-left: 0px;padding-right: 0px;">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img7" @click="Imgdetails('../../Content/images/Features/Features-7.png')" style="max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-7.png" />
-                            </div>
-                            <div id="con7" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2" style="padding-right: 30px; margin-bottom: 30px;">
-
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 class="padding-left" v-if="Multilingual[12]"> {{Multilingual[12].Describe}} </h2>
-                                    <h3 class="padding-left" v-if="Multilingual[24]"> {{Multilingual[24].Describe}} </h3>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-
-
-                            </div>
-
-                        </div>
-
-                        <div id="8" @mouseover="Divhover(7)" @mouseout="Divhoverout(7)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under" style="z-index:2; padding-left: 0px;padding-right: 0px;display:none">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 style="padding-left:5%" v-if="Multilingual[16]">{{Multilingual[16].Describe}}  </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img8" style=" max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-7.png" />
-                            </div>
-                        </div>
-
-                        <div id="9" @mouseover="Divhover(8)" @mouseout="Divhoverout(8)" class="col-lg-12col-md-12 col-sm-12 col-xs-12  under" style="background:#f1f1f1;z-index:2; padding-left: 0px;padding-right: 0px;display:none">
-                            <div class="topboder transition-width"></div>
-                            <div class="leftboder transition-hight"></div>
-                            <div class="bottomboder transition-width"></div>
-                            <div class="rightboder transition-hight"></div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
-                                <img id="img9" style="max-width: 100%; max-height: 100%;" src="../../Content/images/Features/Features-7.png" />
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 tittle">
-                                    <h2 style="padding-left:5%;" v-if="Multilingual[17]">{{Multilingual[17].Describe}} </h2>
-                                </div>
-                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  centext">
-                                    <p v-if="Multilingual[19]">
-                                        {{Multilingual[19].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[32]"> {{Multilingual[32].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[20]">
-                                        {{Multilingual[20].Describe}} <strong v-if="Multilingual[33]"> {{Multilingual[33].Describe}}</strong><span v-if="Multilingual[34]"> {{Multilingual[34].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[21]">
-                                        {{Multilingual[21].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[35]"> {{Multilingual[35].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[22]">
-                                        {{Multilingual[22].Describe}} <strong v-if="Multilingual[31]"> {{Multilingual[31].Describe}}</strong><span v-if="Multilingual[36]"> {{Multilingual[36].Describe}}</span>
-                                    </p>
-                                    <p v-if="Multilingual[30]">
-                                        {{Multilingual[30].Describe}} <span v-if="Multilingual[38]"> {{Multilingual[38].Describe}}</span>
-                                    </p>
-
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
+                   </div>
+                 
                 </div><!--container-->
-            </section>
-            <div class="col-lg-12 col-md-12 col-sm-12">
-                <div id="imgdetails" style="width:100%;height:100%;background:rgba(0, 0, 0, 0.92);z-index:10000;position:fixed;top:0px;left:0px;display:none;text-align:center;overflow:scroll">
-                    <div><h4 style="text-align:right;padding-right:100px;"><i style="cursor: pointer;" @click="fadeout()" class="fa fa-times-circle fa-4x" aria-hidden="true"></i></h4></div>
-                    <img class="bigimg" style="zoom:100%;margin-bottom:30px" id="chgImg" onmousewheel="return vm.bigimg(this)" />
-                    <!--<img class="imgdetailpage" id="imgdetailpage"  />-->
-                </div>
-            </div>
-            <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="container-fluid content-info" >
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12" style="    margin-bottom: 50px;">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(0)" @mouseout="Divhoverout(0)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;">
+                                        <img  class="rotateY" src="../../Content/images/Features/Features-001.png" />
+                                    </p>
+                                    <h4 class="text-center"v-if="Multilingual[12]">{{Multilingual[12].Describe}}</h4>
+                                    <p class="text-center" v-if="Multilingual[45]">{{Multilingual[45].Describe}} </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"   >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(1)" @mouseout="Divhoverout(1)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;">  <img  class="rotateY" src="../../Content/images/Features/Features-002.png" /></p>
+                                    <h4 class="text-center" v-if="Multilingual[9]">{{Multilingual[9].Describe}}</h4>
+                                    <p class="text-center"v-if="Multilingual[45]">{{Multilingual[45].Describe}} </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(2)" @mouseout="Divhoverout(2)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;"><img class="rotateY" src="../../Content/images/Features/Features-003.png" /></p>
+                                    <h4 class="text-center" v-if="Multilingual[47]">{{Multilingual[47].Describe}}</h4>
+                                    <p class="text-center"v-if="Multilingual[45]">{{Multilingual[45].Describe}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12"  >
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"  >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(3)" @mouseout="Divhoverout(3)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;"><img class="rotateY" src="../../Content/images/Features/Features-004.png" /></p>
+                                    <h4 class="text-center" v-if="Multilingual[13]">{{Multilingual[13].Describe}}</h4>
+                                    <p class="text-center"v-if="Multilingual[45]">{{Multilingual[45].Describe}} </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"  >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(4)" @mouseout="Divhoverout(4)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;"><img class="rotateY" src="../../Content/images/Features/Features-005.png" /></p>
+                                    <h4 class="text-center" v-if="Multilingual[15]">{{Multilingual[15].Describe}}</h4>
+                                    <p class="text-center" v-if="Multilingual[45]">{{Multilingual[45].Describe}} </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" >
+                                <div style="padding-top:15px;width:90%;height:100%;margin-left :5%;position:relative" @mouseover="Divhover(5)" @mouseout="Divhoverout(5)">
+                                    <div class="topboder transition-width"></div>
+                                    <div class="leftboder transition-hight"></div>
+                                    <div class="bottomboder transition-width"></div>
+                                    <div class="rightboder transition-hight"></div>
+                                    <p class="text-center" style="line-height:60px;"><img class="rotateY" src="../../Content/images/Features/Features-006.png" /></p>
+                                    <h4 class="text-center" v-if="Multilingual[16]">{{Multilingual[16].Describe}}</h4>
+                                    <p class="text-center" v-if="Multilingual[45]">{{Multilingual[45].Describe}} </p>
+                                </div>
 
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+      
+            <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="row" style="background:#303030">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 footerlogo">
@@ -530,11 +279,8 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                                     <p class="footertittle-white" v-if="Navigation[30]">{{Navigation[30].Describe}} </p>
                                 </div>
-
                             </div>
                             <!--<img src="../../Content/images/Footer/logo.png" />-->
-
-
                         </div>
                         <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 footcontent">
                             <div class="col-lg-6 col-md-6  col-sm-12 col-xs-12">
@@ -547,10 +293,7 @@
                                     <span class="white" style=" padding-right :50px; font-family: Britannic; ">{{Navigation[28].Describe}}</span>  <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
                                     <i class="fa fa-whatsapp fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
                                     <i class="fa fa-linkedin fa-2x" style="padding-left:5%;" aria-hidden="true"></i>
-
                                 </p>
-
-
                             </div>
                             <div class="col-lg-5 col-md-5  col-lg-offset-1 col-md-offset-1 col-sm-12 col-xs-12" style="margin-top:20px">
                                 <p class="p3-white"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i><span v-if="Navigation[24]">{{Navigation[24].Describe}} </span> </p>
@@ -560,29 +303,18 @@
                                         <img style="width:30px;height:30px;" src="../../Content/images/Footer/CustomerService2.png" />
                                     </i><span v-if="Navigation[23]">{{Navigation[23].Describe}} </span>
                                 </p>
-
-
                             </div>
                         </div>
 
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12 footerLink">
-                        <p class="text-center white" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a class="white" style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a class="white" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a class="white" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a class="white" v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
-
+                        <p class="text-center white" v-if="Navigation[16]">{{Navigation[16].Describe}}  <a class="white" style=" padding-left:20px;"> {{Navigation[17].Describe}}</a>  | <a  class="white" href="../Terms/TermsOfUse.html" v-if="Navigation[18]">{{Navigation[18].Describe}}</a> | <a class="white" href="../Terms/PrivacyPolicy.html" v-if="Navigation[19]">{{Navigation[19].Describe}}</a> |<a class="white" v-if="Navigation[20]">{{Navigation[20].Describe}}</a><span style="padding-left:20px;">{{Navigation[21].Describe}} </span></p>
                     </div>
                 </div>
-
-
-
-
-
-
             </footer>
         </div>
-
         <div id="WarningMessage"></div>
     </div>
-  
     <!--Vue-->
     <script src="../../Content/js/Share/vue.min.js"></script>
     <script src="../../Content/js/Share/vue-resource.min.js"></script>

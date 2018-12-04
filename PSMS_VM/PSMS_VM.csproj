@@ -43,6 +43,7 @@
     <Compile Include="ActiveAccountVM.cs" />
     <Compile Include="CustomerVM.cs" />
     <Compile Include="ModifyPassword\ModifyPasswordVM.cs" />
+    <Compile Include="ModifyPersonalInfo\ModifyPersonalInfoVM.cs" />
     <Compile Include="OrderExpireDateVM.cs" />
     <Compile Include="PaymentDataFeed.cs" />
     <Compile Include="PaymentStatusCode.cs" />
@@ -52,6 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PSMS_Sub_DM\PSMS_Sub_DM.csproj">
+      <Project>{07B113BA-A60B-4681-A3FD-D06C8DAEC123}</Project>
+      <Name>PSMS_Sub_DM</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

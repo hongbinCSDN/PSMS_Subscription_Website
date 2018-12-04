@@ -98,15 +98,16 @@ p.Contact_icon span.white {
 .footerLink a {
     color: #282828;
 }
-.footerLink a:hover {
-    color: #282828;
-}
+    .footerLink a:hover {
+        color: #59b8bc;
+    }
+   
 .footerLink p.white, a.white {
     color: #ffffff;
 }
 
 .footerLink a.white:hover {
-    color: #282828;
+    color: #59b8bc;
 }
 footer i {
     color: #59b8bc;

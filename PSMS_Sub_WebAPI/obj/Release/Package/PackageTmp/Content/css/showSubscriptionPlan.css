@@ -3,14 +3,14 @@
     background: #e5e5e5; /*#f8f9fb*/
 }
 
-.upper-wrapper .psms-summary .row .website-title-posit {
-    padding-top: 10%;
-}
+    .upper-wrapper .psms-summary .row .website-title-posit {
+        padding-top: 10%;
+    }
 
-.upper-wrapper .psms-summary .row .website-title {
-    height: 32px;
-    line-height: 32px;
-}
+    .upper-wrapper .psms-summary .row .website-title {
+        height: 32px;
+        line-height: 32px;
+    }
 
 .website-title .website-icon {
     width: 32px;
@@ -40,13 +40,57 @@
         float: left;
     }
 
-.upper-wrapper .psms-summary .row .computer-icon {
-    width: 48px;
-    height: 46px;
-    margin-left: 44%;
-    margin-bottom: 7px;
-    background: url('../images/show_subscription_plan/Compute.png') 0 0 no-repeat;
+/* Add by Chester 2018/11/12 */
+.computer-info-left {
+    width: 176px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.computer-info-left-ch {
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.computer-info-content {
+    margin-right: 12px;
+    margin-left: 19px;
+}
+
+.computer-info-content-ch {
+    margin-right: 21px;
+}
+
+.upper-wrapper .psms-summary .row .icon {
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    background-position: center !important;
+}
+
+    .upper-wrapper .psms-summary .row .icon.computer-icon {
+        /*background-size:40px 40px !important;*/
+        background: url('../images/show_subscription_plan/Compute.png') 0 0 no-repeat;
+    }
+
+    .upper-wrapper .psms-summary .row .icon.rds-icon {
+        /*background-size: 87px 76px !important;*/
+        background: url('../images/show_subscription_plan/DB_icon.png') 0 0 no-repeat;
+    }
+
+    .upper-wrapper .psms-summary .row .icon.slb-icon {
+        /*background-size: 40px 38px !important;*/
+        background: url('../images/show_subscription_plan/SLB_icon.png') 0 0 no-repeat;
+    }
+
+    .upper-wrapper .psms-summary .row .icon.dns-icon {
+        /*background-size: 40px 40px !important;*/
+        background: url('../images/show_subscription_plan/DNS_icon.png') 0 0 no-repeat;
+    }
+/* End*/
 
 .upper-wrapper .psms-summary .row .refresh_icon {
     position: absolute;
@@ -66,6 +110,18 @@
         text-overflow: ellipsis;
         border-left: none;
         border-right: none;
+    }
+
+.input-group-addon {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+    .input-group-addon > button {
+        border-width: 1px;
+        border-radius: 0 4px 4px 0;
+        height: 40px;
     }
 /* Style:#ec6952 */
 .upper-wrapper table thead tr {
@@ -90,6 +146,49 @@
 .upper-wrapper .access-section.signup-section .intro {
     margin-bottom: 40px;
 }
+
+/* Add by Chester 2018-10-26*/
+
+.fa.fa-calendar.calendar {
+    position: absolute;
+    top: 11px;
+    right: 26px;
+}
+/* Custom Modal */
+.custom-modal-open {
+    padding-right: 0 !important;
+    overflow: hidden;
+}
+
+.custom-modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+
+    .custom-modal-backdrop.custom-in {
+        -webkit-opacity: 0.9;
+        -moz-opacity: 0.9;
+        opacity: 0.9;
+    }
+
+.custom-modal-fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.clean-transition {
+    transition: none !important;
+    -webkit-transition: none !important;
+}
+/* End */
+
 /* Breath Light */
 .breathe-btn {
     position: relative;
@@ -114,8 +213,9 @@
 }
 
 .noStatusContent {
-    opacity:0.4;
+    opacity: 0.4;
 }
+
 .noStatus {
     color: #000000;
     border: 1px solid #000000;

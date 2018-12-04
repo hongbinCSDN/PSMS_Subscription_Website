@@ -36,12 +36,12 @@ namespace PSMS_Sub_WebAPI.Controllers.System
             }
         }
 
-        private ModifyPasswordSessionVM _MODIFYPASSWORDSESSION;
-        protected ModifyPasswordSessionVM MODIFYPASSWORDSESSION
+        private EmailVerifyCodeSessionVM _MODIFYPASSWORDSESSION;
+        protected EmailVerifyCodeSessionVM MODIFYPASSWORDSESSION
         {
             get
             {
-                return _MODIFYPASSWORDSESSION ?? (_MODIFYPASSWORDSESSION = new ModifyPasswordSessionVM());
+                return _MODIFYPASSWORDSESSION ?? (_MODIFYPASSWORDSESSION = new EmailVerifyCodeSessionVM());
             }
         }
 
@@ -65,8 +65,7 @@ namespace PSMS_Sub_WebAPI.Controllers.System
                 SessionWrapper.ModifyPasswordUser = MODIFYPASSWORDSESSION;
 
                 sendEmailHelper.SendModifyPasswordVerifyCodeEmail(SessionWrapper.CurrentUser.Email, SessionWrapper.CurrentUser.CustomerID, verifyCode, CacheWrapper.CurrentMultilingual.MultilingualID);
-                return Ok();
-
+                return Ok(1);
             }
             catch (Exception e)
             {
@@ -111,6 +110,10 @@ namespace PSMS_Sub_WebAPI.Controllers.System
                         return Ok(-3);
                     }
                     int result = BL_MODIFYPASSWORD.ModifyPassword(SessionWrapper.CurrentUser.CustomerID, BL_PASSWORD.MD5Encrypt64(passwordVM.OldPwd), BL_PASSWORD.MD5Encrypt64(passwordVM.NewPwd));
+                    if (result == 1)
+                    {
+                        SessionWrapper.ModifyPasswordUser = null;
+                    }
                     return Ok(result);
                 }
                 return Ok(-4);

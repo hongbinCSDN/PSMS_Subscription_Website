@@ -10,11 +10,11 @@ var vm = new Vue({
         IsSendEmail: false,
         ResendTime: 120,
         UserInfo: {},
-        confirm_password:"",
+        confirm_password: "",
         PasswordModel: {
             oldPwd: "",
             newPwd: "",
-            verifyCode:""
+            verifyCode: ""
         }
     },
     mounted: function () {
@@ -52,7 +52,7 @@ var vm = new Vue({
             document.getElementById("Portrait").style.border = "none";
             document.getElementById("userinfo").style.display = "none";
 
-        }, 
+        },
         Logout: function () {
             WarningMessageAddbutton('WarningMessage', this.PromptMessage[6].Describe, this.Navigation[9].Describe, this.PromptMessage[30].Describe, this.PromptMessage[29].Describe, 'vm.RemoveToken()');
             $("#myModal").modal();
@@ -85,21 +85,28 @@ var vm = new Vue({
         },
         GetVerifyCodeEmail: function () {
             var api = GetCommonAPI_IE("System/GetVerifyCodeEmail");
+            this.IsSendEmail = true;
             this.$http.get(api, { headers: { Authorization: 'bearer ' + this.Token } }).then(function (response) {
-                WarningMessage('WarningMessage', this.PromptMessage[43].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe);
-                $("#myModal").modal();
-                this.IsSendEmail = true;
-                clearInterval(countdown);
-                var countdown = setInterval(function () {
-                    if (vm.ResendTime > 0) {
-                        vm.ResendTime--;
-                    }
-                    else {
-                        vm.IsSendEmail = false;
-                        vm.ResendTime = 120;
-                        clearInterval(countdown);
-                    }
-                }, 1000);
+                if (response.body === 1) {
+                    WarningMessage_checkIcon('WarningMessage', this.PromptMessage[43].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe);
+                    $("#myModal").modal();
+                    clearInterval(countdown);
+                    var countdown = setInterval(function () {
+                        if (vm.ResendTime > 0) {
+                            vm.ResendTime--;
+                        }
+                        else {
+                            vm.IsSendEmail = false;
+                            vm.ResendTime = 120;
+                            clearInterval(countdown);
+                        }
+                    }, 1000);
+                } else {
+                    this.IsSendEmail = false;
+                    WarningMessage('WarningMessage', this.PromptMessage[61].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe);
+                    $('#myModal').modal();
+                }
+
             }, function (response) {
                 console.log(response);
             });
@@ -143,7 +150,7 @@ var vm = new Vue({
                     WarningMessage('WarningMessage', this.PromptMessage[38].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe);
                     $("#myModal").modal();
                 } else if (result == 1) {
-                    WarningMessage_Link('WarningMessage', this.PromptMessage[42].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe,"'../index/index.html'");
+                    WarningMessage_Link('WarningMessage', this.PromptMessage[42].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, "'../index/index.html'");
                     $("#myModal").modal();
                 } else if (result == -4) {
                     WarningMessage('WarningMessage', this.PromptMessage[41].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe);
@@ -153,7 +160,9 @@ var vm = new Vue({
                     $("#myModal").modal();
                 }
             }, function (response) {
-                console.log(response);
+                WarningMessage_Link('WarningMessage', this.PromptMessage[20].Describe, this.Navigation[9].Describe, this.PromptMessage[29].Describe, "'../Login/Login.html'");
+                $("#myModal").modal();
+
             })
         },
     }
